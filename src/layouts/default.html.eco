@@ -38,7 +38,7 @@
 </head>
 <body>
 	<!-- Menu -->
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -67,20 +67,16 @@
 	</div>
 
 	<!-- Content -->
-	<div class="container">
-		<!-- Content -->
-		<section id="content" class="content">
-			<%- @content %>
-		</section>
+	<section id="content" class="content">
+		<%- @content %>
+	</section>
 
-		<!-- Footer -->
+	<!-- Footer -->
+	<div class="container">
 		<footer>
-			<p class="pull-left">&copy; Company <%- (new Date()).getFullYear() %></p>
-			<p class="pull-right">
-				This website was last updated at <%= @site.date.toISOString() %>
-			</p>
+			<p class="pull-left">&copy; The Orange County Register <%- (new Date()).getFullYear() %></p>
 		</footer>
-	</div><!-- /container -->
+	</div>
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
