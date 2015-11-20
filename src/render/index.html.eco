@@ -1,0 +1,182 @@
+---
+layout: 'default'
+title: 'Home'
+---
+
+<!-- Primary marketing message or call to action -->
+<div class="jumbotron lead-container">
+	<img src="http://projects.ocregister.com/wp-content/uploads/2014/12/hp-offset.jpg">
+	<div class="container">
+		<span class="text-muted pull-right caption">Photo caption</span>
+		<div class="row title">
+			<h2 class="text-center text-uppercase">Snitch Tank</h2>
+		</div>
+		<p class="dropcap">Borem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+<!-- Example row of columns -->
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="section-header">
+				<h3>Top Stories</h3>
+			</div>
+			
+			<% for document in @getCollection('articles').findAll(tags:$has:'featured').toJSON(): %>
+				<div class="media">
+					<a href="<%= document.url %>">
+						<div class="media-left">
+							<div class="date">
+								<div class="month"><%= @moment(document.date).format('MMM') %>.</div>
+								<div class="day"><%= @moment(document.date).format('D') %></div>
+								<div class="year"><%= @moment(document.date).format('YYYY') %></div>
+							</div>
+						</div>
+						<div class="media-body">
+						  <%= document.title %>
+						</div>
+					</a>
+				</div>
+			<% end %>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="section-header">
+				<h3>Features</h3>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-4">
+					<div class="thumbnail major">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x200&w=300&h=200" alt="thumbnail">
+						<div class="caption">
+							<h3>Snitch Pipeline</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="">&gt;</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<div class="thumbnail minor">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
+						<div class="caption">
+							<h3 class="hidden-xs hidden-sm">Snitch Pipeline</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<a href="">&gt;</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-6 col-md-4">
+					<div class="thumbnail minor">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
+						<div class="caption">
+							<h3 class="hidden-xs hidden-sm">Snitch Pipeline</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<a href="">&gt;</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12">
+					<div class="media media-link">
+						<a href="#">
+							<div class="media-left">
+								<span class="glyphicon glyphicon-headphones"></span>
+							</div>
+							<div class="media-body">
+							  <h3>Podcast</h3>
+							</div>
+						</a>
+					</div>
+					<div class="media media-link">
+						<a href="#">
+							<div class="media-left">
+								<span class="glyphicon glyphicon-facetime-video"></span>
+							</div>
+							<div class="media-body">
+							  <h3>Watch videos</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
+					<div class="thumbnail major">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x200&w=300&h=200" alt="thumbnail">
+						<div class="caption">
+							<h3>Snitch Pipeline</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="">&gt;</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12">
+					<div class="media media-link">
+						<a href="#">
+							<div class="media-left">
+								<span class="glyphicon glyphicon-book"></span>
+							</div>
+							<div class="media-body">
+							  <h3>Glossary</h3>
+							</div>
+						</a>
+					</div>
+					<div class="media media-link">
+						<a href="#">
+							<div class="media-left">
+								<span class="glyphicon glyphicon-folder-open"></span>
+							</div>
+							<div class="media-body">
+							  <h3>Documents</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-xs-6 col-md-4">
+					<div class="thumbnail minor">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
+						<div class="caption">
+							<h3 class="hidden-xs hidden-sm">Snitches Gallery</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<a href="">&gt;</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-6 col-md-4">
+					<div class="thumbnail minor">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
+						<div class="caption">
+							<h3 class="hidden-xs hidden-sm">Victim Gallery</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<a href="">&gt;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="section-header">
+				<h3>Story Archive</h3>
+			</div>
+			<div class="list-group">
+				<a class="list-group-item" href="">Full archive</a>
+				<a class="list-group-item" href="">Dekrai stories</a>
+				<a class="list-group-item" href="">Snitch stories</a>
+				<a class="list-group-item" href="">Rackaukas stories</a>
+				<a class="list-group-item" href="">Stories by case</a>
+			</div>
+		</div>
+	</div>
+</div>

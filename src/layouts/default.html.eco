@@ -28,6 +28,9 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
 
+	<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400' rel='stylesheet' type='text/css'>
+
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,7 +41,7 @@
 </head>
 <body>
 	<!-- Menu -->
-	<div class="navbar navbar-default navbar-fixed-top">
+	<div class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,7 +49,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">Project name</a>
+				<a class="navbar-brand" href="/">
+					<img alt="The Orange County Register" src="http://www.ocregister.com/images/new-header/flag.png">
+				</a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
@@ -72,11 +77,11 @@
 	</section>
 
 	<!-- Footer -->
-	<div class="container">
+	<!-- <div class="container">
 		<footer>
-			<p class="pull-left">&copy; The Orange County Register <%- (new Date()).getFullYear() %></p>
+			<p class="pull-left">Copyright &copy; <%- (new Date()).getFullYear() %> The Orange County Register. All Rights Reserved.</p>
 		</footer>
-	</div>
+	</div> -->
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

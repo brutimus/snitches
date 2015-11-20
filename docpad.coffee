@@ -21,7 +21,7 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Jailhouse Snitches | The Orange County Register"
 
 			# The website description (for SEO)
 			description: """
@@ -34,15 +34,14 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Sean Stoops"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "sstoops@freedom.com"
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"styles/style.css"
 			]
 
 			# Scripts
@@ -88,8 +87,8 @@ docpadConfig = {
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
-		posts: (database) ->
-			database.findAllLive({tags:$has:'post'}, [date:-1])
+		articles: (database) ->
+			database.findAllLive({tags:$has:'article'}, [date:-1])
 
 
 	# =================================
