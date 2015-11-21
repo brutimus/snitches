@@ -41,7 +41,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"styles/style.css"
+				"/styles/style.css"
 			]
 
 			# Scripts
