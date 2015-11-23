@@ -3,21 +3,29 @@ title: Story Archive
 layout: page
 pageOrder: 1
 ---
-
-<div class="container">
-	<div class="row">
-		<% for document in @getCollection('articles').toJSON(): %>
-
-
-			<div class="col-xs-6 col-md-4">
-				<div class="thumbnail minor">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
-					<div class="caption">
-						<p><%= document.title %></p>
-						<a href="<%= document.url %>">&gt;</a>
-					</div>
+<% chunk = (story) => %>
+	<div class="media">
+		<a href="<%- story.url %>">
+			<div class="media-left">
+				<div class="date">
+					<div class="month"><%= @moment(story.date).format('MMM') %>.</div>
+					<div class="day"><%= @moment(story.date).format('D') %></div>
+					<div class="year"><%= @moment(story.date).format('YYYY') %></div>
 				</div>
 			</div>
-		<% end %>	
+			<div class="media-body">
+			  <%- story.headline %>
+			</div>
+		</a>
+		</div>
+<% end %>
+
+<div class="container archive">
+	<div class="row">
+		<div class="col-xs-12">
+			<% for obj in @site.archive_stories: %>
+				<%= chunk obj %>
+			<% end %>
+		</div>
 	</div>
 </div>

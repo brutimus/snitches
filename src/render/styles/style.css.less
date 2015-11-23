@@ -27,6 +27,22 @@ h3 {
 	.text-center();
 }
 
+h4 {
+	font-weight: 200;
+}
+
+dl {
+	dt {
+		font-family: @font-family-sans-serif;
+		font-size: 18px;
+		font-weight: 200;
+	}
+	dd {
+		font-size: 12px;
+		line-height: 20px;
+	}
+}
+
 .section-header {
 	margin-top: 50px;
 	margin-bottom: 20px;
@@ -40,6 +56,11 @@ h3 {
 	    position: relative;
 	    bottom: -2px;
 	}
+}
+
+.page .section-header {
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 // NAVBAR
@@ -238,3 +259,23 @@ a.list-group-item {
 		top: 2px;
 	}
 }
+
+
+// GLOSSARY
+
+.archive {}
+
+.glossary {
+	dt {
+		margin-bottom: 5px;
+	}
+	dd {
+		padding-bottom: 25px;
+		margin-bottom: 25px;
+		border-bottom: 1px solid @brand-primary;
+	}
+}
+
+// PODCASTS
+
+.podcasts {}

@@ -3,10 +3,14 @@ layout: default
 ---
 
 <article id="page" class="page">
-	<div class="row">
-		<div class="section-header">
-			<h3>Story Archive</h3>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="section-header">
+					<h3><%- @document.title %></h3>
+				</div>
+			</div>
 		</div>
+		<div class="row"><%- @content %></div>
 	</div>
-	<div class="page-content"><%- @content %></div>
 </article>

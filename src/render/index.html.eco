@@ -87,7 +87,7 @@ title: 'Home'
 
 				<div class="col-xs-12">
 					<div class="media media-link">
-						<a href="#">
+						<a href="/pages/podcasts">
 							<div class="media-left">
 								<span class="glyphicon glyphicon-headphones"></span>
 							</div>
@@ -97,7 +97,7 @@ title: 'Home'
 						</a>
 					</div>
 					<div class="media media-link">
-						<a href="#">
+						<a href="/pages/videos">
 							<div class="media-left">
 								<span class="glyphicon glyphicon-facetime-video"></span>
 							</div>
@@ -122,7 +122,7 @@ title: 'Home'
 
 				<div class="col-xs-12">
 					<div class="media media-link">
-						<a href="#">
+						<a href="/pages/glossary">
 							<div class="media-left">
 								<span class="glyphicon glyphicon-book"></span>
 							</div>
@@ -132,7 +132,7 @@ title: 'Home'
 						</a>
 					</div>
 					<div class="media media-link">
-						<a href="#">
+						<a href="/pages/documents">
 							<div class="media-left">
 								<span class="glyphicon glyphicon-folder-open"></span>
 							</div>

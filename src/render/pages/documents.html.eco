@@ -1,0 +1,25 @@
+---
+title: Documents
+layout: page
+pageOrder: 4
+---
+
+<% chunk = (name, body) => %>
+	<div class="col-xs-6 col-md-4">
+	    <div class="thumbnail minor">
+    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x400&w=300&h=400" alt="thumbnail">
+			<div class="caption">
+				<p><%- body %></p>
+				<a href="">&gt;</a>
+			</div>
+		</div>
+	</div>
+<% end %>
+
+
+
+<div class="podcasts col-xs-12">
+	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
+	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
+	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
+</div>
