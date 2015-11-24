@@ -3,7 +3,7 @@
 @font-family-sans-serif:  	"Lato", Helvetica, Arial, sans-serif;
 @font-family-serif:       	"Merriweather", "Times New Roman", Times, serif;
 @grid-gutter-width:         8px;
-@icon-font-path:			"/vendor/twitter-bootstrap/fonts/";
+@icon-font-path:			"<%- @getUrl("/vendor/twitter-bootstrap/fonts/") %>";
 
 a, a:link {
 	cursor: pointer;
@@ -279,3 +279,10 @@ a.list-group-item {
 // PODCASTS
 
 .podcasts {}
+
+// PANOS
+
+#mypanoviewer {
+	height:90vh;
+	width: 100%;
+}

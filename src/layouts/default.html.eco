@@ -37,7 +37,7 @@
 	<![endif]-->
 
 	<!-- Styles -->
-	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+	<%- @getBlock('styles').add(@getUrl(@site.styles)).toHTML() %>
 </head>
 <body>
 	<!-- Menu -->
@@ -49,7 +49,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">
+				<a class="navbar-brand" href="<%= @getUrl('/') %>">
 					<img alt="The Orange County Register" src="http://www.ocregister.com/images/new-header/flag.png">
 				</a>
 			</div>
@@ -58,10 +58,10 @@
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
-							about="<%= document.url %>"
+							about="<%= @getUrl(document.url) %>"
 							class="<%= 'active'	if @document.url is document.url %>"
 						>
-							<a href="<%= document.url %>" property="dc:title">
+							<a href="<%= @getUrl(document.url) %>" property="dc:title">
 								<%= document.title %>
 							</a>
 						</li>
@@ -84,6 +84,8 @@
 	</div> -->
 
 	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<%- @getBlock('scripts').add(@getUrl(@site.scripts).concat(@getUrl(@document.scripts) or [])).toHTML() %>
 </body>
 </html>

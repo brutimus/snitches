@@ -2,22 +2,40 @@
 layout: default
 ---
 
-<article id="article" class="article">
-	<h1><%= @document.title %></h1>
-	<div class="article-content"><%- @content %></div>
-</article>
+<div class="container">
+	<article id="article" class="article">
+		<h1><%= @document.title %></h1>
+		<span class="byline">By: <% for author in @document.authors: %>
+			<%- author.name %>
+		<% end %></span>
+		<div class="article-content"><%- @content %></div>
+	</article>
 
-<footer>
-	<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
-		<section id="related">
-			<h3>Related Articles</h3>
-			<nav class="linklist">
-				<% for document in @getRelatedDocuments(): %>
-					<li><span><%= document.date.toDateString() %></span>
-					&raquo;
-					<a href="<%= document.url %>"><%= document.title %></a></li>
-				<% end %>
-			</nav>
-		</section>
-	<% end %>
-</footer>
+	<footer>
+		<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
+			<section id="related">
+				<div class="section-header">
+					<h3>Related Articles</h3>
+				</div>
+				<nav class="linklist">
+					<% for document in @getRelatedDocuments(): %>
+						<div class="media">
+							<a href="<%= @getUrl(document.url) %>">
+								<div class="media-left">
+									<div class="date">
+										<div class="month"><%= @moment(document.date).format('MMM') %>.</div>
+										<div class="day"><%= @moment(document.date).format('D') %></div>
+										<div class="year"><%= @moment(document.date).format('YYYY') %></div>
+									</div>
+								</div>
+								<div class="media-body">
+								  <%= document.title %>
+								</div>
+							</a>
+						</div>
+					<% end %>
+				</nav>
+			</section>
+		<% end %>
+	</footer>
+</div>
