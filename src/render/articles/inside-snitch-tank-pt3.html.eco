@@ -1,4 +1,4 @@
-```
+---
 title: Inside the 'snitch tank' Part 3: The care and feeding of a jailhouse informant
 date: 2015/11/24
 layout: article
@@ -7,7 +7,9 @@ authors:
 	-
 		name: JODIE TILLMAN / STAFF WRITER
 		email: jtillman@ocregister.com
-```
+---
+
+<%- @displayGallery('test-gallery.html') %>
 
 <p>Eighteen years ago, <a href="http://www.ocregister.com/articles/death-289117-sentenced-miller.html" target="_blank" title="John Abel">John Abel</a> looked the part of unrepentant killer. He grinned and twiddled his thumbs as a judge <a href="http://www.ocregister.com/articles/abel-345594-death-miller.html" target="_blank" title="sentenced him to death">sentenced him to death</a> for the 1991 murder of a merchant’s son outside of a Tustin bank.</p>
 <p>But Abel has maintained his innocence. Now he is an exhibit in <a href="http://www.ocregister.com/articles/sanders-684780-attorney-case.html" target="_blank" title="Assistant Public Defender Scott Sanders’ 752-page court">Assistant Public Defender Scott Sanders’ 752-page court</a> filing in August alleging decades of misconduct by Orange County prosecutors and law enforcement.</p>

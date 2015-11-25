@@ -1,0 +1,21 @@
+---
+title: Test Gallery
+layout: gallery
+images:
+	-
+		src: '/images/panos/irc.jpg'
+		caption: Test caption
+		byline: Test byline
+	-
+		src: '/images/panos/irc.jpg'
+		caption: Test caption
+		byline: Test byline
+	-
+		src: '/images/panos/irc.jpg'
+		caption: Test caption
+		byline: Test byline
+	-
+		src: '/images/panos/irc.jpg'
+		caption: Test caption
+		byline: Test byline
+---

@@ -2,6 +2,5 @@
 title: Virtual look inside Santa Ana Central Jail: Intake/Release Center, where inmates are processed
 leadImage: 'images/panos/irc.jpg'
 layout: pano
-pageOrder: 7
 scripts: ['/scripts/PTGuiViewer.js', '/scripts/pano-irc.js']
 ---

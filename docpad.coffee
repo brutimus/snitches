@@ -25,12 +25,12 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Jailhouse snitches are rarely prisoners who happen to overhear confessions. Inmates apply for the job and they become part of a roster of covert operatives whose surveillance on behalf of law enforcement has put the Orange County justice system at the center of a national debate.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				orange, county, california, jail, jailhouse, snitch, informant
 				"""
 
 			# The website author's name
@@ -42,6 +42,8 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/style.css"
+				"/vendor/photoswipe/photoswipe.css"
+				"/vendor/photoswipe/default-skin/default-skin.css"
 			]
 
 			# Scripts
@@ -50,6 +52,9 @@ docpadConfig = {
 				"/vendor/smartcrop.js"
 				"/scripts/script.js"
 				"/scripts/autocrop.js"
+				"/vendor/photoswipe/photoswipe-ui-default.min.js"
+				"/vendor/photoswipe/photoswipe.min.js"
+				"/scripts/slideshow.js"
 			]
 
 			archive_stories: [
@@ -351,6 +356,33 @@ docpadConfig = {
 
 			return _
 
+		getImageSize: (img) ->
+			sizeOf = require('image-size')
+			dimensions = sizeOf(img)
+			return dimensions
+
+		displayGallery: (name) ->
+			gallery = @getFileAtPath('galleries/' + name).toJSON()
+			jsonData = []
+			for img in gallery.images
+				imgDims = @getImageSize('src/static' + img.src)
+				jsonData.push({
+					src: img.src,
+					title: img.caption,
+					byline: img.byline,
+					w: imgDims.width,
+					h: imgDims.height
+				})
+			jsonData = JSON.stringify(jsonData)
+
+			return """
+				<div class="slideshow">
+					<img class="cover" src="#{gallery.images[0].src}" style="width:100%;" />
+					<div class="slideshowData" style="display:none;">
+						#{jsonData}
+					</div>
+				</div>
+			"""
 
 
 	# =================================
@@ -363,6 +395,9 @@ docpadConfig = {
 
 		articles: (database) ->
 			database.findAllLive({tags:$has:'article'}, [date:-1])
+
+		galleries: (database) ->
+			database.findAllLive({tags:$has:'gallery'}, [date:-1])
 
 
 	# =================================

@@ -286,3 +286,36 @@ a.list-group-item {
 	height:90vh;
 	width: 100%;
 }
+
+// ARTICLES
+
+.article {
+	> h1 {
+		font-size: 22px;
+		line-height: 26px;
+		font-weight: 200;
+	}
+	.date, .byline {
+		font-family: @font-family-sans-serif;
+		font-size: 12px;
+		color: #818181;
+	}
+	.slideshow {
+		margin: 15px 0;
+	}
+	.article-content {
+		font-size: 14px;
+		line-height: 26px;
+		a {
+			font-weight: 700;
+		}
+	}
+}
+
+.article-lead-container {
+	padding: 5px 0;
+	.title {
+		position: relative;
+		top: inherit;
+	}
+}

@@ -3,7 +3,6 @@ layout: 'default'
 title: 'Home'
 ---
 
-<!-- Primary marketing message or call to action -->
 <div class="jumbotron lead-container">
 	<img src="<%= @getUrl('images/index-lead.jpg') %>">
 	<div class="container">
@@ -15,7 +14,6 @@ title: 'Home'
 	</div>
 </div>
 
-<!-- Example row of columns -->
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12">

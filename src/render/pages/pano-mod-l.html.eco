@@ -2,6 +2,5 @@
 title: Virtual look inside Santa Ana Central Jail: Module L, where Scott Dekraai was held and placed next to an informant
 leadImage: 'images/panos/modl.jpg'
 layout: pano
-pageOrder: 6
 scripts: ['/scripts/PTGuiViewer.js', '/scripts/pano-mod-l.js']
 ---

@@ -37,7 +37,7 @@
 	<![endif]-->
 
 	<!-- Styles -->
-	<%- @getBlock('styles').add(@getUrl(@site.styles)).toHTML() %>
+	<%- @getBlock('styles').add(@getUrl(@site.styles).concat(@getUrl(@document.styles) or [])).toHTML() %>
 </head>
 <body>
 	<!-- Menu -->
