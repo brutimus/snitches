@@ -47,147 +47,149 @@ docpadConfig = {
 			# Scripts
 			scripts: [
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"/vendor/smartcrop.js"
 				"/scripts/script.js"
+				"/scripts/autocrop.js"
 			]
 
 			archive_stories: [
 				{
-					headline: "DA pushes back at call for DOJ probe"
+					headline: "D.A.'s Office fires back at call for federal probe over jailhouse informants"
 					url: "http://www.ocregister.com/articles/attorney-693017-office-district.html"
 					date: "2015/11/19"
 				}
 				{
-					headline: "Judge orders new trial for convicted killer after deputies won’t testify"
+					headline: "Judge OKs retrial in murder case after O.C. deputies won't testify on use of jailhouse informant"
 					url: "http://www.ocregister.com/articles/ortiz-692758-deputies-case.html"
 					date: "2015/11/19"
 				}
 				{
-					headline: "Former prosecutors seek federal probe"
+					headline: "Former prosecutors seek federal probe of O.C. justice system over use of jailhouse informants"
 					url: "http://www.ocregister.com/articles/orange-692665-attorney-county.html"
 					date: "2015/11/18"
 				}
 				{
-					headline: "Amid jailhouse informant scandal, county will oversee DA’s office"
+					headline: "Amid jailhouse informant scandal, county says it will oversee District Attorney's Office"
 					url: "http://www.ocregister.com/articles/office-691553-county-attorney.html"
 					date: "2015/11/10"
 				}
 				{
-					headline: "DA told in 1999 that it might have informant problems"
+					headline: "O.C. Watchdog: Tony Rackauckas told in 1999 that D.A. might have problem with jailhouse informants"
 					url: "http://www.ocregister.com/articles/rackauckas-689306-jacobs-letter.html"
 					date: "2015/10/26"
 				}
 				{
-					headline: "Feds push county into action"
+					headline: "Federal scrutiny pushes county to action on jailhouse informant investigation"
 					url: "http://www.ocregister.com/articles/office-688290-county-spitzer.html"
 					date: "2015/10/19"
 				}
 				{
-					headline: "Deputies take the Fifth"
+					headline: "Deputies take the Fifth, complicating yet another jail snitch case"
 					url: "http://www.ocregister.com/articles/attorney-688078-case-deputies.html"
 					date: "2015/10/18"
 				}
 				{
-					headline: "County ponders jailhouse snitch scandal"
+					headline: "Watchdog: County ponders jailhouse snitch investigation"
 					url: "http://www.ocregister.com/articles/county-687985-office-attorney.html"
 					date: "2015/10/16"
 				}
 				{
-					headline: "Families of those killed struggle"
+					headline: "Families of those killed at Seal Beach salon still struggling for justice"
 					url: "http://www.ocregister.com/articles/says-687026-webb-dekraai.html"
 					date: "2015/10/11"
 				}
 				{
-					headline: "Prosecutors face stricter standards"
+					headline: "Families of those killed at Seal Beach salon still struggling for justice"
 					url: "http://www.ocregister.com/articles/prosecutors-686481-law-evidence.html"
 					date: "2015/10/7"
 				}
 				{
-					headline: "District Attorney calls snitch problem: baloney"
+					headline: "O.C. District Attorney official calls claims of intentional misconduct in use of jailhouse informants 'baloney'"
 					url: "http://www.ocregister.com/articles/attorney-685527-office-district.html"
 					date: "2015/9/30"
 				}
 				{
-					headline: "Is Scott Sanders the most polarizing man in OC?"
+					headline: "Is Scott Sanders the most polarizing man in Orange County?"
 					url: "http://www.ocregister.com/articles/sanders-684780-attorney-case.html"
 					date: "2015/9/26"
 				}
 				{
-					headline: "Judge won’t have to testify"
+					headline: "Ruling: Judge won't have to testify in illegal jail informants probe"
 					url: "http://www.ocregister.com/articles/prickett-686404-judge-court.html"
 					date: "2015/9/7"
 				}
 				{
-					headline: "Suspected Mexican Mafia leader backs out of plea deal"
+					headline: "Suspected Mexican Mafia leader backs out of plea deal, headed to federal trial"
 					url: "http://www.ocregister.com/articles/ojeda-686395-mexican-mafia.html"
 					date: "2015/9/6"
 				}
 				{
-					headline: "Department of Justice keeping an eye on allegations that Orange County prosecutors are illegally using informants"
+					headline: "Department of Justice 'keeping an eye' on allegations that Orange County prosecutors are illegally using jail informants"
 					url: "http://www.ocregister.com/articles/county-673365-department-office.html"
 					date: "2015/7/22"
 				}
 				{
-					headline: "Watchdog: Is panel reviewing snitch scandal really independent?"
+					headline: "Watchdog: Is panel reviewing use of O.C. jailhouse informants really independent?"
 					url: "http://www.ocregister.com/articles/office-671724-county-attorney.html"
 					date: "2015/7/14"
 				}
 				{
-					headline: "State says judge wrong in recusing DA"
+					headline: "O.C. judge was wrong to pull D.A. off Seal Beach mass shooting Dekraai case, state says"
 					url: "http://www.ocregister.com/articles/court-671738-case-state.html"
 					date: "2015/7/14"
 				}
 				{
-					headline: "Evidence withheld in murder case"
+					headline: "Lawyer: Evidence withheld in O.C. case that sent man to death row"
 					url: "http://www.ocregister.com/articles/navarro-670506-list-attorney.html"
 					date: "2015/7/6"
 				}
 				{
-					headline: "Rauckackas recruits legal experts to review use of informants"
+					headline: "Orange County District Attorney Tony Rackauckas recruits legal experts to review use of jailhouse snitches"
 					url: "http://www.ocregister.com/articles/use-670384-informants-attorney.html"
 					date: "2015/7/6"
 				}
 				{
-					headline: "Judge in a storm: Thomas Goethals surprised many"
+					headline: "Judge in a storm: Thomas Goethals surprised many with decision in Seal Beach mass shooting case"
 					url: "http://www.ocregister.com/articles/goethals-669116-judge-case.html"
 					date: "2015/6/29"
 				}
 				{
-					headline: "Jailhouse snitch threatens another conviction"
+					headline: "Watchdog: Jailhouse snitch questions threaten another conviction, a double murder"
 					url: "http://www.ocregister.com/articles/rodriguez-668813-garrity-records.html"
 					date: "2015/6/25"
 				}
 				{
-					headline: "Rackauckas will personally oversee informant use"
+					headline: "O.C. district attorney to oversee cases involving informants"
 					url: "http://www.ocregister.com/articles/office-662843-informants-rackauckas.html"
 					date: "2015/5/22"
 				}
 				{
-					headline: "Informants an issue again"
+					headline: "Jailhouse informants an issue again as judge delays sentencing of gang member murder case"
 					url: "http://www.ocregister.com/articles/ortiz-656615-murder-informant.html"
 					date: "2015/4/2"
 				}
 				{
-					headline: "Bar criticizes boycott of judge"
+					headline: "Bar association criticizes prosecutors for boycotting Judge Goethals"
 					url: "http://www.ocregister.com/articles/goethals-656332-prosecutors-office.html"
 					date: "2015/3/31"
 				}
 				{
-					headline: "Spitzer goes on attack "
+					headline: "Todd Spitzer goes on the attack after D.A.'s missteps, but it's a battle other supervisors don't seem willing to fight"
 					url: "http://www.ocregister.com/articles/attorney-655730-office-spitzer.html"
 					date: "2015/3/25"
 				}
 				{
-					headline: "State attorney general appeals Dekraai ruling"
+					headline: "State Attorney General appeals Scott Dekraai ruling"
 					url: "http://www.ocregister.com/articles/attorney-655115-dekraai-case.html"
 					date: "2015/3/21"
 				}
 				{
-					headline: "Families fed up by further delays in Dekraai"
+					headline: "'This ship has sunk:' Families fed up with further delays in Scott Dekraai case"
 					url: "http://www.ocregister.com/articles/dekraai-654948-attorney-case.html"
 					date: "2015/3/20"
 				}
 				{
-					headline: "Gang member facing life will go free"
+					headline: "Gang member once facing life will instead go free, as jailhouse informant battles derail another case"
 					url: "http://www.ocregister.com/articles/islas-654929-attorney-cases.html"
 					date: "2015/3/19"
 				}
@@ -197,57 +199,57 @@ docpadConfig = {
 					date: "2015/3/19"
 				}
 				{
-					headline: "Rauckackas has always been a fighter"
+					headline: "From a high school dropout to Orange County's D.A.: Tony Rackauckas has always been a fighter, but can he withstand the latest punch?"
 					url: "http://www.ocregister.com/articles/rackauckas-654482-attorney-case.html"
 					date: "2015/3/16"
 				}
 				{
-					headline: " DA says prosecutors erred"
+					headline: "D.A. Tony Rackauckas says prosecutors erred, but should not have been removed from Scott Dekraai case"
 					url: "http://www.ocregister.com/articles/dekraai-654280-prosecutors-attorney.html"
 					date: "2015/3/14"
 				}
 				{
-					headline: "Judge kicks DA off Dekraai case"
+					headline: "In rare move, judge kicks Orange County D.A. off case of Seal Beach mass shooting killer Scott Dekraai"
 					url: "http://www.ocregister.com/articles/attorney-654000-county-case.html"
 					date: "2015/3/12"
 				}
 				{
-					headline: "Seal Beach shooting case fuels snitch battle"
+					headline: "Seal Beach mass shooting case fuels battle over jailhouse informants as deputies face perjury claims"
 					url: "http://www.ocregister.com/articles/dekraai-653637-deputies-court.html"
 					date: "2015/3/9"
 				}
 				{
-					headline: "Gov. blocks parole for Mexican mafia – leader turned snitch"
+					headline: "Gov. Brown blocks parole for former Mexican Mafia boss-turned-snitch"
 					url: "http://www.ocregister.com/articles/parole-651959-informant-police.html"
 					date: "2015/2/23"
 				}
 				{
-					headline: "Judge blasts OC deputies secrecy"
+					headline: "Watchdog: Judge blasts O.C. sheriff's deputies' secrecy about jailhouse informant database"
 					url: "http://www.ocregister.com/articles/system-651540-court-goethals.html"
 					date: "2015/2/17"
 				}
 				{
-					headline: "The last time Mexican Mafia leader paroled, two people died"
+					headline: "The last time Mexican Mafia boss was paroled, two people died. Has he changed?"
 					url: "http://www.ocregister.com/articles/-651412--.html"
 					date: "2015/2/16"
 				}
 				{
-					headline: "Mexican mafia killer turned snitch could walk "
+					headline: "Mexican Mafia killer-turned-snitch could walk free this month"
 					url: "http://www.ocregister.com/articles/enriquez-651014-mafia-mexican.html"
 					date: "2015/2/11"
 				}
 				{
-					headline: "Judge reconsiders ruling, deputies face perjury allegations"
+					headline: "Judge reconsiders ruling against Seal Beach mass shooter Scott Dekraai as deputies face perjury allegations"
 					url: "http://www.ocregister.com/articles/dekraai-650853-deputies-judge.html"
 					date: "2015/2/11"
 				}
 				{
-					headline: "Killer gets life sentence cut to 15 years"
+					headline: "Killer gets life sentence cut to 15 years after O.C. authorities misuse jail informants"
 					url: "http://www.ocregister.com/articles/vega-650387-attorney-informants.html"
 					date: "2015/2/6"
 				}
 				{
-					headline: "Misuse of informants should block death penalty in double-murder case"
+					headline: "Defense: Misuse of jailhouse informant should block death penalty in man's double-murder case"
 					url: "http://www.ocregister.com/articles/sanders-649230-murphy-wozniak.html"
 					date: "2015/1/26"
 				}
@@ -257,47 +259,47 @@ docpadConfig = {
 					date: "2014/12/11"
 				}
 				{
-					headline: "OC Sheriff Hutchens: poor organization"
+					headline: "O.C. Sheriff Sandra Hutchens: Poor organization, training led to mistakes with jailhouse informants"
 					url: "http://www.ocregister.com/articles/informants-644455-hutchens-sanders.html"
 					date: "2014/12/5"
 				}
 				{
-					headline: "How Mexican Mafia snitches lived like kings in jail"
+					headline: "Money, cable TV, food delivery: How Mexican Mafia snitches lived like kings behind bars"
 					url: "http://www.ocregister.com/articles/cuevas-643108-paredes-informants.html"
 					date: "2014/11/23"
 				}
 				{
-					headline: "Here is how an admitted killer was set free"
+					headline: "Here is why an admitted killer walked free"
 					url: "http://www.ocregister.com/articles/palacios-639481-moriel-informant.html"
 					date: "2014/10/22"
 				}
 				{
-					headline: "Judge: DA action negligent in Dekraai case."
+					headline: "Judge: D.A. actions 'negligent' in Dekraai case, not malicious"
 					url: "http://www.ocregister.com/articles/dekraai-630582-judge-prosecutors.html"
 					date: "2014/8/4"
 				}
 				{
-					headline: "Prosecutors won’t use Dekraai’s taped jailhouse brag"
+					headline: "Prosecutors won't use recordings of Dekraai's jailhouse 'brag'"
 					url: "http://www.ocregister.com/articles/dekraai-610894-attorney-court.html"
 					date: "2014/4/22"
 				}
 				{
-					headline: "Prosecutor says evidence withheld"
+					headline: "Prosecutor testifies some evidence not turned over"
 					url: "http://www.ocregister.com/articles/wagner-606825-dekraai-allegations.html"
 					date: "2014/3/24"
 				}
 				{
-					headline: "Informant denies told to get confessions"
+					headline: "Informant denies he was told to get confession from Scott Dekraai"
 					url: "http://www.ocregister.com/articles/perez-606132-gang-informant.html"
 					date: "2014/3/18"
 				}
 				{
-					headline: "Prosecutors deny knowing informants history"
+					headline: "Dekraai prosecutors deny knowing informant's history"
 					url: "http://www.ocregister.com/articles/dekraai-604730-perez-goethals.html"
 					date: "2014/3/7"
 				}
 				{
-					headline: "Prosecutors: Dekraai talked about Seal Beach shooting"
+					headline: "Prosecution: Dekraai talked about Seal Beach shootings"
 					url: "http://www.ocregister.com/articles/dekraai-388080-informant-salon.html"
 					date: "2013/1/18"
 				}

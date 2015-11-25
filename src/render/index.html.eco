@@ -105,12 +105,22 @@ title: 'Home'
 
 				<div class="col-xs-12 col-md-4">
 					<div class="thumbnail major">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x200&w=300&h=200" alt="thumbnail">
+						<img src="<%= @getFileAtPath('pages/pano-irc.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
 						<div class="caption">
-							<h3>Virtual Reality Snitch Tank</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
-							<a href="">&gt;</a>
+							<h3>Virtual Tour</h3>
+							<p><%= @getFileAtPath('pages/pano-irc.html').toJSON().title %></p>
+							<a href="<%= @getFileAtPath('pages/pano-irc.html').toJSON().url %>">&gt;</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
+					<div class="thumbnail major">
+						<img src="<%= @getFileAtPath('pages/pano-mod-l.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
+						<div class="caption">
+							<h3>Virtual Tour</h3>
+							<p><%= @getFileAtPath('pages/pano-mod-l.html').toJSON().title %></p>
+							<a href="<%= @getFileAtPath('pages/pano-mod-l.html').toJSON().url %>">&gt;</a>
 						</div>
 					</div>
 				</div>
