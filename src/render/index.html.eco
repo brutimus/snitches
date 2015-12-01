@@ -107,7 +107,7 @@ title: 'Home'
 						<div class="caption">
 							<h3>Virtual Tour</h3>
 							<p><%= @getFileAtPath('pages/pano-irc.html').toJSON().title %></p>
-							<a href="<%= @getFileAtPath('pages/pano-irc.html').toJSON().url %>">&gt;</a>
+							<a href="<%= @getUrl(@getFileAtPath('pages/pano-irc.html').toJSON().url) %>">&gt;</a>
 						</div>
 					</div>
 				</div>
@@ -118,7 +118,7 @@ title: 'Home'
 						<div class="caption">
 							<h3>Virtual Tour</h3>
 							<p><%= @getFileAtPath('pages/pano-mod-l.html').toJSON().title %></p>
-							<a href="<%= @getFileAtPath('pages/pano-mod-l.html').toJSON().url %>">&gt;</a>
+							<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l.html').toJSON().url) %>">&gt;</a>
 						</div>
 					</div>
 				</div>
