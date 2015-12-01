@@ -77,11 +77,9 @@
 	</section>
 
 	<!-- Footer -->
-	<!-- <div class="container">
-		<footer>
-			<p class="pull-left">Copyright &copy; <%- (new Date()).getFullYear() %> The Orange County Register. All Rights Reserved.</p>
-		</footer>
-	</div> -->
+	<footer>
+		<p>&copy; <%- (new Date()).getFullYear() %> The Orange County Register. All Rights Reserved.</p>
+	</footer>
 
 	<!-- Scripts -->
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

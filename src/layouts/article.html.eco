@@ -89,31 +89,29 @@ layout: default
 
 	</div>
 
-	<footer>
-		<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
-			<section id="related">
-				<div class="section-header">
-					<h3>Related Articles</h3>
-				</div>
-				<nav class="linklist">
-					<% for document in @getRelatedDocuments(): %>
-						<div class="media">
-							<a href="<%= @getUrl(document.url) %>">
-								<div class="media-left">
-									<div class="date">
-										<div class="month"><%= @moment(document.date).format('MMM') %>.</div>
-										<div class="day"><%= @moment(document.date).format('D') %></div>
-										<div class="year"><%= @moment(document.date).format('YYYY') %></div>
-									</div>
+	<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
+		<section id="related">
+			<div class="section-header">
+				<h3>Related Articles</h3>
+			</div>
+			<nav class="linklist">
+				<% for document in @getRelatedDocuments(): %>
+					<div class="media">
+						<a href="<%= @getUrl(document.url) %>">
+							<div class="media-left">
+								<div class="date">
+									<div class="month"><%= @moment(document.date).format('MMM') %>.</div>
+									<div class="day"><%= @moment(document.date).format('D') %></div>
+									<div class="year"><%= @moment(document.date).format('YYYY') %></div>
 								</div>
-								<div class="media-body">
-								  <%= document.title %>
-								</div>
-							</a>
-						</div>
-					<% end %>
-				</nav>
-			</section>
-		<% end %>
-	</footer>
+							</div>
+							<div class="media-body">
+							  <%= document.title %>
+							</div>
+						</a>
+					</div>
+				<% end %>
+			</nav>
+		</section>
+	<% end %>
 </div>

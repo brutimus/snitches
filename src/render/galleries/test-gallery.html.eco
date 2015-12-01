@@ -4,18 +4,18 @@ layout: gallery
 images:
 	-
 		src: '/images/panos/irc.jpg'
-		caption: Test caption
-		byline: Test byline
+		caption: Test caption 1
+		byline: Test byline 1
 	-
 		src: '/images/panos/irc.jpg'
-		caption: Test caption
-		byline: Test byline
+		caption: Test caption 2
+		byline: Test byline 2
 	-
 		src: '/images/panos/irc.jpg'
-		caption: Test caption
-		byline: Test byline
+		caption: Test caption 3
+		byline: Test byline 3
 	-
 		src: '/images/panos/irc.jpg'
-		caption: Test caption
-		byline: Test byline
+		caption: Test caption 4
+		byline: Test byline 4
 ---
