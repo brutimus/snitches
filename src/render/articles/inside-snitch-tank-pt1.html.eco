@@ -9,6 +9,8 @@ authors:
 		email: tsaavedra@ocregister.com
 ```
 
+<%- @displayGallery('pt1.html') %>
+
 <p>Flowers piled up like a crashing sea wave against the west wall of Salon Meritage, where the shooting rampage occurred. Eight people were dead, another wounded. Loved ones wept and set about the grim task of organizing funerals.</p>
 <p>So in mid-October of 2011, two days after <a href="http://www.ocregister.com/articles/business-321651-medical-beach.html" target="_blank" title="the deadliest mass murder in Orange County history">the deadliest mass murder in Orange County history</a>, the strategic response of law enforcement began to take shape, publicly and behind the scenes. District Attorney Tony Rackauckas drove to Seal Beach and spoke at a news conference, <a href="http://www.ocregister.com/articles/salon-321997-killing-beach.html" target="_blank" title="vowing to seek death for gunman Scott Dekraai">vowing to seek death for gunman Scott Dekraai</a>.</p>
 <p>With tears welling in his eyes, Rackauckas told reporters and TV crews that some cases “are so depraved, so callous, so malignant that there is only one punishment that might have any chance of fitting the crime.”</p>
@@ -37,7 +39,7 @@ authors:
 <p><b>UNEASY ARRANGEMENT</b></p>
 <div class="thumbnail inline-photo">
 	<img class="img-responsive" src="http://images.onset.freedom.com/ocregister/mycapture/ny6xpc-b88558730z.120151121163407000grcdaal7.10.jpg">
-	<p class="caption">A panorama of Mod L at the Central Jail in Santa Ana. This is the area where Scott Dekraai was held during the time he was taking with an informant. Photo by Jeff Gritchen, staff photographer</p>
+	<p class="caption">A panorama of Mod L at the Central Jail in Santa Ana. This is the area where Scott Dekraai was held during the time he was talking with an informant. Photo by Jeff Gritchen, staff photographer</p>
 </div>
 <p>Jailhouse informants represent an awkward dynamic: prisoners serving the very people who lock them up, risking brutal retribution – even death – in aid of the enemy. They break the code of the streets by offering up dirt on other inmates who are sometimes their friends.</p>
 <p>Desperate to get out, they expect their treachery to result in lesser charges or reduced sentences for their own crimes.</p>

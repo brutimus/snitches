@@ -9,6 +9,15 @@ authors:
 		email: tsaavedra@ocregister.com
 ```
 
+<% inlinePhoto = (src, caption) => %>
+	<div class="thumbnail inline-photo">
+		<img class="img-responsive" src="<%- src %>">
+		<p class="caption"><%- caption %></p>
+	</div>
+<% end %>
+
+<%= inlinePhoto "http://images.onset.freedom.com/ocregister/nwv59t-b88550319z.120151026221300000g12cq8po.50.jpg", "Orange County District Attorney Tony Rackauckas was told that his office might have a jailhouse informant problem in 1999, a full 16 years before allegations surfaced in court of misconduct involving widespread use of jailhouse snitches. FILE: JEBB HARRIS , STAFF PHOTOGRAPHER" %>
+
 <p>State prosecutors told Orange County District Attorney Tony Rackauckas that his office might have a jailhouse informant problem in 1999, a full 16 years before allegations surfaced in court of misconduct involving widespread use of jailhouse snitches.</p>
 <p>The revelation surfaced in a trove of documents filed this month by Assistant Public Defender Scott Sanders, who has accused Rackauckas’ office of routinely and illegally misusing jailhouse informants.</p>
 <p>The documents <a href="http://files.onset.freedom.com/ocregister/graphics/INFORMANT_LETTER.pdf">include a 13-page letter to Rackauckas</a> dated June 16, 1999 from David P. Druliner, then state chief assistant attorney general.</p>

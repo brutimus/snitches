@@ -1,4 +1,7 @@
 # The DocPad Configuration File
+
+String::startsWith ?= (s) -> @slice(0, s.length) == s
+
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
@@ -356,7 +359,9 @@ docpadConfig = {
 			site = site || @site.url
 
 			if (typeof _ == "string")
-				if (_[0] == "/" && _[1] != "/")
+				if _.startsWith('http')
+					return _
+				else if (_[0] == "/" && _[1] != "/")
 					return site+_
 				return _
 
@@ -372,15 +377,26 @@ docpadConfig = {
 			return _
 
 		getImageSize: (img) ->
-			sizeOf = require('image-size')
-			dimensions = sizeOf(img)
-			return dimensions
+			if (img.startsWith('http'))
+				return {'width': 1200, 'height': 800}
+			else
+				sizeOf = require('image-size')
+				dimensions = sizeOf(img)
+				return dimensions
 
 		displayGallery: (name) ->
 			gallery = @getFileAtPath('galleries/' + name).toJSON()
 			jsonData = []
 			for img in gallery.images
-				imgDims = @getImageSize('src/static' + img.src)
+				if img.src.startsWith('http')
+					imgUrl = img.src
+				else
+					imgUrl = 'src/static' + img.src
+				if img.width && img.height
+					imgDims = {'width': img.width, 'height': img.height}
+				else
+					imgDims = @getImageSize(imgUrl)
+				
 				jsonData.push({
 					src: img.src,
 					title: img.caption,

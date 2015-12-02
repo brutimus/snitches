@@ -9,16 +9,21 @@ authors:
 		email: kpuente@ocregister.com
 ```
 
+<%- @displayGallery('deputies-take-the-fifth.html') %>
+
 <p>In a Santa Ana courtroom, Orange County Sheriff’s Deputy Seth Tunstall raised his right hand to take the oath and stepped onto the witness stand.</p>
 <p>“You are employed by the Orange County Sheirff’s Department?” a defense attorney asked.</p>
 <p>“After conferring with my attorney I’m going to decline to answer on Fifth Amendment grounds,” Tunstall replied.</p>
 <p>Tunstall was followed by three more deputies called to testify in a hearing on a gang-related murder. One by one, each deputy said the same thing: nothing.</p>
 <p>All four invoked their rights against self-incrimination, declining to reveal even the most basic information, including where they work and whether they attended a police academy.</p>
 <p>The refusal of the four Orange County sheriff’s deputies to testify this month means a Santa Ana man can’t receive a fair hearing in a case that could send him to prison for life, his attorney contends. The criminal case is one of many ensnared in Orange County’s jailhouse informant scandal, which this year prompted a judge to remove the entire staff of the District Attorney’s Office from the trial in the county’s worst mass shooting.</p>
-<p><b>RELATED STORIES:</b></p>
-<p><a href="http://www.ocregister.com/articles/county-687985-office-attorney.html"><img src="http://images.onset.freedom.com/ocregister/mycapture/nwcm72-b88543069z.120151016220434000g86ckvb8.10.jpg" style="vertical-align: top; margin: 8px;" width="100%">Watchdog: County ponders jailhouse snitch investigation</a></p>
-<p><a href="http://www.ocregister.com/articles/says-687026-webb-dekraai.html"><img src="http://images.onset.freedom.com/ocregister/mycapture/nw1kkg-b88532179z.120151010225530000gh3ce9v8.10.jpg" style="vertical-align: top; margin: 8px;" width="100%">Families of those killed at Seal Beach salon still struggling for justice</a></p>
-<p><a href="http://www.ocregister.com/articles/prosecutors-686481-law-evidence.html"><img src="http://images.onset.freedom.com/ocregister/mycapture/nvv31r-b88532283z.120151007105151000gfcceqgs.10.jpg" style="vertical-align: top; margin: 8px;" width="100%">After Orange County D.A. kicked off case from jailhouse informants, prosecutors face stricter standards</a></p>
+<div class="panel panel-default inline-related">
+  	<div class="panel-body">
+		<p><a href="http://www.ocregister.com/articles/county-687985-office-attorney.html">Watchdog: County ponders jailhouse snitch investigation</a></p>
+		<p><a href="http://www.ocregister.com/articles/says-687026-webb-dekraai.html">Families of those killed at Seal Beach salon still struggling for justice</a></p>
+		<p><a href="http://www.ocregister.com/articles/prosecutors-686481-law-evidence.html">After Orange County D.A. kicked off case from jailhouse informants, prosecutors face stricter standards</a></p>
+	</div>
+</div>
 <p>The latest legal challenge comes from Eric Ortiz, a 26-year-old gang member convicted in January for a 2011 fatal shooting in Santa Ana. Before Ortiz could be sentenced, however, Superior Court Judge Richard King granted him a hearing on whether he should receive a new trial based on disclosures about the use of a jailhouse snitch in his prosecution.</p>
 <p>Rudolph Loewenstein, Ortiz’s defense attorney, contends four deputies – Tunstall and colleagues Benjamin Garcia, William Grover and Bryan Larson – possess key information as to how authorities violated Ortiz’s constitutional rights by using an informant to gather incriminating statements.</p>
 <p>But in a weeklong hearing this month, the case hit a snag when the four deputies invoked their Fifth Amendment rights. All four came to court with their own defense attorneys.</p>

@@ -9,6 +9,15 @@ authors:
 		email: tsaavedra@ocregister.com
 ```
 
+<% inlinePhoto = (src, caption) => %>
+	<div class="thumbnail inline-photo">
+		<img class="img-responsive" src="<%- src %>">
+		<p class="caption"><%- caption %></p>
+	</div>
+<% end %>
+
+<%= inlinePhoto "http://images.onset.freedom.com/ocregister/ny7i22-05.constitutiondebate.0920.cc.jpg", "Erwin Chemerinsky, founding dean of UCI Law School, was one of three dozen legal experts and ex-prosecutors who called for a federal investigation into allegations that Orange County prosecutors and sheriff's officials improperly used jailhouse informants and withheld evidence from defense attorneys. CHRISTINE COTTER, FILE PHOTO" %>
+
 <p>More than three dozen legal experts and ex-prosecutors on Wednesday called for a federal investigation into allegations that Orange County prosecutors and sheriff’s officials improperly used jailhouse informants and withheld evidence from defense attorneys.</p>
 <p>The group, including former Los Angeles District Attorney Gil Garcetti and former Chief Assistant United States Attorney Richard Drooyan, penned a letter to U.S. Attorney General Loretta Lynch calling attention to a “crisis” in the county’s justice system.</p>
 <p>“Compelling evidence of pervasive police and prosecutorial misconduct in Orange County ... has caused us grave concern,” they wrote in the 25-page letter. (<a href="http://files.onset.freedom.com/ocregister/docs/Request_for_Federal_Investigation_in_Orange_County_11.17.15.pdf" target="_blank" title="You can read the letter here">You can read the letter here</a>.)</p>
@@ -16,7 +25,7 @@ authors:
 <p>Susan Kang Schroeder, chief of staff for Orange County District Attorney Tony Rackauckas, said the letter seemed to be cobbled from defense legal briefs and what she characterized as inaccurate news accounts, not from the complete court filings.</p>
 <p>“Our position has always been, and will continue to be, we welcome any scrutiny and input from any law enforcement agency who wants to come in,” Schroeder said.</p>
 <p>Sheriff Sandra Hutchens also said her agency would cooperate with any federal investigation, although she added it would be prudent to wait for the outcome of the state probe.</p>
-<p>Hutchens said her department has learned from its mistakes. “During the court proceedings over the last several months, we have identified and <img align="bottom" src="http://ngweb.freedom.local:7003/newsgate/images/SmallCode.png">acknowledged operational deficiencies and responded with immediate corrective action to include revised policies and improved training,” she said.</p>
+<p>Hutchens said her department has learned from its mistakes. “During the court proceedings over the last several months, we have identified and acknowledged operational deficiencies and responded with immediate corrective action to include revised policies and improved training,” she said.</p>
 <p>The office of California Attorney General Kamala Harris is investigating local prosecutors and police over the use of informants at Rackauckas’ request.</p>
 <p>The group of legal heavy-hitters is making the latest push for federal authorities to probe the two-year controversy over <a href="http://www.ocregister.com/articles/sanders-684780-attorney-case.html" target="_blank" title="complaints">complaints</a> that Orange County authorities systematically misused informants<a> </a>to illegally coax confessions from jail inmates who are represented by lawyers. Defense attorneys also have accused police and prosecutors of withholding background information on the informants and other evidence favorable to their clients.</p>
 <p>U.S. Department of Justice attorneys indicated they are “keeping an eye” on Orange County’s snitch controversy, according to correspondence between County Counsel Leon Page and the department’s civil rights division.</p>
