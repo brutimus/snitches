@@ -59,6 +59,21 @@ docpadConfig = {
 
 			archive_stories: [
 				{
+					headline: "Inside the 'snitch tank' Part 3: The care and feeding of a jailhouse informant"
+					url: "http://www.ocregister.com/articles/ripple-693575-abel-prison.html"
+					date: "2015/11/24"
+				}
+				{
+					headline: "Inside the 'snitch tank' Part 2: How the jailhouse informant controversy affects a Death Row murder case"
+					url: "http://www.ocregister.com/articles/payton-693417-escalera-attorney.html"
+					date: "2015/11/23"
+				}
+				{
+					headline: "Register special report: How jailhouse informants and the 'snitch tank' put Orange County justice system in turmoil"
+					url: "http://www.ocregister.com/articles/informants-693296-attorney-dekraai.html"
+					date: "2015/11/22"
+				}
+				{
 					headline: "D.A.'s Office fires back at call for federal probe over jailhouse informants"
 					url: "http://www.ocregister.com/articles/attorney-693017-office-district.html"
 					date: "2015/11/19"
@@ -377,6 +392,9 @@ docpadConfig = {
 
 			return """
 				<div class="slideshow">
+					<div class="overlay view-label">
+						<i class="glyphicon glyphicon-picture"></i> <span>View slideshow</span>
+					</div>
 					<img class="cover" src="#{gallery.images[0].src}" style="width:100%;" />
 					<div class="slideshowData" style="display:none;">
 						#{jsonData}

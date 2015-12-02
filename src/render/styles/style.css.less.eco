@@ -376,6 +376,14 @@ a.list-group-item {
 			font-weight: 400;
 		}
 	}
+	.inline-photo {
+		border: 1px solid @gray-lighter;
+		.caption {
+			font-family: @font-family-sans-serif;
+			font-size: 12px;
+			.text-left()
+		}
+	}
 }
 
 .article-lead-container {
