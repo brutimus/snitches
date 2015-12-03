@@ -15,7 +15,8 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://brutimus.github.io/snitches/"
+			url: "http://brutimus.github.io/snitches"
+			# url: "http://projects.ocregister.com/snitches"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -442,8 +443,8 @@ docpadConfig = {
 			downloads: [
 				{
 					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
+					path: 'src/static/vendor/twitter-bootstrap'
+					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/v3.3.6'
 					tarExtractClean: true
 				}
 			]
