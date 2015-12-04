@@ -5,7 +5,11 @@ pageOrder: 1
 ---
 <% chunk = (story) => %>
 	<div class="media">
+		<% if story.extUrl: %>
 		<a href="<%= story.extUrl %>">
+		<% else: %>
+		<a href="<%= @getUrl(story.url) %>">
+		<% end %>
 			<div class="media-left">
 				<div class="date">
 					<div class="month"><%= @moment(story.date).format('MMM') %>.</div>
@@ -14,7 +18,7 @@ pageOrder: 1
 				</div>
 			</div>
 			<div class="media-body">
-			  <%- story.headline %>
+			  <%- story.title %>
 			</div>
 		</a>
 		</div>
@@ -23,7 +27,7 @@ pageOrder: 1
 <div class="container archive">
 	<div class="row">
 		<div class="col-xs-12">
-			<% for obj in @getCollection('links').findAll(tags:$has:'archive').toJSON(): %>
+			<% for obj in @getCollection('archive').toJSON(): %>
 				<%= chunk obj %>
 			<% end %>
 		</div>

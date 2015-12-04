@@ -2,36 +2,19 @@ from slugify import slugify
 import yaml
 
 
-links = [{'date': '2015/11/24',
-  'headline': "Inside the 'snitch tank' Part 3: The care and feeding of a jailhouse informant",
-  'url': 'http://www.ocregister.com/articles/ripple-693575-abel-prison.html'},
- {'date': '2015/11/23',
-  'headline': "Inside the 'snitch tank' Part 2: How the jailhouse informant controversy affects a Death Row murder case",
-  'url': 'http://www.ocregister.com/articles/payton-693417-escalera-attorney.html'},
- {'date': '2015/11/22',
-  'headline': "Register special report: How jailhouse informants and the 'snitch tank' put Orange County justice system in turmoil",
-  'url': 'http://www.ocregister.com/articles/informants-693296-attorney-dekraai.html'},
+links = [
  {'date': '2015/11/19',
   'headline': "D.A.'s Office fires back at call for federal probe over jailhouse informants",
   'url': 'http://www.ocregister.com/articles/attorney-693017-office-district.html'},
  {'date': '2015/11/19',
   'headline': "Judge OKs retrial in murder case after O.C. deputies won't testify on use of jailhouse informant",
   'url': 'http://www.ocregister.com/articles/ortiz-692758-deputies-case.html'},
- {'date': '2015/11/18',
-  'headline': 'Former prosecutors seek federal probe of O.C. justice system over use of jailhouse informants',
-  'url': 'http://www.ocregister.com/articles/orange-692665-attorney-county.html'},
  {'date': '2015/11/10',
   'headline': "Amid jailhouse informant scandal, county says it will oversee District Attorney's Office",
   'url': 'http://www.ocregister.com/articles/office-691553-county-attorney.html'},
- {'date': '2015/10/26',
-  'headline': 'O.C. Watchdog: Tony Rackauckas told in 1999 that D.A. might have problem with jailhouse informants',
-  'url': 'http://www.ocregister.com/articles/rackauckas-689306-jacobs-letter.html'},
  {'date': '2015/10/19',
   'headline': 'Federal scrutiny pushes county to action on jailhouse informant investigation',
   'url': 'http://www.ocregister.com/articles/office-688290-county-spitzer.html'},
- {'date': '2015/10/18',
-  'headline': 'Deputies take the Fifth, complicating yet another jail snitch case',
-  'url': 'http://www.ocregister.com/articles/attorney-688078-case-deputies.html'},
  {'date': '2015/10/16',
   'headline': 'Watchdog: County ponders jailhouse snitch investigation',
   'url': 'http://www.ocregister.com/articles/county-687985-office-attorney.html'},
@@ -44,9 +27,6 @@ links = [{'date': '2015/11/24',
  {'date': '2015/9/30',
   'headline': "O.C. District Attorney official calls claims of intentional misconduct in use of jailhouse informants 'baloney'",
   'url': 'http://www.ocregister.com/articles/attorney-685527-office-district.html'},
- {'date': '2015/9/26',
-  'headline': 'Is Scott Sanders the most polarizing man in Orange County?',
-  'url': 'http://www.ocregister.com/articles/sanders-684780-attorney-case.html'},
  {'date': '2015/9/7',
   'headline': "Ruling: Judge won't have to testify in illegal jail informants probe",
   'url': 'http://www.ocregister.com/articles/prickett-686404-judge-court.html'},
@@ -68,9 +48,6 @@ links = [{'date': '2015/11/24',
  {'date': '2015/7/6',
   'headline': 'Orange County District Attorney Tony Rackauckas recruits legal experts to review use of jailhouse snitches',
   'url': 'http://www.ocregister.com/articles/use-670384-informants-attorney.html'},
- {'date': '2015/6/29',
-  'headline': 'Judge in a storm: Thomas Goethals surprised many with decision in Seal Beach mass shooting case',
-  'url': 'http://www.ocregister.com/articles/goethals-669116-judge-case.html'},
  {'date': '2015/6/25',
   'headline': 'Watchdog: Jailhouse snitch questions threaten another conviction, a double murder',
   'url': 'http://www.ocregister.com/articles/rodriguez-668813-garrity-records.html'},
@@ -170,12 +147,15 @@ links = [{'date': '2015/11/24',
 
 def main():
     for link in links:
-        link['tags'] = ['archive', 'link']
-        link['extUrl'] = link['url']
-        del link['url']
+        writable = {
+          'title': link['headline'],
+          'date': link['date'],
+          'tags': ['archive', 'link'],
+          'extUrl': link['url']
+        }
         with open('src/render/links/' + slugify(link['headline']) + '.html', 'w') as f:
             f.write('---\n')
-            yaml.dump(link, f, default_flow_style=False, width=10000)
+            yaml.dump(writable, f, default_flow_style=False, width=10000)
             f.write('---\n')
 
 

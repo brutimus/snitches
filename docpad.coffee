@@ -165,6 +165,9 @@ docpadConfig = {
 		links: (database) ->
 			database.findAllLive({tags:$has:'link'}, [date:-1])
 
+		archive: (database) ->
+			database.findAllLive({$or: [{tags: $has:'article'}, {tags: $hasAll: ['link', 'archive']}]}, [date:-1])
+
 		galleries: (database) ->
 			database.findAllLive({tags:$has:'gallery'}, [date:-1])
 
