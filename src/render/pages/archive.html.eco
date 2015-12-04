@@ -5,7 +5,7 @@ pageOrder: 1
 ---
 <% chunk = (story) => %>
 	<div class="media">
-		<a href="<%- story.url %>">
+		<a href="<%= story.extUrl %>">
 			<div class="media-left">
 				<div class="date">
 					<div class="month"><%= @moment(story.date).format('MMM') %>.</div>
@@ -23,7 +23,7 @@ pageOrder: 1
 <div class="container archive">
 	<div class="row">
 		<div class="col-xs-12">
-			<% for obj in @site.archive_stories: %>
+			<% for obj in @getCollection('links').findAll(tags:$has:'archive').toJSON(): %>
 				<%= chunk obj %>
 			<% end %>
 		</div>
