@@ -78,7 +78,7 @@ title: 'Home'
 					</div>
 				</div>
 
-				<div class="col-xs-12">
+				<div class="col-md-6">
 					<div class="media media-link">
 						<a href="<%= @getUrl('/pages/podcasts') %>">
 							<div class="media-left">
@@ -89,6 +89,8 @@ title: 'Home'
 							</div>
 						</a>
 					</div>
+				</div>
+				<div class="col-md-6">
 					<div class="media media-link">
 						<a href="<%= @getUrl('/pages/videos') %>">
 							<div class="media-left">
@@ -123,7 +125,7 @@ title: 'Home'
 					</div>
 				</div>
 
-				<div class="col-xs-12">
+				<div class="col-md-6">
 					<div class="media media-link">
 						<a href="<%= @getUrl('/pages/glossary') %>">
 							<div class="media-left">
@@ -134,6 +136,8 @@ title: 'Home'
 							</div>
 						</a>
 					</div>
+				</div>
+				<div class="col-md-6">
 					<div class="media media-link">
 						<a href="<%= @getUrl('/pages/documents') %>">
 							<div class="media-left">
