@@ -48,6 +48,7 @@ docpadConfig = {
 				"/styles/style.css"
 				"/vendor/photoswipe/photoswipe.css"
 				"/vendor/photoswipe/default-skin/default-skin.css"
+				"//cdn.knightlab.com/libs/soundcite/latest/css/player.css"
 			]
 
 			# Scripts
@@ -59,6 +60,7 @@ docpadConfig = {
 				"/vendor/photoswipe/photoswipe-ui-default.min.js"
 				"/vendor/photoswipe/photoswipe.min.js"
 				"/scripts/slideshow.js"
+				"//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"
 			]
 
 
