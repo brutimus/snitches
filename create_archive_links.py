@@ -3,6 +3,9 @@ import yaml
 
 
 links = [
+ {'date': '2015/12/6',
+  'headline': "Justice delayed: Why it's taken more than 5 years for trial of Daniel Wozniak, accused of killing 1, beheading another",
+  'url': 'http://www.ocregister.com/articles/herr-695023-wozniak-kibuishi.html'},
  {'date': '2015/11/19',
   'headline': "D.A.'s Office fires back at call for federal probe over jailhouse informants",
   'url': 'http://www.ocregister.com/articles/attorney-693017-office-district.html'},
