@@ -53,13 +53,7 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/vendor/smartcrop.js"
-				"/scripts/script.js"
-				"/scripts/autocrop.js"
-				"/vendor/photoswipe/photoswipe-ui-default.min.js"
-				"/vendor/photoswipe/photoswipe.min.js"
-				"/scripts/slideshow.js"
+				"/scripts/built.min.js"
 				"//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"
 			]
 
@@ -225,6 +219,25 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+
+		# Write After
+		# Used to minify our assets with grunt
+		writeAfter: (opts,next) ->
+			# Prepare
+			safeps = require('safeps')
+			pathUtil = require('path')
+			docpad = @docpad
+			rootPath = docpad.getConfig().rootPath
+
+			 # Perform the grunt `min` task
+			# https://github.com/gruntjs/grunt/blob/0.3-stable/docs/task_min.md
+			command = ['grunt', 'uglify']
+
+			# Execute
+			safeps.spawn(command, {save:false,output:true}, next)
+
+			# Chain
+			@
 }
 
 
