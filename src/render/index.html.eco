@@ -104,28 +104,32 @@ title: 'Home'
 				</div>
 
 				<div class="col-xs-12 col-md-4">
-					<div class="thumbnail major">
-						<img src="<%= @getFileAtPath('pages/pano-irc.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
-						<div class="caption">
-							<h3>Virtual Tour</h3>
-							<p><%= @getFileAtPath('pages/pano-irc.html').toJSON().title %></p>
-							<a href="<%= @getUrl(@getFileAtPath('pages/pano-irc.html').toJSON().url) %>">&gt;</a>
+					<a href="<%= @getUrl(@getFileAtPath('pages/pano-irc.html').toJSON().url) %>">
+						<div class="thumbnail major">
+							<img src="<%= @getFileAtPath('pages/pano-irc.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
+							<div class="caption">
+								<h3>Virtual Tour</h3>
+								<p><%= @getFileAtPath('pages/pano-irc.html').toJSON().title %></p>
+								<span class="link">&gt;</span>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 
 				<div class="col-xs-12 col-md-4">
-					<div class="thumbnail major">
-						<img src="<%= @getFileAtPath('pages/pano-mod-l.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
-						<div class="caption">
-							<h3>Virtual Tour</h3>
-							<p><%= @getFileAtPath('pages/pano-mod-l.html').toJSON().title %></p>
-							<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l.html').toJSON().url) %>">&gt;</a>
+					<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l.html').toJSON().url) %>">
+						<div class="thumbnail major">
+							<img src="<%= @getFileAtPath('pages/pano-mod-l.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
+							<div class="caption">
+								<h3>Virtual Tour</h3>
+								<p><%= @getFileAtPath('pages/pano-mod-l.html').toJSON().title %></p>
+								<span class="link">&gt;</span>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-xs-12 col-md-6">
 					<div class="media media-link">
 						<a href="<%= @getUrl('/pages/glossary') %>">
 							<div class="media-left">
@@ -137,7 +141,7 @@ title: 'Home'
 						</a>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-xs-12 col-md-6">
 					<div class="media media-link">
 						<a href="<%= @getUrl('/pages/documents') %>">
 							<div class="media-left">
@@ -183,6 +187,31 @@ title: 'Home'
 				<a class="list-group-item" href="">Snitch stories</a>
 				<a class="list-group-item" href="">Rackaukas stories</a>
 				<a class="list-group-item" href="">Stories by case</a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="section-header">
+				<h3>Staff</h3>
+			</div>
+			<div class="row">
+				<dl class="credit">
+					<dt>Reporters</dt>
+					<dd>Tony Saavedra</dd>
+					<dt>Photographers</dt>
+					<dd>Jeff Gritchen</dd>
+					<dt>Photo editor</dt>
+			        <dd>Michele Cardon</dd>
+			        <dt>Digital editor</dt>
+			        <dd>Sean Stoops</dd>
+			        <dt>Web design</dt>
+			        <dd>Laila Derakhshanian</dd>
+					<dt>Managing Editor</dt>
+					<dd>Donna Wares</dd>
+					<dt>Editor</dt>
+					<dd>Rob Curley</dd>
+				</dl>
 			</div>
 		</div>
 	</div>

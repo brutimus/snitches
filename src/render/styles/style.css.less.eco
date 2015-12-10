@@ -239,7 +239,7 @@ footer {
 		p {
 			line-height: 26px;
 		}
-		> a {
+		.link {
 			display: block;
 			font-size: 32px;
 			font-weight: 200;
@@ -272,6 +272,29 @@ a.list-group-item {
 		line-height: 14px;
 		position: relative;
 		top: 2px;
+	}
+}
+
+.credit {
+	dt, dd {
+	    line-height: 22px;
+		font-size: 12px;
+		width: 50%;
+	    float: left;
+	}
+	dt {
+		font-family: @font-family-sans-serif;
+	    font-weight: 700;
+	    text-align: right;
+	    color: #939598;
+	    text-transform: uppercase;
+	    clear: left;
+	    padding-right: 10px;
+	}
+	dd {
+		font-family: @font-family-serif;
+	    text-align: left;
+	    margin-bottom: 15px;
 	}
 }
 

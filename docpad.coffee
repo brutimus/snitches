@@ -57,6 +57,13 @@ docpadConfig = {
 				"//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"
 			]
 
+			nav: [
+				["/", "Home"]
+				["/pages/archive", "Archive"]
+				["/pages/documents", "Documents"]
+				["/pages/glossary", "Glossary"]
+			]
+
 
 		# -----------------------------
 		# Helper Functions

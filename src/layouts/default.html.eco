@@ -52,14 +52,14 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<% for document in @getCollection('pages').toJSON(): %>
+					<% for item in @site.nav: %>
 						<li
 							typeof="sioc:Page"
-							about="<%= @getUrl(document.url) %>"
-							class="<%= 'active'	if @document.url is document.url %>"
+							about="<%= @getUrl(item[0]) %>"
+							class="<%= 'active'	if @document.url is item[0] %>"
 						>
-							<a href="<%= @getUrl(document.url) %>" property="dc:title">
-								<%= document.title %>
+							<a href="<%= @getUrl(item[0]) %>" property="dc:title">
+								<%= item[1] %>
 							</a>
 						</li>
 					<% end %>
