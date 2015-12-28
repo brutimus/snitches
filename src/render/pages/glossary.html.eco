@@ -13,9 +13,16 @@ pageOrder: 5
 	<div class="row">
 		<div class="col-xs-12">
 			<dl>
-				<%= word "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." %>
-				<%= word "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." %>
-				<%= word "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." %>
+				<%= word "Hard candy", "Threat that means an inmate is marked for death." %>
+				<%= word "Green light", "Go-ahead to beat a fellow inmate." %>
+				<%= word "Kites", "Folded up, smaller-than-a- cigarette-butt notes smuggled cell to cell." %>
+				<%= word "Rat jacket", "A snitch’s file." %>
+				<%= word "Dis-Iso", "Another name for a one-inmate Disciplinary Isolation cell" %>
+				<%= word "Gen pop", "General population at the jail housing the majority of inmates. No special housing arrangements here." %>
+				<%= word "House mouse", "Inmate gopher who does the bidding of a jailhouse leader or “shot caller.”" %>
+				<%= word "Blue bander", "Prisoners in protective custody; designated by blue wristbands." %>
+				<%= word "TREDS", "Sheriff’s Deputies recorded inmate movements and the assignment of wristband colors." %>
+
 			</dl>
 		</div>
 	</div>

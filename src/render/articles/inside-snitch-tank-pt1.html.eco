@@ -17,8 +17,8 @@ scripts: ["//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"]
 <p>With tears welling in his eyes, Rackauckas told reporters and TV crews that some cases “are so depraved, so callous, so malignant that there is only one punishment that might have any chance of fitting the crime.”</p>
 <div class="panel panel-default inline-related">
   	<div class="panel-body">
-		<p><a href="<%= @getUrl(@getFileAtPath('articles/inside-snitch-tank-pt2.html').toJSON().url) %>">Inside the 'snitch tank' Part 2: How the jailhouse informant controversy affects a Death Row murder case</a></p>
-		<p><a href="<%= @getUrl(@getFileAtPath('articles/inside-snitch-tank-pt3.html').toJSON().url) %>">Inside the 'snitch tank' Part 3: The care and feeding of a jailhouse informant</a></p>
+		<p><a href="http://www.ocregister.com/articles/payton-693417-escalera-attorney.html">Inside the 'snitch tank' Part 2: How the jailhouse informant controversy affects a Death Row murder case</a></p>
+		<p><a href="http://www.ocregister.com/articles/ripple-693575-abel-prison.html">Inside the 'snitch tank' Part 3: The care and feeding of a jailhouse informant</a></p>
 	</div>
 </div>
 <p>A day later, outside the view of the cameras, sheriff’s deputies quietly moved Dekraai to a new location within the teeming Orange County Jail system: Cell No. 3 of Sector 17 in Module L, a psychiatric evaluation unit in the processing hub known as the Intake Release Center in Santa Ana. (<a href="<%= @getUrl(@getFileAtPath('pages/pano-irc.html').toJSON().url) %>" target="_blank" title="Go inside the Intake Release Center">Take a panoramic look inside the processing hub.</a>)</p>
