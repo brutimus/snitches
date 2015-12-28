@@ -7,6 +7,7 @@ authors:
 	-
 		name: DAVID FERRELL and TONY SAAVEDRA / STAFF WRITERS
 		email: tsaavedra@ocregister.com
+scripts: ["//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"]
 ```
 
 <%- @displayGallery('pt1.html') %>
