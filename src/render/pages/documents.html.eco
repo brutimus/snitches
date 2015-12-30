@@ -16,10 +16,12 @@ pageOrder: 4
 	</div>
 <% end %>
 
-
-
-<div class="podcasts col-xs-12">
-	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
-	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
-	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
+<div class="documents">
+	<div class="row">
+		<div class="col-xs-12">
+			<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
+			<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
+			<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
+		</div>
+	</div>
 </div>

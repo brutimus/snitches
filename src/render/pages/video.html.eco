@@ -1,23 +1,15 @@
 ---
-title: Videos
+title: Video
 layout: page
 pageOrder: 3
 ---
 
-<% chunk = (name, body) => %>
-    <div class="thumbnail major">
+<div class="videos col-xs-12">
+	<div class="thumbnail major">
 	    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x200&w=300&h=200" alt="thumbnail">
 		<div class="caption">
-			<h3><%- name %></h3>
-			<p><%- body %></p>
+			<h3>Word</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 	</div>
-<% end %>
-
-
-
-<div class="videos col-xs-12">
-	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
-	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
-	<%= chunk "Word", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %>
 </div>

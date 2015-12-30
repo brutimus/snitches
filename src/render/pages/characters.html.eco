@@ -4,3 +4,44 @@ layout: page
 pageOrder: 7
 ---
 
+<div class="characters">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="row mug">
+				<img src="<%= @getUrl('/images/thumb-characters.jpg') %>" alt="thumbnail">
+			</div>
+			<div class="row name">
+				Firstname Lastname
+			</div>
+			<div class="row role">
+				TITLE OR ROLE
+			</div>
+			<div class="row summary">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum libero ullam iusto, ea voluptatum, adipisci quos provident dolores earum quaerat cupiditate perferendis! Nostrum non sunt adipisci amet corrupti, eligendi. Dolorum.
+			</div>
+			<div class="row relatedTitle">
+				Related Stories
+			</div>
+			<div class="row relatedStories">
+				<div class="col-xs-12">
+					<% for document in @getCollection('articles').findAll(tags:$has:'featured').toJSON(): %>
+						<div class="media">
+							<a href="<%= @getUrl(document.url) %>">
+								<div class="media-left">
+									<div class="date">
+										<div class="month"><%= @moment(document.date).format('MMM') %>.</div>
+										<div class="day"><%= @moment(document.date).format('D') %></div>
+										<div class="year"><%= @moment(document.date).format('YYYY') %></div>
+									</div>
+								</div>
+								<div class="media-body">
+								  <%= document.title %>
+								</div>
+							</a>
+						</div>
+					<% end %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

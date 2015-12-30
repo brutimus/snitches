@@ -320,10 +320,15 @@ a.list-group-item {
 .archive {}
 
 .glossary {
+	padding: 0 4px;
+
 	dt {
 		margin-bottom: 5px;
+		font-family: @font-family-title;
 	}
 	dd {
+		font-family: @font-family-serif;
+		font-size: 12px;
 		padding-bottom: 25px;
 		margin-bottom: 25px;
 		border-bottom: 1px solid @brand-primary;
@@ -519,4 +524,43 @@ a.list-group-item {
 			margin-top: 0;
 		}
 	}
+}
+
+// CHARACTERS
+
+.characters {
+	.mug {
+		text-align: center;
+		margin-bottom: 10px;
+
+		img {
+			max-height: 200px;
+		}
+	}
+	.name {
+		font-family: @font-family-title;
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.role {
+		text-align: center;
+		color: #939598;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	.summary {
+		font-family: @font-family-serif;
+		text-align: center;
+		margin-bottom: 25px;
+		padding: 0 10px;
+	}
+	.relatedTitle {
+		font-family: @font-family-sans-serif;
+		color: #939598;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.relatedStories {}
 }
