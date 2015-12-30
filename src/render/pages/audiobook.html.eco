@@ -1,0 +1,23 @@
+---
+title: Audio Book
+layout: page
+pageOrder: 7
+---
+
+<div class="audiobook">
+	<div class="row">
+		<div class="col-xs-6 summary">
+			Listen to the audio version of the e-book by Pulitzer Prize-winning journalist, Edward Humes, read by FIRSTNAME LASTNAME.
+		</div>
+		<div class="col-xs-6">
+			<img class="book-img" src="<%= @getUrl('/images/SNITCH_book_cover.png') %>" alt="thumbnail">
+		</div>
+		<div class="col-xs-12">
+			<!-- audio player -->
+			<a href="<%= @getUrl(@getFileAtPath('pages/ebook').toJSON().url) %>" class="button primary">Download the E-Book</a>
+		</div>
+		<div class="col-xs-12">
+			<!-- Sharing -->
+		</div>
+	</div>
+</div>

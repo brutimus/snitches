@@ -15,8 +15,8 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://brutimus.github.io/snitches"
-			# url: "http://projects.ocregister.com/snitches"
+			# url: "http://brutimus.github.io/snitches"
+			url: "http://projects.ocregister.com/snitches"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -59,7 +59,12 @@ docpadConfig = {
 
 			nav: [
 				["/", "Home"]
+				["/pages/characters", "Cast of characters"]
+				["/pages/timeline", "Timeline"]
 				["/pages/archive", "Archive"]
+				["/pages/ebook", "E-Book"]
+				["/pages/audiobook", "Audio book"]
+				["/pages/video", "Video"]
 				["/pages/documents", "Documents"]
 				["/pages/glossary", "Glossary"]
 			]
@@ -223,7 +228,7 @@ docpadConfig = {
 			# Redirect any requests accessing one of our sites oldUrls to the new site url
 			server.use (req,res,next) ->
 				if req.headers.host in oldUrls
-					res.redirect(newUrl+req.url, 301)
+					res.redirect(newUrl + req.url, 301)
 				else
 					next()
 
@@ -241,7 +246,7 @@ docpadConfig = {
 			command = ['grunt', 'uglify']
 
 			# Execute
-			safeps.spawn(command, {save:false,output:true}, next)
+			safeps.spawn(command, {save:false, output:true}, next)
 
 			# Chain
 			@

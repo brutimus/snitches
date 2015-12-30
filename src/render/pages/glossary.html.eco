@@ -9,7 +9,7 @@ pageOrder: 5
     <dd><%- def %></dd>
 <% end %>
 
-<div class="container glossary">
+<div class="glossary">
 	<div class="row">
 		<div class="col-xs-12">
 			<dl>

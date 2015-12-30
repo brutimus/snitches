@@ -4,12 +4,12 @@ title: 'Home'
 ---
 
 <div class="jumbotron lead-container">
-	<img src="<%= @getUrl('images/index-lead.jpg') %>">
+	<img src="<%= @getUrl('images/SNITCH_cell_animation.jpg') %>" data-gifSrc="<%= @getUrl('images/SNITCH_cell_animation.gif') %>">
 	<div class="container">
-		<span class="text-muted pull-right caption">H. LORREN AU JR., STAFF PHOTOGRAPHER</span>
-		<div class="row title">
+		<span class="text-muted pull-right caption">JEFF GEORTZEN, STAFF</span>
+		<!-- <div class="row title">
 			<h2 class="text-center text-uppercase">Inside the Snitch Tank</h2>
-		</div>
+		</div> -->
 		<p class="dropcap">Jailhouse snitches are rarely prisoners who happen to overhear confessions. Inmates apply for the job and they become part of a roster of covert operatives whose surveillance on behalf of law enforcement has put the Orange County justice system at the center of a national debate.</p>
 	</div>
 </div>
@@ -45,66 +45,47 @@ title: 'Home'
 				<h3>Features</h3>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-md-4">
-					<div class="thumbnail major">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x200&w=300&h=200" alt="thumbnail">
-						<div class="caption">
-							<h3>Snitch Pipeline</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
-							<a href="">&gt;</a>
-						</div>
-					</div>
-				</div>
 				<div class="col-xs-6 col-md-4">
-					<div class="thumbnail minor">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
-						<div class="caption">
-							<h3 class="hidden-xs hidden-sm">Snitch Pipeline</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<a href="">&gt;</a>
+					<a href="<%= @getUrl(@getFileAtPath('pages/ebook').toJSON().url) %>">
+						<div class="thumbnail minor">
+							<img src="<%= @getUrl('/images/thumb-ebook.jpg') %>" alt="thumbnail">
+							<div class="caption">
+								<h4>E-Book</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<span class="link">&gt;</span>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 
 				<div class="col-xs-6 col-md-4">
-					<div class="thumbnail minor">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
-						<div class="caption">
-							<h3 class="hidden-xs hidden-sm">Snitch Pipeline</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<a href="">&gt;</a>
+					<a href="<%= @getUrl(@getFileAtPath('pages/video').toJSON().url) %>">
+						<div class="thumbnail minor">
+							<img src="<%= @getUrl('/images/thumb-video.jpg') %>" alt="thumbnail">
+							<div class="caption">
+								<h4>Video</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<span class="link">&gt;</span>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-xs-12 col-md-6">
 					<div class="media media-link">
-						<a href="<%= @getUrl('/pages/podcasts') %>">
+						<a href="<%= @getUrl('pages/audiobook') %>">
 							<div class="media-left">
 								<span class="glyphicon glyphicon-headphones"></span>
 							</div>
 							<div class="media-body">
-							  <h3>Podcast</h3>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="media media-link">
-						<a href="<%= @getUrl('/pages/videos') %>">
-							<div class="media-left">
-								<span class="glyphicon glyphicon-facetime-video"></span>
-							</div>
-							<div class="media-body">
-							  <h3>Watch videos</h3>
+							  <h4>Listen to Audio book</h4>
 							</div>
 						</a>
 					</div>
 				</div>
 
 				<div class="col-xs-12 col-md-4">
-					<a href="<%= @getUrl(@getFileAtPath('pages/pano-irc.html').toJSON().url) %>">
+					<a href="<%= @getUrl(@getFileAtPath('pages/pano-irc').toJSON().url) %>">
 						<div class="thumbnail major">
 							<img src="<%= @getFileAtPath('pages/pano-irc.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
 							<div class="caption">
@@ -117,7 +98,7 @@ title: 'Home'
 				</div>
 
 				<div class="col-xs-12 col-md-4">
-					<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l.html').toJSON().url) %>">
+					<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l').toJSON().url) %>">
 						<div class="thumbnail major">
 							<img src="<%= @getFileAtPath('pages/pano-mod-l.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
 							<div class="caption">
@@ -129,52 +110,85 @@ title: 'Home'
 					</a>
 				</div>
 
+				<div class="col-xs-6 col-md-4">
+					<a href="">
+						<div class="thumbnail minor">
+							<img src="<%= @getUrl('/images/thumb-characters.jpg') %>" alt="thumbnail">
+							<div class="caption">
+								<h4>Characters</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<span class="link">&gt;</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-xs-6 col-md-4">
+					<a href="<%= @getUrl(@getFileAtPath('pages/timeline').toJSON().url) %>">
+						<div class="thumbnail minor">
+							<img src="<%= @getUrl('/images/thumb-timeline.jpg') %>" alt="thumbnail">
+							<div class="caption">
+								<h4>Timeline</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<span class="link">&gt;</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
+					<a href="<%= @getUrl(@getFileAtPath('pages/pipeline').toJSON().url) %>">
+						<div class="thumbnail major">
+							<img src="<%= @getUrl('/images/thumb-pipeline.jpg') %>" alt="thumbnail">
+							<div class="caption">
+								<h3>Snitch Pipeline</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+								<span class="link">&gt;</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
 				<div class="col-xs-12 col-md-6">
 					<div class="media media-link">
-						<a href="<%= @getUrl('/pages/glossary') %>">
+						<a href="<%= @getUrl(@getFileAtPath('pages/glossary').toJSON().url) %>">
 							<div class="media-left">
 								<span class="glyphicon glyphicon-book"></span>
 							</div>
 							<div class="media-body">
-							  <h3>Glossary</h3>
+							  <h4>Jailhouse glossary</h4>
 							</div>
 						</a>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="media media-link">
-						<a href="<%= @getUrl('/pages/documents') %>">
+						<a href="<%= @getUrl(@getFileAtPath('pages/documents').toJSON().url) %>">
 							<div class="media-left">
 								<span class="glyphicon glyphicon-folder-open"></span>
 							</div>
 							<div class="media-body">
-							  <h3>Documents</h3>
+							  <h4>Snitch documents</h4>
 							</div>
 						</a>
 					</div>
 				</div>
 
-				<div class="col-xs-6 col-md-4">
-					<div class="thumbnail minor">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
-						<div class="caption">
-							<h3 class="hidden-xs hidden-sm">Snitches Gallery</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<a href="">&gt;</a>
+				<div class="col-xs-12 col-md-4">
+					<a href="<%= @getUrl(@getFileAtPath('pages/keycases').toJSON().url) %>">
+						<div class="thumbnail major">
+							<img src="<%= @getUrl('/images/thumb-keycases.jpg') %>" alt="thumbnail">
+							<div class="caption">
+								<h3>Key Cases</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+								<span class="link">&gt;</span>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 
-				<div class="col-xs-6 col-md-4">
-					<div class="thumbnail minor">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x300&w=300&h=300" alt="thumbnail">
-						<div class="caption">
-							<h3 class="hidden-xs hidden-sm">Victim Gallery</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<a href="">&gt;</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 		<div class="col-lg-6">

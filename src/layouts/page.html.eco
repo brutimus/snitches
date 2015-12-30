@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<div class="jumbotron lead-container article-lead-container">
+	<div class="container">
+		<div class="row title">
+			<a href="<%= @getUrl('/') %>">
+				<h2 class="text-center text-uppercase"><span class="titleScript">Inside</span> the Snitch Tank</h2>
+			</a>
+		</div>
+	</div>
+</div>
+
 <article id="page" class="page">
 	<div class="container">
 		<div class="row">

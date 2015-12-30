@@ -6,7 +6,7 @@ layout: default
 	<div class="container">
 		<div class="row title">
 			<a href="<%= @getUrl('/') %>">
-				<h2 class="text-center text-uppercase">Inside the Snitch Tank</h2>
+				<h2 class="text-center text-uppercase"><span class="titleScript">Inside</span> the Snitch Tank</h2>
 			</a>
 		</div>
 	</div>
