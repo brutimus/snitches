@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 	viewer.preferHtmlViewer();
 	// viewer.preferFlashViewer();
 	viewer.setVars({
-	  pano: "<%= @getUrl('/images/panos/pano_modl/ModL_') %>",
+	  pano: "<%= @getUrl('/images/panos/pano_modl/Drawing - jail Pano_') %>",
 	  format: "14faces",
 	  pan: -130,
 	  minpan: -180,

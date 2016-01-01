@@ -4,44 +4,36 @@ layout: page
 pageOrder: 7
 ---
 
-<div class="characters">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="row mug">
-				<img src="<%= @getUrl('/images/thumb-characters.jpg') %>" alt="thumbnail">
-			</div>
-			<div class="row name">
-				Firstname Lastname
-			</div>
-			<div class="row role">
-				TITLE OR ROLE
-			</div>
-			<div class="row summary">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum libero ullam iusto, ea voluptatum, adipisci quos provident dolores earum quaerat cupiditate perferendis! Nostrum non sunt adipisci amet corrupti, eligendi. Dolorum.
-			</div>
-			<div class="row relatedTitle">
-				Related Stories
-			</div>
-			<div class="row relatedStories">
-				<div class="col-xs-12">
-					<% for document in @getCollection('articles').findAll(tags:$has:'featured').toJSON(): %>
-						<div class="media">
-							<a href="<%= @getUrl(document.url) %>">
-								<div class="media-left">
-									<div class="date">
-										<div class="month"><%= @moment(document.date).format('MMM') %>.</div>
-										<div class="day"><%= @moment(document.date).format('D') %></div>
-										<div class="year"><%= @moment(document.date).format('YYYY') %></div>
-									</div>
-								</div>
-								<div class="media-body">
-								  <%= document.title %>
-								</div>
-							</a>
-						</div>
-					<% end %>
-				</div>
-			</div>
+<% chunk = (pic, name, summary) => %>
+<div class="row">
+	<div class="col-xs-12">
+		<% if pic.length: %>
+		<a name="<%- pic %>"></a>
+		<div class="row mug">
+			<img src='/images/mugs/<%- pic %>.jpg' alt="thumbnail">
+		</div>
+		<% end %>
+		<div class="row name">
+			<%- name %>
+		</div>
+		<div class="row summary">
+			<%- summary %>
 		</div>
 	</div>
+</div>
+<% end %>
+
+<div class="characters">
+<%= chunk "dekraai", "Scott Dekraai", "Former tugboat crewman admitted killing his ex-wife and seven others during the 2011 shooting rampage at Salon Meritage in Seal Beach. He pleaded guilty and faces a possible death sentence. Dekraai’s trial remains in limbo during appeal of  the Orange County District Attorneys’ ouster from the case. " %>
+<%= chunk "sanders", "Scott Sanders", "Assistant public defender has spent the past two years alleging jail informant and evidence abuses by prosecutors and police, a campaign that has made him the bane of the Orange County District Attorney’s Office. He represents Scott Dekraai and Daniel Wozniak in death penalty cases. " %>
+<%= chunk "goethals", "Thomas M. Goethals", "Superior Court judge held extensive hearings on misconduct allegations involving jailhouse snitches. In March 2015 he barred the entire District Attorney’s Office from prosecuting the biggest mass-murder case in Orange County history. " %>
+<%= chunk "rackauckas", "Tony Rackauckas", "Orange County District Attorney since 1998, he conceded mistakes were made in the use of jailhouse informants but says none were intentional. His office is appealing the removal from the Scott Dekraai case." %>
+<%= chunk "perez", "Fernando Perez", "A Mexican Mafia gang leader, this seasoned jailhouse snitch befriended Seal Beach shooter Scott Dekraai in the cell next door. Perez called Dekraai “brother” and fetched him hot water for tea; deputies secretly recorded more than 100 hours of their conversations. " %>
+<%= chunk "", "Seth Tunstall and Ben Garcia", "Two sheriff’s deputies came under fire after testifying in the Dekraai case about records used to track the movements of jail inmates and informants. Judge Thomas Goethals ruled that Tunstall and Garcia “either intentionally lied or willfully withheld material evidence from this court.” The state Attorney General is investigating them." %>
+<%= chunk "hutchens", "Sandra Hutchens", "Orange County sheriff said poor organization and training led to mistakes with jailhouse informants. “The department has to take responsibility for not having a good policy in place. We do now.” " %>
+<%= chunk "petersen", "Erik Petersen", "Deputy district attorney prosecuted informant Fernando Perez and then became his handler. Once a key lawyer in the district attorney’s push against the Mexican Mafia, he resigned in September amid heat over informant questions. " %>
+<%= chunk "wozniak", "Daniel Wozniak", "Community theater actor was convicted of double murder and now faces a possible death sentence. His attorney, Scott Sanders, accused authorities of misconduct involving jailhouse informant Fernando Perez, but a judge turned away those allegations and ordered Wozniak to trial after five years of delays." %> 
+<%= chunk "king", "Richard King", " Superior Court judge and former prosecutor charged that the Orange County District Attorney has “substantially disrupted the orderly administration of criminal justice in Orange County, the sixth-largest county in the nation,” by systematically papering Judge Thomas Goethals to remove him from felony trials." %>
+<%= chunk "snitch2", "Oscar Moriel", "Mexican Mafia veteran first contacted Santa Ana police detectives in 2009 about becoming a snitch. He offered information about unsolved gang murders, and said his memory might become even sharper if police guaranteed him a deal on this own case." %>
+<%= chunk "stotler", "James Stotler", "Superior Court judge  removed himself from Daniel Wozniak trial because he decided he couldn’t be fair to Assistant Public Defender Scott Sanders because of his growing distaste for the public defender’s tactics. Judge John Conley then took over the case." %>
 </div>
