@@ -13,8 +13,8 @@ pageOrder: 6
 			<img class="book-img" src="<%= @getUrl('/images/SNITCH_book_cover.png') %>" alt="thumbnail">
 		</div>
 		<div class="col-xs-12">
-			<a href="" class="button primary">Download the E-Book</a>
-			<a href="<%= @getUrl(@getFileAtPath('pages/audiobook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-headphones"></span> Listen to Audio book</a>
+			<a href="http://www.ocregister.com/articles/dekraai-697917-salon-beach.html" class="button primary">Read the E-Book</a>
+			<!-- <a href="<%= @getUrl(@getFileAtPath('pages/audiobook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-headphones"></span> Listen to Audio book</a> -->
 		</div>
 		<div class="col-xs-12">
 			<!-- Sharing -->
