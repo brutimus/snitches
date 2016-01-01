@@ -529,8 +529,12 @@ a.list-group-item {
 // CHARACTERS
 
 .characters {
+	.row:first-of-type .mug {
+		margin-top: 0;
+	}
 	.mug {
 		text-align: center;
+		margin-top: 100px;
 		margin-bottom: 10px;
 
 		img {
@@ -552,7 +556,7 @@ a.list-group-item {
 	.summary {
 		font-family: @font-family-serif;
 		text-align: center;
-		margin-bottom: 100px;
+		margin-bottom: 25px;
 		padding: 0 10px;
 	}
 	.relatedTitle {
@@ -562,5 +566,19 @@ a.list-group-item {
 		text-align: center;
 		margin-bottom: 20px;
 	}
-	.relatedStories {}
+	.relatedStories {
+		// margin-bottom: 100px;
+	}
+}
+
+// VIDEO
+
+.video {
+	.videoContainer {
+		width: 100%;
+
+		iframe {
+			max-width: 100%;
+		}
+	}
 }

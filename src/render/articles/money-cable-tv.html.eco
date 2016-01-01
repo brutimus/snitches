@@ -9,13 +9,21 @@ authors:
 		email: tberg@ocregister.com
 ```
 
-<%- @displayGallery('money-cable-tv.html') %>
+<% inlinePhoto = (src, caption) => %>
+	<div class="thumbnail inline-photo">
+		<img class="img-responsive" src="<%- @getUrl(src) %>">
+		<p class="caption"><%- caption %></p>
+	</div>
+<% end %>
+
+<%= inlinePhoto "/images/leads/Drawing - Top story illo 5.jpg", "JEFF GEORTZEN" %>
 
 <p>This is a story about two snitches, both former leaders of the Mexican Mafia prison gang. Both turned their jail time into a profitable enterprise.</p>
 <p>As two of the most prolific jailhouse informants in Orange and Los Angeles counties, Raymond Cuevas and Jose Paredes befriended suspects in jail and collected information in more than 30 criminal cases, according to a spreadsheet assembled by prosecutors. The spreadsheet doesn’t name the two informants, but the Orange County Public Defender’s Office identified them. </p>
 <p>For their efforts, Cuevas and Peredes received more than $150,000 from local law enforcement agencies during an 18-month period ending in March, records show. </p>
 <p>The pair enjoyed other perks, too, including cable TV in their cells and Del Taco food delivered by officers. Cuevas and Paredes also received leniency on criminal charges that could have sent them to prison for life, according to court transcripts and other records. </p>
 <p>Internal reports prepared by prosecutors detail payments and perks to the inmates given as part of the Orange County District Attorney’s surreptitious use of jailhouse informants for more than two years. </p>
+<%- @displayGallery('money-cable-tv.html') %>
 <p>The existence of a network of jailhouse snitches – and the payments to Cuevas and Paredes – remained well-kept secrets until a local public defender discovered the practice and filed a series of legal motions accusing prosecutors of failing to turn over evidence from informants as required by law. </p>
 <p>That lack of disclosure and other informant violations recently led to one admitted Orange County killer being released as well as murder charges unraveling in two other cases. Most recently, defense and prosecuting attorneys debated the use of jailhouse informants Friday before a judge handling the death penalty trial of Scott Dekraai, who admitted gunning down eight people at a Seal Beach salon in 2011. </p>
 <p>Orange County District Attorney Tony Rackauckas said prosecutors have made errors, but there was no intentional misconduct. Rackauckas said he doesn’t like the idea of giving gang members lenient treatment or big pay for informant work, but that in some cases the payouts are a practical necessity. Individual local police pay the informants and the district attorney is supposed to notify the defense, Rackauckas said.</p>

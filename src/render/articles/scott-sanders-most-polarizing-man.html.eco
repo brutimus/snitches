@@ -2,19 +2,27 @@
 title: Is Scott Sanders the most polarizing man in Orange County?
 date: 2015/9/26
 layout: article
-tags: ['featured', 'article']
+tags: ['featured', 'article', 'sanders']
 authors:
 	-
 		name: DAVID FERRELL and TONY SAAVEDRA / STAFF WRITERS
 		email: tsaavedra@ocregister.com
 ```
 
-<%- @displayGallery('sanders-polarizing.html') %>
+<% inlinePhoto = (src, caption) => %>
+	<div class="thumbnail inline-photo">
+		<img class="img-responsive" src="<%- @getUrl(src) %>">
+		<p class="caption"><%- caption %></p>
+	</div>
+<% end %>
+
+<%= inlinePhoto "/images/leads/Drawing - Top story illo 1.jpg", "JEFF GEORTZEN" %>
 
 <p>The man who is shaking the Orange County legal system to its bedrock comes across with a decisive confidence, like the math whiz in high school who knew every answer.</p>
 <p>Attorney Scott Sanders can be charming, even funny, but in court he is strong-willed and rather tightlywound.<b> </b>He is known to trudge the short distance from his office to the Santa Ana courthouse sporting an Indiana Jones-style expedition hat. Youthful at 48, Sanders wears his hair longish and rolls up the sleeves of his white dress shirts. With his trim beard and wire-frame glasses, he looks, one attorney said, like a defense lawyer from central casting.</p>
 <p>As a member of the felony unit at the Orange County Public Defender’s Office, where he has worked for 22 years, Sanders has emerged as a lightning rod for controversy for exposing entrenched problems in how Orange County prosecutors and law enforcement agencies used jailhouse informants to build their cases against defendants while withholding evidence from defense attorneys.</p>
 <p>The scandal continues to draw national and even international attention, with The New York Times, Washington Post and “60 Minutes” joining a barrage of coverage.</p>
+<%- @displayGallery('sanders-polarizing.html') %>
 <p>Sanders’ dogged efforts to unearth abuses has made him the bane of the Orange County District Attorney’s Office, which has been barred from prosecuting the biggest mass-murder case in the county’s history: the shooting deaths of eight people at a Seal Beach beauty salon in 2011.</p>
 <p>On Friday, Sanders was at it again, holding forth before Superior Court Judge Gregg Prickett, expounding on the subject of informants by drawing heavily from his latest legal motion – a document he filed this month chronicling 30 years of alleged abuses in a whopping 754 pages. Sanders’ presentation seemed to amount to a filibuster while his adversary with the District Attorney’s Office glared at him with disdain.</p>
 <p>“He gets and deserves no respect,” said Mark Geller, a senior deputy district attorney who has been a target of Sanders’ sweeping accusations against prosecutors. “Scott Sanders shouldn’t even be a lawyer based on the tactics he’s engaged.”</p>

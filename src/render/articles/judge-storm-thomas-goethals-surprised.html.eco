@@ -2,20 +2,28 @@
 title: Judge in a storm: Thomas Goethals surprised many with decision in Seal Beach mass shooting case
 date: 2015/6/29
 layout: article
-tags: ['featured', 'article']
+tags: ['featured', 'article', 'goethals']
 authors:
 	-
 		name: DAVID FERRELL / STAFF WRITER
 		email: dferrell@coastmagazine.com
 ```
 
-<%- @displayGallery('goethals.html') %>
+<% inlinePhoto = (src, caption) => %>
+	<div class="thumbnail inline-photo">
+		<img class="img-responsive" src="<%- @getUrl(src) %>">
+		<p class="caption"><%- caption %></p>
+	</div>
+<% end %>
+
+<%= inlinePhoto "/images/leads/Drawing - Top story illo 2.jpg", "JEFF GEORTZEN" %>
 
 <p>Thomas M. Goethals, a devout man with a keen appreciation for history, wrote to the White House so that his wife, a professional decorator and three-time cancer survivor, could help put up Christmas decorations there last fall.</p>
 <p>Volunteers climbed ladders and strung garlands, and after days of work, when spouses were invited to join a dinner with first lady Michelle Obama, Goethals delighted in roaming the halls and trying out couches where so many great leaders have sat.</p>
 <p>The veteran Orange County Superior Court judge was especially enthralled by the portrait of Abraham Lincoln hanging in the State Dining Room.</p>
 <p>“My husband is a Lincoln fanatic,” said Patty Goethals, noting that the couple’s year-old grandson is named Lincoln. “Anything to do with Abraham Lincoln and the Civil War gives him so much joy. So he was just in heaven.”</p>
 <p>Thomas Goethals now finds himself, less happily, at the center of a different sort of public battle rooted in questions of moral conscience and constitutional justice. The case, which has unfolded<b> </b>in his 11th-floor chambers in downtown Santa Ana, involves the worst massacre in Orange County history – a 2011 attack in which Scott Dekraai, a one-time tugboat crewman, strode into a beauty salon in Seal Beach and opened fire, killing his ex-wife and seven others.</p>
+<%- @displayGallery('goethals.html') %>
 <p>No one doubts that Dekraai was the shooter. He was arrested only a few blocks from the scene and confessed to the crime. While in custody, however, and with other serious legal issues still looming – Was he legally sane? Would he be sentenced to death? – Dekraai was secretly tape recorded by members of the Orange County Sheriff’s Department using the aid of a jailhouse informant.</p>
 <p><b>A twist in the case </b></p>
 <p>The tapes and related evidence led to a startling turn in the legal proceedings. Goethals, acting in March on information unearthed by Assistant Public Defender Scott Sanders, took the extraordinary step of barring the Orange County District Attorney’s Office from participation in the trial’s penalty phase – a ruling now on appeal – and assigning the case instead to state Attorney General Kamala Harris.</p>

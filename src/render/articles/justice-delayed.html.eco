@@ -9,13 +9,21 @@ authors:
 		email: tberg@ocregister.com
 ---
 
-<%- @displayGallery('justice-delayed.html') %>
+<% inlinePhoto = (src, caption) => %>
+	<div class="thumbnail inline-photo">
+		<img class="img-responsive" src="<%- @getUrl(src) %>">
+		<p class="caption"><%- caption %></p>
+	</div>
+<% end %>
+
+<%= inlinePhoto "/images/leads/Drawing - Top story illo 4.jpg", "JEFF GEORTZEN" %>
 
 <p>He awaits justice, as he has for five years, six months and 16 days.</p>
 <p>That’s how long it’s been since Steve Herr’s son was slain – his head cut off and discarded in a public park.</p>
 <p>Police <a href="http://www.ocregister.com/articles/police-250917-wozniak-kibuishi.html" target="_blank" title="quickly arrested a suspect and charged him with murder">quickly arrested a suspect and charged him with murder</a>, but since then?</p>
 <p>Herr has attended more than 130 court hearings, mostly at the Orange County Superior Courthouse in Santa Ana, waiting for the judge to seat a jury.</p>
 <p>It’s been a long wait. But the trial of Daniel Patrick Wozniak, <a href="http://www.ocregister.com/articles/wozniak-251143-herr-police.html" target="_blank" title="the community theater actor accused of killing Herr’s son">the community theater actor accused of killing Herr’s son</a>, is expected to start Monday.</p>
+<%- @displayGallery('justice-delayed.html') %>
 <p>“We just want justice,” Herr says. “Is that asking too much?”</p>
 <p>Herr wishes he could step back in time, before May 21, 2010, when he and his son watched movies, lifted weights and wrestled together until invariably Sam, the young Army veteran, would pin his dad, the old Marine veteran.</p>
 <p>Instead, Herr has spent much of the past five years in an eighth-floor courtroom almost within arm’s reach of a 6-foot-2-inch Wozniak, who is charged with murdering Samuel Herr, 26, of Costa Mesa and college classmate Juri “Julie” Kibuishi, 23, of Irvine.</p>

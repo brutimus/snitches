@@ -2,15 +2,21 @@
 title: Register special report: How jailhouse informants and the 'snitch tank' put Orange County justice system in turmoil
 date: 2015/11/22
 layout: article
-tags: ['featured', 'article']
+tags: ['featured', 'article', 'moriel']
 authors:
 	-
 		name: DAVID FERRELL and TONY SAAVEDRA / STAFF WRITERS
 		email: tsaavedra@ocregister.com
 scripts: ["//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"]
 ```
+<% inlinePhoto = (src, caption) => %>
+	<div class="thumbnail inline-photo">
+		<img class="img-responsive" src="<%- @getUrl(src) %>">
+		<p class="caption"><%- caption %></p>
+	</div>
+<% end %>
 
-<%- @displayGallery('pt1.html') %>
+<%= inlinePhoto "/images/leads/Drawing - prison cell2.jpg", "JEFF GEORTZEN" %>
 
 <p>Flowers piled up like a crashing sea wave against the west wall of Salon Meritage, where the shooting rampage occurred. Eight people were dead, another wounded. Loved ones wept and set about the grim task of organizing funerals.</p>
 <p>So in mid-October of 2011, two days after <a href="http://www.ocregister.com/articles/business-321651-medical-beach.html" target="_blank" title="the deadliest mass murder in Orange County history">the deadliest mass murder in Orange County history</a>, the strategic response of law enforcement began to take shape, publicly and behind the scenes. District Attorney Tony Rackauckas drove to Seal Beach and spoke at a news conference, <a href="http://www.ocregister.com/articles/salon-321997-killing-beach.html" target="_blank" title="vowing to seek death for gunman Scott Dekraai">vowing to seek death for gunman Scott Dekraai</a>.</p>
@@ -22,6 +28,7 @@ scripts: ["//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"]
 	</div>
 </div>
 <p>A day later, outside the view of the cameras, sheriff’s deputies quietly moved Dekraai to a new location within the teeming Orange County Jail system: Cell No. 3 of Sector 17 in Module L, a psychiatric evaluation unit in the processing hub known as the Intake Release Center in Santa Ana. (<a href="<%= @getUrl(@getFileAtPath('pages/pano-irc.html').toJSON().url) %>" target="_blank" title="Go inside the Intake Release Center">Take a panoramic look inside the processing hub.</a>)</p>
+<%- @displayGallery('pt1.html') %>
 <p>Tank 17 would come to serve as a “snitch tank,” a place where investigators hoped to glean incriminating statements from Dekraai, a prisoner with no prior criminal record and no experience in the complex, Darwinian culture of the jailhouse. Aiding investigators in the effort would be a seasoned, street-smart gangster with experience as an informant. (<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l.html').toJSON().url) %>" target="_blank" title="Go inside Tank 17">Take a panoramic look inside the “snitch tank.”</a>)</p>
 <p>Contrary to a common notion, snitches are rarely prisoners who just happen to overhear a confession. Jailhouse informants apply for the role, as if seeking employment.</p>
 <p>The gangster proved to be a good listener as Dekraai poured out feelings in conversations that jailers secretly recorded. But instead of nailing down a death-penalty conviction against a confessed killer who was arrested with murder weapons in his car, the bugging of Dekraai’s cell touched off a legal storm that has put Orange County at the center of a national debate over the use of jailhouse informants.</p>

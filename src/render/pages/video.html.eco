@@ -4,12 +4,10 @@ layout: page
 pageOrder: 3
 ---
 
-<div class="videos col-xs-12">
+<div class="video col-xs-12">
 	<div class="thumbnail major">
-	    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=300x200&w=300&h=200" alt="thumbnail">
-		<div class="caption">
-			<h3>Word</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		</div>
+		<div class="videoContainer">
+		    <iframe width="560" height="315" src="https://www.youtube.com/embed/xi9XLnxRCHU" frameborder="0" allowfullscreen></iframe>
+	    </div>
 	</div>
 </div>
