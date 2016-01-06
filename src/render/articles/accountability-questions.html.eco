@@ -9,14 +9,7 @@ authors:
 		email: tsaavedra@ocregister.com
 ---
 
-<% inlinePhoto = (src, caption) => %>
-	<div class="thumbnail inline-photo">
-		<img class="img-responsive" src="<%- @getUrl(src) %>">
-		<p class="caption"><%- caption %></p>
-	</div>
-<% end %>
-
-<%= inlinePhoto "/images/leads/Drawing - Prosecution Team.jpg", "JEFF GEORTZEN" %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - Prosecution Team.jpg", caption: "JEFF GEORTZEN"}) %>
 
 <p>Tough, street-smart Tony Rackauckas, who left gang-marred East Los Angeles to jump from the sky as a U.S. Army paratrooper, has spent the better part of his legal career in one battle or another.</p>
 <p>He prosecuted murderers. He fought to oust liberal California Supreme Court Justice Rose Bird. During his long run as Orange County district attorney, Rackauckas has endured as one of local government’s most powerful and enigmatic figures, surviving public accusations of cronyism and poor management. A grand jury criticized him for an ill-advised friendship with the target of an organized crime probe.</p>

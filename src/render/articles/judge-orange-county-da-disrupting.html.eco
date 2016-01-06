@@ -2,21 +2,14 @@
 title: Judge: Orange County D.A. is disrupting courts with its 'papering' of Goethals
 date: 2015/12/10
 layout: article
-tags: ['featured', 'article']
+tags: ['latest', 'article']
 authors:
 	-
 		name: TONY SAAVEDRA / STAFF WRITER
 		email: tsaavedra@ocregister.com
 ---
 
-<% inlinePhoto = (src, caption) => %>
-	<div class="thumbnail inline-photo">
-		<img class="img-responsive" src="<%- @getUrl(src) %>">
-		<p class="caption"><%- caption %></p>
-	</div>
-<% end %>
-
-<%= inlinePhoto "/images/leads/Drawing - judge.jpg", "JEFF GEORTZEN" %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - judge.jpg", caption: "JEFF GEORTZEN"}) %>
 
 <p>The Orange County District Attorney Office’s practice of “blanket papering” Superior Court Judge Thomas Goethals is disrupting the county’s court system and violates state and federal constitutions, a local judge has ruled.</p>
 <p>In the past week, Superior Court Judge Richard King has turned down requests by local prosecutors to steer murder cases away from Goethals, who has battled with the district attorney over the use of jailhouse informants and evidence issues.</p>
@@ -24,14 +17,9 @@ authors:
 <p>In a statement, District Attorney Tony Rackauckas vowed to appeal King’s ruling. He said there is no organized effort to remove Goethals from cases and that King doesn’t have the authority to take preemptory challenges away from prosecutors.</p>
 <p>“Prosecutors have consistently litigated their cases in front of Judge Goethals, including a serious robbery case in his courtroom today,” his statement said.</p>
 <p>But King said prosecutors have papered Goethals in 46 of 49 murder cases assigned to his courtroom between February 2014 and September 2015, under a legal provision that allows both prosecuting and defense attorneys to remove judges as a preemptory challenge. In the four years prior, Goethals had been removed by prosecutors from only one case, according to court documents.</p>
-<% inlinePhoto2 = (src, caption) => %>
-	<div class="thumbnail inline-photo">
-		<img class="img-responsive" src="<%- src %>">
-		<p class="caption"><%- caption %></p>
-	</div>
-<% end %>
 
-<%= inlinePhoto2 "http://images.onset.freedom.com/ocregister/nz4rbu-b88588539z.120151209225458000g9ldm7ie.10.jpg", "Judge Thomas Goethals discusses the admissibility of previously sealed court documents related to an alleged jailhouse informant who may have assisted in the conviction of Henry Rodriguez, who has spent 15 years in prison for his role in the 1998 murder of a pregnant woman and her unborn child. The Orange County District Attorney Office's practice of “blanket papering” Goethals is disrupting the county's court system and violates state and federal constitutions, a local judge has ruled. FILE: JOSHUA SUDOCK, STAFF PHOTOGRAPHER" %>
+<%- @partial('inline-photo', {src: "http://images.onset.freedom.com/ocregister/nz4rbu-b88588539z.120151209225458000g9ldm7ie.10.jpg", caption: "Judge Thomas Goethals discusses the admissibility of previously sealed court documents related to an alleged jailhouse informant who may have assisted in the conviction of Henry Rodriguez, who has spent 15 years in prison for his role in the 1998 murder of a pregnant woman and her unborn child. The Orange County District Attorney Office's practice of “blanket papering” Goethals is disrupting the county's court system and violates state and federal constitutions, a local judge has ruled. FILE: JOSHUA SUDOCK, STAFF PHOTOGRAPHER"}) %>
+
 <p>King tied the papering campaign to three controversial decisions by Goethals, who removed the entire District Attorney’s Office from the penalty phase trial for mass murderer Scott Dekraai, who pleaded guilty to killing eight people at a Seal Beach salon in 2011.</p>
 <p>Goethals also ousted former prosecutor Erik Petersen from two Mexican Mafia cases amid allegations that evidence was withheld from the defense.</p>
 <p>In his ruling, King rejected a request by prosecutors to disqualify Goethals from the murder case against Rito Tejeda, who is accused of stabbing a Huntington Beach man to death in 2003. King wrote that the prosecutors’ actions created a backlog of cases around the county. It was one of two preemptory challenges King rejected that day.</p>

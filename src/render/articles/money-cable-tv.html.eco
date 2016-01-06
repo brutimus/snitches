@@ -9,14 +9,7 @@ authors:
 		email: tberg@ocregister.com
 ```
 
-<% inlinePhoto = (src, caption) => %>
-	<div class="thumbnail inline-photo">
-		<img class="img-responsive" src="<%- @getUrl(src) %>">
-		<p class="caption"><%- caption %></p>
-	</div>
-<% end %>
-
-<%= inlinePhoto "/images/leads/Drawing - Top story illo 5.jpg", "JEFF GEORTZEN" %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 5.jpg", caption: "JEFF GEORTZEN"}) %>
 
 <p>This is a story about two snitches, both former leaders of the Mexican Mafia prison gang. Both turned their jail time into a profitable enterprise.</p>
 <p>As two of the most prolific jailhouse informants in Orange and Los Angeles counties, Raymond Cuevas and Jose Paredes befriended suspects in jail and collected information in more than 30 criminal cases, according to a spreadsheet assembled by prosecutors. The spreadsheet doesn’t name the two informants, but the Orange County Public Defender’s Office identified them. </p>

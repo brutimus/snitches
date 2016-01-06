@@ -10,7 +10,7 @@ pageOrder: 6
 			Download the e-book by Pulitzer Prize-winning journalist, Edward Humes.
 		</div>
 		<div class="col-xs-6">
-			<img class="book-img" src="<%= @getUrl('/images/SNITCH_book_cover.png') %>" alt="thumbnail">
+			<img class="book-img" src="<%= @getUrl('/images/Snitch_book_cover.png') %>" alt="thumbnail">
 		</div>
 		<div class="col-xs-12">
 			<a href="http://www.ocregister.com/articles/dekraai-697917-salon-beach.html" class="button primary">Read the E-Book</a>

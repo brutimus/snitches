@@ -9,14 +9,7 @@ authors:
 		email: tberg@ocregister.com
 ```
 
-<% inlinePhoto = (src, caption) => %>
-	<div class="thumbnail inline-photo">
-		<img class="img-responsive" src="<%- @getUrl(src) %>">
-		<p class="caption"><%- caption %></p>
-	</div>
-<% end %>
-
-<%= inlinePhoto "/images/leads/Drawing - Top story illo 3.jpg", "JEFF GEORTZEN" %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 3.jpg", caption: "JEFF GEORTZEN"}) %>
 
 <p><b>SEAL BEACH – </b>Beth Webb will rise at 6 a.m. Monday, same as any other day. She’ll pour a cup of coffee, send the kids to school and do her job as a loan officer, same as any other day.</p>
 <p>And she will try and fail, and try and fail, to forget what day it is.</p>

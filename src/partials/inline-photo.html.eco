@@ -1,0 +1,4 @@
+<div class="thumbnail inline-photo">
+	<img class="img-responsive" src="<%- if @src.startsWith('http') then @src else @getUrl(@src) %>">
+	<p class="caption"><%- @caption %></p>
+</div>

@@ -9,14 +9,7 @@ authors:
 		email: tsaavedra@ocregister.com
 ```
 
-<% inlinePhoto = (src, caption) => %>
-	<div class="thumbnail inline-photo">
-		<img class="img-responsive" src="<%- @getUrl(src) %>">
-		<p class="caption"><%- caption %></p>
-	</div>
-<% end %>
-
-<%= inlinePhoto "/images/leads/Drawing - Top story illo 1.jpg", "JEFF GEORTZEN" %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 1.jpg", caption: "JEFF GEORTZEN"}) %>
 
 <p>The man who is shaking the Orange County legal system to its bedrock comes across with a decisive confidence, like the math whiz in high school who knew every answer.</p>
 <p>Attorney Scott Sanders can be charming, even funny, but in court he is strong-willed and rather tightlywound.<b> </b>He is known to trudge the short distance from his office to the Santa Ana courthouse sporting an Indiana Jones-style expedition hat. Youthful at 48, Sanders wears his hair longish and rolls up the sleeves of his white dress shirts. With his trim beard and wire-frame glasses, he looks, one attorney said, like a defense lawyer from central casting.</p>

@@ -10,7 +10,7 @@ pageOrder: 7
 		<% if pic.length: %>
 		<a name="<%- pic %>"></a>
 		<div class="row mug">
-			<img src='/images/mugs/<%- pic %>.jpg' alt="thumbnail">
+			<img src='<%= @getUrl("/images/mugs/" + pic + ".jpg") %>' alt="thumbnail">
 		</div>
 		<% end %>
 		<div class="row name">
