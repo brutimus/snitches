@@ -4,3 +4,101 @@ layout: page
 pageOrder: 7
 ---
 
+<div class="pipeline">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="thumbnail major">
+				<img src="<%= @getUrl("/images/pipeline/pipeline_1.jpg") %>" alt="thumbnail" data-autocrop="true" data-cropx="620" data-cropy="400">
+				<div class="caption">
+					<p>Santa Ana gang member Oscar Moriel’s journey through the snitch pipeline begins after his Oct. 27, 2005 arrest. He is accused of shooting another man in the face three times and jailed on attempted murder and street terrorism charges.</p>
+				</div>
+			</div>
+			<span class="flow rtl"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="thumbnail major">
+				<div class="caption">
+					<p>Moriel, hoping to avoid a possible life sentence, asks a sheriff’s deputy in 2009 to contact Santa Ana Police detectives. Moriel says he has information on unsolved and very cold gang killings.</p>
+				</div>
+			</div>
+			<span class="flow ltr"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="thumbnail">
+				<img src="<%= @getUrl("/images/pipeline/pipeline_2.jpg") %>" alt="thumbnail" data-autocrop="true" data-cropx="620" data-cropy="400">
+				<div class="caption">
+					<p>Moriel meets with two homicide detectives and begins negotiating. The meeting is recorded. “I’m looking at life in prison,” he tells detectives. “So the more options I have to work with and to choose from, the better position I’ll be to think more clearly.”</p>
+				</div>
+			</div>
+			<span class="flow rtl"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="row">
+				<span class="flow side"></span>
+				<div class="col-xs-6">
+					<div class="thumbnail">
+						<div class="caption">
+							<p>Detectives tell Moriel he will receive “consideration” for his help. The more he does, the more he’ll get.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="thumbnail">
+						<div class="caption">
+							<p>Moriel begins work as an informant at Orange County Jail, from July 1, 2009 to May 20, 2010. He assists with at least nine gang-related cases.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<span class="flow rtl"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="thumbnail right">
+				<img src="<%= @getUrl("/images/pipeline/pipeline_3.jpg") %>" alt="thumbnail" data-autocrop="true" data-cropx="300" data-cropy="530">
+				<div class="caption">
+					<p>The informant begins to advise his deputy handlers on how best to use him. He suggests they put him in disciplinary isolation with a targeted defendant, so they can bond.. His theory:  he won’t be viewed as a snitch if he is being punished, too.</p>
+				</div>
+			</div>
+			<span class="flow ltr"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="thumbnail">
+				<img src="<%= @getUrl("/images/pipeline/pipeline_4.jpg") %>" alt="thumbnail" data-autocrop="true" data-cropx="620" data-cropy="400">
+				<div class="caption">
+					<p>Using a small yellow golf pencil, Moriel writes up 500 pages of notes on his conversations with targeted inmates. The withholding of those notes by prosecutors from defense attorneys sparks Orange County’s snitch controversy in 2014.</p>
+				</div>
+			</div>
+			<span class="flow rtl"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="thumbnail">
+				<div class="caption">
+					<p>As allegations flare that police and prosecutors improperly use jailhouse informants, cases involving Moriel begin to unravel. Among them: Leonel Vega, sentenced to life without parole for the fatal shooting of a rival gang member, gets a reduced sentence in February that will allow him to be free in 2019. Superior Court Judge Dan McNerney called the deal a “black eye” for prosecutors and the Sheriff’s Department.</p>
+				</div>
+			</div>
+			<span class="flow ltr"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="thumbnail left">
+				<img src="<%= @getUrl("/images/pipeline/pipeline_5.jpg") %>" alt="thumbnail" data-autocrop="true" data-cropx="300" data-cropy="300">
+				<div class="caption">
+					<p>Moriel, a member of the Mexican Mafia gang, remains in jail, awaiting the resolution of his case.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
