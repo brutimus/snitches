@@ -648,3 +648,41 @@ a.list-group-item {
 		}
 	}
 }
+
+// KEY CASES
+
+.keycases {
+	h4 small {
+		color: inherit;
+	}
+	dl {
+		dt {
+			font-weight: 400;
+		}
+		dd {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+// INFORMANTS LAW
+
+.informantslaw {
+	text-align: center;
+	h4 {
+		font-family: @font-family-title;
+		margin-top: 50px;
+		&:first-of-type {
+			margin-top: 30px;
+		}
+	}
+	h5 {
+		color: #939598;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin-top: 25px;
+	}
+	p {
+		font-family: @font-family-serif;
+	}
+}
