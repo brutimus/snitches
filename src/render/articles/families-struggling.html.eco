@@ -11,105 +11,114 @@ authors:
 
 <%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 3.jpg", caption: "JEFF GEORTZEN"}) %>
 
-<p><b>SEAL BEACH – </b>Beth Webb will rise at 6 a.m. Monday, same as any other day. She’ll pour a cup of coffee, send the kids to school and do her job as a loan officer, same as any other day.</p>
+<p>SEAL BEACH &ndash; Beth Webb will rise at 6 a.m. Monday, same as any other day. She&rsquo;ll pour a cup of coffee, send the kids to school and do her job as a loan officer, same as any other day.</p>
 <p>And she will try and fail, and try and fail, to forget what day it is.</p>
-<p>“Of the 365 days each year,” she says, “it is hardest.”</p>
-<p>Because each Oct. 12 is a personal reminder of the the deadliest mass shooting in Orange County history – that day in 2011 when <a href="http://www.ocregister.com/articles/salon-321796-beach-police.html" target="_blank" title="a gunman walked into Salon Meritage in Seal Beach">a gunman walked into Salon Meritage in Seal Beach</a>, and killed eight, including her sister, and nearly killed another, who was her mom.</p>
-<p>“The anniversary is about him,” Webb says. “It’s a place of darkness. So there is …”</p>
+<p>&ldquo;Of the 365 days each year,&rdquo; she says, &ldquo;it is hardest.&rdquo;</p>
+<p>Because each Oct. 12 is a personal reminder of the the deadliest mass shooting in Orange County history &ndash; that day in 2011 when <a href="http://www.ocregister.com/articles/salon-321796-beach-police.html" target="_blank" title="a gunman walked into Salon Meritage in Seal Beach">a gunman walked into Salon Meritage in Seal Beach</a>, and killed eight, including her sister, and nearly killed another, who was her mom.</p>
+<p>&ldquo;The anniversary is about him,&rdquo; Webb says. &ldquo;It&rsquo;s a place of darkness. So there is &hellip;&rdquo;</p>
 <%- @displayGallery('families-struggling.html') %>
 <p>She pauses, the words stuck in her throat.</p>
-<p>“No, we don’t do anything. We never plan about it, we never talk about it. We just go our own way.”</p>
+<p>&ldquo;No, we don&rsquo;t do anything. We never plan about it, we never talk about it. We just go our own way.&rdquo;</p>
 <p>Four years after the shooting, the anniversary serves as a reminder of something else to the families involved: justice gone awry.</p>
-<p>“My frustrations are at an all-time high,” says Paul Wilson, who lost his wife, Christy, a manicurist at the salon for more than 15 years.</p>
-<p>“It’s a never-ending sadness,” says Rooney Daschbach, who lost his sister, Michele Daschbach Fast, a soccer-mom of three who stopped in Salon Meritage for the first time that day.</p>
-<p>“I’m trying to figure out how there ever could be justice,” says Webb, whose sister Laura Webb Elody worked there, and whose mom, Hattie Stretz, just popped in for a haircut and a little pampering.</p>
-<p>The case against shooter Scott Dekraai, a 41-year-old former tugboat crewman, seemed open-and-shut: Caught a few blocks from the scene with three guns, he told police: “I know what I did.” In court, he pleaded guilty.</p>
+<p>&ldquo;My frustrations are at an all-time high,&rdquo; says Paul Wilson, who lost his wife, Christy, a manicurist at the salon for more than 15 years.</p>
+<p>&ldquo;It&rsquo;s a never-ending sadness,&rdquo; says Rooney Daschbach, who lost his sister, Michele Daschbach Fast, a soccer-mom of three who stopped in Salon Meritage for the first time that day.</p>
+<p>&ldquo;I&rsquo;m trying to figure out how there ever could be justice,&rdquo; says Webb, whose sister Laura Webb Elody worked there, and whose mom, Hattie Stretz, just popped in for a haircut and a little pampering.</p>
+
+<%- @partial('inline-quote', {name: 'dekraai'}) %>
+
+<p>The case against shooter Scott Dekraai, a 41-year-old former tugboat crewman, seemed open-and-shut: Caught a few blocks from the scene with three guns, he told police: &ldquo;I know what I did.&rdquo; In court, he pleaded guilty.</p>
 <p>It appeared the only thing left to decide was whether he should be put to death (at the moment a largely academic sentence in California given a statewide moratorium on capital punishment).</p>
-<p>But the case took a jaw-dropping detour along the way, shifting focus from the actions of an admitted killer to the actions of the county’s top prosecutor and his staff. In March, <a href="http://www.ocregister.com/articles/goethals-669116-judge-case.html" target="_blank" title="Judge Thomas Goethals">Superior Court Judge Thomas Goethals</a> removed Orange County District Attorney Tony Rackauckas and his office’s 250 attorneys from the case after disclosures that authorities secretly recorded a jailhouse informant questioning Dekraai and withheld evidence from the defense.</p>
+<p>But the case took a jaw-dropping detour along the way, shifting focus from the actions of an admitted killer to the actions of the county&rsquo;s top prosecutor and his staff. In March, <a href="http://www.ocregister.com/articles/goethals-669116-judge-case.html" target="_blank" title="Judge Thomas Goethals">Superior Court Judge Thomas Goethals</a> removed Orange County District Attorney Tony Rackauckas and his office&rsquo;s 250 attorneys from the case <a href="http://www.ocregister.com/articles/sanders-684780-attorney-case.html" target="_blank" title="after disclosures that authorities secretly recorded a jailhouse informant questioning Dekraai">after disclosures that authorities secretly recorded a jailhouse informant questioning Dekraai</a> and withheld evidence from the defense.</p>
 <p>The case remains in legal limbo.</p>
-<p>“We just are not able to ever put this aside, to get back to our day-to-day lives,” Wilson says. “And it continues to be there for one reason – the incompetence of Tony Rackauckas and his office, which has completely and utterly dissembled this very black-and-white case because of their mishandling of it.”</p>
-<p>The beleaguered district attorney now finds himself fending off critics on all sides – not only from <a href="http://www.ocregister.com/articles/sanders-684780-attorney-case.html" target="_blank" title="Assistant Public Defender Scott Sanders">Dekraai’s defense team</a> but also from other attorneys claiming prosecutorial misconduct and misuse of jail informants in other criminal cases. From the New York Times editorial board, which labeled the district attorney’s explanation “implausible.” And from some of the very people Rackauckas swore to help – the victims’ families.</p>
+<p>&ldquo;We just are not able to ever put this aside, to get back to our day-to-day lives,&rdquo; Wilson says. &ldquo;And it continues to be there for one reason &ndash; the incompetence of Tony Rackauckas and his office, which has completely and utterly dissembled this very black-and-white case because of their mishandling of it.&rdquo;</p>
+<p>The beleaguered district attorney now finds himself fending off critics on all sides &ndash; not only from <a href="http://www.ocregister.com/articles/sanders-684780-attorney-case.html" target="_blank" title="Assistant Public Defender Scott Sanders">Dekraai&rsquo;s defense team</a> but also from other attorneys claiming prosecutorial misconduct and misuse of jail informants in other criminal cases. From the New York Times editorial board, which labeled the district attorney&rsquo;s explanation &ldquo;implausible.&rdquo; And from some of the very people Rackauckas swore to help &ndash; the victims&rsquo; families.</p>
 <p>Some families still support the district attorney and his efforts to seek the death penalty for Dekraai, but at least four family members have asked Rackauckas to drop those charges in favor of<b> </b>life in prison without the possibility of parole.</p>
-<p>“That’s the one thing he could do for us on the fourth anniversary,” says Webb. “Stop the madness. Take the death penalty off the table and end all the appeals, all the court appearances. And let us get on without looking over our (shoulders) for the next 20 years in court.”</p>
-<p>Rackauckas was unavailable last week due to a medical procedure. His chief of staff, Susan Kang Schroeder, says the district attorney understands the victims’ frustrations and anger – but he will continue to seek the death penalty, because it’s the right thing to do.</p>
-<p>And so the victims’ families mark the passing of another year. And they await the passing of another year or more before an appeal is resolved on the decision to oust Rackauckas from the case.</p>
-<p>“This (case) took the life out of me and destroyed it,” Wilson says. “I put this in his hands and trusted him.</p>
-<p>“And he screwed up.”</p>
+<p>&ldquo;That&rsquo;s the one thing he could do for us on the fourth anniversary,&rdquo; says Webb. &ldquo;Stop the madness. Take the death penalty off the table and end all the appeals, all the court appearances. And let us get on without looking over our (shoulders) for the next 20 years in court.&rdquo;</p>
+<p>Rackauckas was unavailable last week due to a medical procedure. His chief of staff, Susan Kang Schroeder, says the district attorney understands the victims&rsquo; frustrations and anger &ndash; but he will continue to seek the death penalty, because it&rsquo;s the right thing to do.</p>
+<p>And so the victims&rsquo; families mark the passing of another year. And they await the passing of another year or more before an appeal is resolved on the decision to oust Rackauckas from the case.</p>
+<p>&ldquo;This (case) took the life out of me and destroyed it,&rdquo; Wilson says. &ldquo;I put this in his hands and trusted him.</p>
+<p>&ldquo;And he screwed up.&rdquo;</p>
 <p><b>THE UNIMAGINABLE </b></p>
+
+<%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/drawing_dekraai_2.jpg", caption: "Scott Dekraai"}) %>
+
 <p>Less than two minutes.</p>
-<p>That’s how long it took Scott Dekraai to complete his devastation.</p>
-<p>Embittered from a custody battle over his 8-year-old son, Dekraai entered the salon’s door about 1:15 p.m. on Oct. 12, 2011, wearing a bulletproof vest, packing multiple guns and extra ammo.</p>
-<p>He walked up to his ex-wife, stylist Michelle Fournier: “You wanted this,” he said, and shot her dead.</p>
-<p>He lowered the gun to Fournier’s chair, where manicurist Christy Lynn Wilson, a wife and mom of three, was getting her hair washed, and shot her dead.</p>
-<p>Salon owner Randy Fannin tried to calmly intervene: “Dude, you don’t have to do this.”</p>
+<p>That&rsquo;s how long it took Scott Dekraai to complete his devastation.</p>
+<p>Embittered <a href="http://www.ocregister.com/articles/dekraai-321844-fournier-son.html" target="_blank" title="from a custody battle over his 8-year-old son">from a custody battle over his 8-year-old son</a>, Dekraai entered the salon&rsquo;s door about 1:15 p.m. on Oct. 12, 2011, wearing a bulletproof vest, packing multiple guns and extra ammo.</p>
+<p>He walked up to his ex-wife, stylist Michelle Fournier: &ldquo;You wanted this,&rdquo; he said, and shot her dead.</p>
+<p>He lowered the gun to Fournier&rsquo;s chair, where manicurist Christy Lynn Wilson, a wife and mom of three, was getting her hair washed, and shot her dead.</p>
+<p>Salon owner Randy Fannin tried to calmly intervene: &ldquo;Dude, you don&rsquo;t have to do this.&rdquo;</p>
 <p>Dekraai shot him dead.</p>
 <p>Few know precisely what happened next. Dekraai shot and killed stylist Victoria Buzzo, another wife and mom; and shot her customer, salon regular Hattie Stretz, the mom of stylist Laura Webb Elody and known for bringing in warm boysenberry pies.</p>
-<p>Dekraai aimed for the 73-year-old’s heart. But Stretz lifted her left arm, deflecting the bullet. It shattered her bone but saved her life.</p>
+<p>Dekraai aimed for the 73-year-old&rsquo;s heart. But Stretz lifted her left arm, deflecting the bullet. It shattered her bone but saved her life.</p>
 <p>Dekraai killed customers Lucia Bernice Kondas, a retired health care agency worker, and Michele Daschbach Fast, who made her first appointment there that afternoon.</p>
-<p>“That’s the hardest part, the fate – trying to understand that,” says Fast’s brother. “If she had just made her appointment later in the afternoon or the next day, she would not have been there.”</p>
-<p>Elody was mixing hair coloring in a back room when the shooting began. At some point, she ran out – probably to protect her mom, says Webb – and ended up trapped in another corner, outside a locked room.</p>
-<p>Survivors heard her plea: “You don’t have to do this. Please don’t shoot me.”</p>
+<p>&ldquo;That&rsquo;s the hardest part, the fate &ndash; trying to understand that,&rdquo; says Fast&rsquo;s brother. &ldquo;If she had just made her appointment later in the afternoon or the next day, she would not have been there.&rdquo;</p>
+<p>Elody was mixing hair coloring in a back room when the shooting began. At some point, she ran out &ndash; probably to protect her mom, says Webb &ndash; and ended up trapped in another corner, outside a locked room.</p>
+<p>Survivors heard her plea: &ldquo;You don&rsquo;t have to do this. Please don&rsquo;t shoot me.&rdquo;</p>
 <p>Then they heard several shots.</p>
-<p>“This was predatory, walking to find people,” Webb says. “That last bit is what haunts me – my sister caged, cut off, no exit, nowhere for her to go. He looked at her. He knew her. He knew the kind and gentle person she was.”</p>
-<p>Dekraai wasn’t finished. On the way to his truck, he shot and killed David Caouette, 64, who had just parked his Range Rover to eat lunch at Patty’s Place, as he often did.</p>
-<p>Moments later, a news bulletin flashed on the TV beside Webb as she worked from home: “Nine shot.” Webb recognized the image: the salon where she got her hair styled.</p>
+<p>&ldquo;This was predatory, walking to find people,&rdquo; Webb says. &ldquo;That last bit is what haunts me &ndash; my sister caged, cut off, no exit, nowhere for her to go. He looked at her. He knew her. He knew the kind and gentle person she was.&rdquo;</p>
+<p>Dekraai wasn&rsquo;t finished. On the way to his truck, he shot and killed David Caouette, 64, who had just parked his Range Rover to eat lunch at Patty&rsquo;s Place, as he often did.</p>
+<p>Moments later, a news bulletin flashed on the TV beside Webb as she worked from home: &ldquo;Nine shot.&rdquo; Webb recognized the image: the salon where she got her hair styled.</p>
 <p>And where her sister worked.</p>
-<p>“The world I lived in before that moment, before that <em>second</em>, doesn’t exist anymore,” says Webb, holding a photograph of her sister. “One second, you’re like everyone else. And then the unimaginable happens.”</p>
+<p>&ldquo;The world I lived in before that moment, before that <em>second</em>, doesn&rsquo;t exist anymore,&rdquo; says Webb, holding a photograph of her sister. &ldquo;One second, you&rsquo;re like everyone else. And then the unimaginable happens.&rdquo;</p>
 <p><b>DEATH PENALTY </b></p>
-<p>Within days, Rackauckas gathered the victims’ families in his office.</p>
-<p>“We trusted him,” Wilson says. “He got up and said, ‘I feel for you. Don’t any of you worry. I’ve got your backs.’”</p>
-<p>What he didn’t say was that in an effort to bolster the case, prosecutors and investigators would enlist the help of a regular jailhouse informant who, over six days in October 2011, used a wire to record more than 100 hours of conversations with Dekraai inside the Orange County Jail.</p>
-<p>Those covert actions, and the testimony of deputies who hid the existence of informant records from the court, would undermine the district’s attorney’s efforts.</p>
+
+<%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/drawing_flowers.jpg", caption: ""}) %>
+
+<p>Within days, Rackauckas gathered the victims&rsquo; families in his office.</p>
+<p>&ldquo;We trusted him,&rdquo; Wilson says. &ldquo;He got up and said, &lsquo;I feel for you. Don&rsquo;t any of you worry. I&rsquo;ve got your backs.&rsquo;&rdquo;</p>
+<p>What he didn&rsquo;t say was that in an effort to bolster the case, prosecutors and investigators would enlist the help of a regular jailhouse informant who, over six days in October 2011, used a wire to record more than 100 hours of conversations with Dekraai inside the Orange County Jail.</p>
+<p>Those covert actions, and the testimony of deputies who hid the existence of informant records from the court, would undermine the district&rsquo;s attorney&rsquo;s efforts.</p>
 <p>Meanwhile, the tragedy tore apart lives.</p>
-<p>“I was consumed with hatred and anger,” says Webb, who lay awake nights imagining her sister’s final moments.</p>
+<p>&ldquo;I was consumed with hatred and anger,&rdquo; says Webb, who lay awake nights imagining her sister&rsquo;s final moments.</p>
 <p>Paul Caouette uprooted his life in Pismo Beach to care for his widowed mom in Seal Beach.</p>
-<p>“Mom and Dad were together since they were 13,” Caouette says. “She was crushed.”</p>
+<p>&ldquo;Mom and Dad were together since they were 13,&rdquo; Caouette says. &ldquo;She was crushed.&rdquo;</p>
 <p>She eventually sold her home.</p>
-<p>Michele Fast’s brother described the toll on their family: “My father passed away about month after, he was so devastated,” Rooney Daschbach says quietly. “It’s been rough.”</p>
-<p>Fast’s husband, Patrick, eventually sold their home in Seal Beach, where Michele had been a familiar sight walking her black Labrador, Otis, and driving her kids to soccer games.</p>
+<p>Michele Fast&rsquo;s brother described the toll on their family: &ldquo;My father passed away about month after, he was so devastated,&rdquo; Rooney Daschbach says quietly. &ldquo;It&rsquo;s been rough.&rdquo;</p>
+<p>Fast&rsquo;s husband, Patrick, eventually sold their home in Seal Beach, where Michele had been a familiar sight walking her black Labrador, Otis, and driving her kids to soccer games.</p>
 <p>Former Salon Meritage hairstylist Gordon Gallego survived the shooting in a back room and witnessed its aftermath.</p>
-<p>“The families have memories of their loved ones in the best times,” says Gallego, 45, of Long Beach, who now co-owns another salon in Seal Beach. “I can’t get beyond the worst memories – those last sights, sounds, smells, everything I had to deal with.”</p>
+<p>&ldquo;The families have memories of their loved ones in the best times,&rdquo; says Gallego, 45, of Long Beach, who now co-owns another salon in Seal Beach. &ldquo;I can&rsquo;t get beyond the worst memories &ndash; those last sights, sounds, smells, everything I had to deal with.&rdquo;</p>
 <p>Gallego lost his two best friends, Buzzo and Webb Elody. For more than 20 years, the three worked together, hung out together, vacationed together.</p>
-<p>“It’s hard for me to move forward,” says Gallego, his voice breaking. “It’s still a struggle to get up every morning,”</p>
-<p>There is another victim, too, who was nowhere near the salon that day: Dekraai and Fournier’s son Dominic, then 8, who lost both parents in that 100-second span of gunfire. His mother was murdered, and his father will never step out of prison. Dominic’s older sister, Chelsea Huff, took him in and, at last report, said her brother was adjusting to his new life but still a bike-riding, skateboarding, baseball-playing boy.</p>
-<p>When the case entered the courts in fall of 2011, family members turned up with photos, T-shirts. Some yelled at Dekraai.</p>
-<p>“I wanted to make sure he knew we were there,” says Michelle Fournier’s brother, Craig Burke, 48, of Lake Havasu City, Ariz., who drove five hours each way to attend hearings.</p>
+<p>&ldquo;It&rsquo;s hard for me to move forward,&rdquo; says Gallego, his voice breaking. &ldquo;It&rsquo;s still a struggle to get up every morning,&rdquo;</p>
+<p>There is another victim, too, who was nowhere near the salon that day: Dekraai and Fournier&rsquo;s son Dominic, then 8, <a href="http://www.ocregister.com/news/boy-322115-child-fisher.html" target="_blank" title="who lost both parents in that 100-second span of gunfire">who lost both parents in that 100-second span of gunfire</a>. His mother was murdered, and his father will never step out of prison. Dominic&rsquo;s older sister, Chelsea Huff, took him in and, at last report, said her brother was adjusting to his new life but still a bike-riding, skateboarding, baseball-playing boy.</p>
+<p>When the case entered the courts in fall of 2011, family members turned up with photos, T-shirts. <a href="http://www.ocregister.com/articles/dekraai-322089-courtroom-court.html" target="_blank" title="Some yelled at Dekraai">Some yelled at Dekraai</a>.</p>
+<p>&ldquo;I wanted to make sure he knew we were there,&rdquo; says Michelle Fournier&rsquo;s brother, Craig Burke, 48, of Lake Havasu City, Ariz., who drove five hours each way to attend hearings.</p>
 <p>Caouette also attended scores of hearings, re-arranging his work schedule to be there.</p>
-<p>“I know it bothers him when he comes in and sees all the families there,” Caouette says of Dekraai. “I can see it in his mannerisms.”</p>
+<p>&ldquo;I know it bothers him when he comes in and sees all the families there,&rdquo; Caouette says of Dekraai. &ldquo;I can see it in his mannerisms.&rdquo;</p>
 <p>In May 2014, Dekraai pleaded guilty.</p>
 <p>The defense began offering to accept a sentence of life in prison without the possibility of parole.</p>
-<p>Several families approved of the offer, including Beth Webb and her mom, who consider California’s death penalty a false promise that merely keeps the murderer’s name in the news.</p>
-<p>“My mom asked the D.A., with tears in her eyes, she said, ‘I’m 75. I want to live my life without this hanging over my head. I’m asking you, can you do this?’ (Rackauckas) said no. I asked him point blank, ‘What if all the families agreed to this?’ He said to my face: ‘We will not take it off.’”</p>
-<p>On that issue, the District Attorney’s Office remains adamant.</p>
-<p>First, not all families are in agreement about seeking a lesser sentence, says Schroeder of the District Attorney’s Office. She adds:</p>
-<p>“We have to balance the interests of the people of Orange County. And in a crime such as this, done with such a malignant heart and callousness, the only punishment that fits this crime is the death penalty.”</p>
+<p>Several families approved of the offer, including Beth Webb and her mom, who consider California&rsquo;s death penalty a false promise that merely keeps the murderer&rsquo;s name in the news.</p>
+<p>&ldquo;My mom asked the D.A., with tears in her eyes, she said, &lsquo;I&rsquo;m 75. I want to live my life without this hanging over my head. I&rsquo;m asking you, can you do this?&rsquo; (Rackauckas) said no. I asked him point blank, &lsquo;What if all the families agreed to this?&rsquo; He said to my face: &lsquo;We will not take it off.&rsquo;&rdquo;</p>
+<p>On that issue, the District Attorney&rsquo;s Office remains adamant.</p>
+<p>First, not all families are in agreement about seeking a lesser sentence, says Schroeder of the District Attorney&rsquo;s Office. She adds:</p>
+<p>&ldquo;We have to balance the interests of the people of Orange County. And in a crime such as this, done with such a malignant heart and callousness, the only punishment that fits this crime is the death penalty.&rdquo;</p>
 <p><b>NO HANDBOOK </b></p>
-<p>The Register spoke to family members of five of the victims about the case last week. Three of the five – Webb, Wilson and Daschbach – say they’ve asked the district attorney to take the death penalty off the table in favor of life in prison. (Webb’s mom, Stretz, also asked this.) Two – Caouette and Burke – want the district attorney to pursue the death penalty.</p>
-<p>Asked about Rackauckas, Webb, Wilson and Caouette say they are upset about the way he’s handled the case; Daschbach is supportive but frustrated with the delays; Burke is the most enthusiastic about the district attorney’s team.</p>
-<p>“They’re great guys doing exactly what they need to be doing,” says Burke. “In hindsight, I wish they hadn’t used it (an informant). But they were trying to do the best case possible.”</p>
-<p>Everyone, it seems, does agree one thing: They’re frustrated the case has stalled.</p>
-<p>“I feel the D.A., Tony Rackauckas, is responsible for the delays,” says Caouette. “But I also think (Assistant Public Defender Scott) Sanders did not have to go as far as he did. I understand it’s his job and I respect that, but I could not go home and sleep at night if I was him.”</p>
-<p>One of the reasons Caouette wants Rackauckas to pursue the death penalty is that it would force a penalty-phase trial where more facts would come out. And Caouette might learn the truth about his father’s murder.</p>
-<p>He also feels that Dekraai “deserves” to be executed, though he’s not sure he would attend.</p>
-<p>“I don’t know if it would make me feel better,” he says. “It’s just the law.”</p>
-<p>Chelsea Huff, Fournier’s daughter from a previous marriage, says simply: “I’m sad that this process is so delayed but I understand the reasoning behind it. … The D.A. and the attorney general are doing the best they can with the system we are in.”</p>
+<p>The Register spoke to family members of five of the victims about the case last week. Three of the five &ndash; Webb, Wilson and Daschbach &ndash; say they&rsquo;ve asked the district attorney to take the death penalty off the table in favor of life in prison. (Webb&rsquo;s mom, Stretz, also asked this.) Two &ndash; Caouette and Burke &ndash; want the district attorney to pursue the death penalty.</p>
+<p>Asked about Rackauckas, Webb, Wilson and Caouette say they are upset about the way he&rsquo;s handled the case; Daschbach is supportive but frustrated with the delays; Burke is the most enthusiastic about the district attorney&rsquo;s team.</p>
+<p>&ldquo;They&rsquo;re great guys doing exactly what they need to be doing,&rdquo; says Burke. &ldquo;In hindsight, I wish they hadn&rsquo;t used it (an informant). But they were trying to do the best case possible.&rdquo;</p>
+<p>Everyone, it seems, does agree one thing: They&rsquo;re frustrated the case has stalled.</p>
+<p>&ldquo;I feel the D.A., Tony Rackauckas, is responsible for the delays,&rdquo; says Caouette. &ldquo;But I also think (Assistant Public Defender Scott) Sanders did not have to go as far as he did. I understand it&rsquo;s his job and I respect that, but I could not go home and sleep at night if I was him.&rdquo;</p>
+<p>One of the reasons Caouette wants Rackauckas to pursue the death penalty is that it would force a penalty-phase trial where more facts would come out. And Caouette might learn the truth about his father&rsquo;s murder.</p>
+<p>He also feels that Dekraai &ldquo;deserves&rdquo; to be executed, though he&rsquo;s not sure he would attend.</p>
+<p>&ldquo;I don&rsquo;t know if it would make me feel better,&rdquo; he says. &ldquo;It&rsquo;s just the law.&rdquo;</p>
+<p>Chelsea Huff, Fournier&rsquo;s daughter from a previous marriage, says simply: &ldquo;I&rsquo;m sad that this process is so delayed but I understand the reasoning behind it. &hellip; The D.A. and the attorney general are doing the best they can with the system we are in.&rdquo;</p>
 <p>As Beth Webb says, there is no handbook for any of this. Everyone must seek their own path forward.</p>
 <p>And hers has taken a surprising turn.</p>
 <p><b>MOVING FORWARD </b></p>
 <p>On a recent Thursday, more than 40 family and friends of Laura Webb Elody gathered on the Huntington Beach Pier to toss red roses and white lilies into the sea where her ashes were scattered. And to wish her a happy 50th birthday.</p>
-<p>“As long as I breathe air, I want her to know that her soul is still loved and treasured,” says Webb. “That she is not forgotten.”</p>
-<p>Monday’s anniversary may be about him – Webb refuses to speak the gunman’s name – but Laura’s birthday is all about <em>her</em>. A day to remember the love and laughter, the good times, like when Laura asked to learn how to ride Beth’s big old Harley-Davidson.</p>
+<p>&ldquo;As long as I breathe air, I want her to know that her soul is still loved and treasured,&rdquo; says Webb. &ldquo;That she is not forgotten.&rdquo;</p>
+<p>Monday&rsquo;s anniversary may be about him &ndash; Webb refuses to speak the gunman&rsquo;s name &ndash; but Laura&rsquo;s birthday is all about <em>her</em>. A day to remember the love and laughter, the good times, like when Laura asked to learn how to ride Beth&rsquo;s big old Harley-Davidson.</p>
 <p>These are the memories Beth chooses to keep alive.</p>
-<p>“For people that have lost someone to murder, I get your anger,” she says. “I’ve lived it, so I’m casting no stones. What I am saying is, you can decide to take that power they have over you – the anger and darkness that lives in a murderer’s heart – and refuse to allow it to control you.</p>
-<p>“They already took something from you. They don’t get to leave that ugliness behind, too. It’s like a contagion. You have to say, ‘I reject that. I do not let it live in me.’”</p>
-<p>That’s another reason why Webb opposes seeking the death penalty.</p>
+<p>&ldquo;For people that have lost someone to murder, I get your anger,&rdquo; she says. &ldquo;I&rsquo;ve lived it, so I&rsquo;m casting no stones. What I am saying is, you can decide to take that power they have over you &ndash; the anger and darkness that lives in a murderer&rsquo;s heart &ndash; and refuse to allow it to control you.</p>
+<p>&ldquo;They already took something from you. They don&rsquo;t get to leave that ugliness behind, too. It&rsquo;s like a contagion. You have to say, &lsquo;I reject that. I do not let it live in me.&rsquo;&rdquo;</p>
+<p>That&rsquo;s another reason why Webb opposes seeking the death penalty.</p>
 <p>She makes this point clear: She does not forgive the gunman; has no sympathy for him; holds no hope for his redemption. And she does not want him to ever, <em>ever</em>, step out of prison.</p>
 <p>But she no longer wishes to see him executed.</p>
-<p>“In prison, he’s no threat to me,” she says. “For me to say, ‘I’m going to kill you in a way that hurts you and scares you, and I’m going to feel good about it after’ – what I’m saying is, ‘I’m now going to be you.’”</p>
+<p>&ldquo;In prison, he&rsquo;s no threat to me,&rdquo; she says. &ldquo;For me to say, &lsquo;I&rsquo;m going to kill you in a way that hurts you and scares you, and I&rsquo;m going to feel good about it after&rsquo; &ndash; what I&rsquo;m saying is, &lsquo;I&rsquo;m now going to be you.&rsquo;&rdquo;</p>
 <p>She simply wants him sent away without news stories repeating his name and photograph every new court hearing.</p>
-<p>“In my opinion, he wanted infamy,” she says. “Every article that shows his face and name, gives him what he wants.”</p>
+<p>&ldquo;In my opinion, he wanted infamy,&rdquo; she says. &ldquo;Every article that shows his face and name, gives him what he wants.&rdquo;</p>
 <p>Monday will be a tough day for many families.</p>
-<p>Webb will rise at 6 a.m., pour herself a coffee and struggle to get through the day. But she will not allow herself to wish for the gunman’s death. Ever.</p>
-<p>“If I become him, he wins,” she says. “He doesn’t get that win over me.”</p>
+<p>Webb will rise at 6 a.m., pour herself a coffee and struggle to get through the day. But she will not allow herself to wish for the gunman&rsquo;s death. Ever.</p>
+<p>&ldquo;If I become him, he wins,&rdquo; she says. &ldquo;He doesn&rsquo;t get that win over me.&rdquo;</p>
 <p><em>Staff writer Tony Saavedra contributed to this report.</em></p>
 <p><b>Contact the writer:</b> <a href="mailto:tberg@ocregister.com">tberg@ocregister.com</a></p>
