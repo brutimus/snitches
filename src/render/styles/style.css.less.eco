@@ -98,8 +98,8 @@ dl {
 // FOOTER
 
 footer {
-	background-color: #5180a0;
-	color: #8bb0ca;
+	background-color: @brand-secondary;
+	color: white;
 	font-size: 12px;
 	font-family: @font-family-sans-serif;
 	font-weight: 700;
@@ -433,10 +433,30 @@ a.list-group-item {
 		}
 	}
 	.article-content {
-		font-size: 14px;
-		line-height: 26px;
+		font-size: 16px;
+		line-height: 28px;
 		a {
 			font-weight: 700;
+		}
+		h1 {
+			text-align: center;
+		}
+		blockquote {
+			border-left: none;
+			position: relative;
+			padding: 10px 15px 10px 25px;
+			font-family: @font-family-serif;
+
+			&:before {
+				content: "“";
+				position: absolute;
+				top: 16px;
+				left: 0px;
+				font-size: 40px;
+				height: 40px;
+				width: 40px;
+				color: #64b4b4;
+			}
 		}
 	}
 	.inline-related {
@@ -478,6 +498,23 @@ a.list-group-item {
 	}
 	.book-img {
 		max-width: 100%;
+	}
+	.chapterLinks {
+		text-align: center;
+		text-transform: uppercase;
+		margin: 30px 0;
+		.row a {
+			border-right: 1px solid #939598;
+			padding-right: 7px;
+			margin-right: 3px;
+			line-height: 24px;
+
+			&:last-of-type {
+				border-right: none;
+				padding-right: 0;
+				margin-right: 0;
+			}
+		}
 	}
 	.button {
 		position: relative;

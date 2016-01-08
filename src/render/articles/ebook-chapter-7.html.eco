@@ -1,0 +1,39 @@
+---
+title: "'Inside the Snitch Tank': Read the full story of murder, misconduct and justice delayed"
+date: 2016/1/1
+layout: article
+tags: [article, dekraai, ebook]
+authors:
+	-
+		name: Edward Humes
+		email: http://www.edwardhumes.com/
+---
+
+<%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/sanders.jpg", caption: "JEFF GEORTZEN"}) %>
+
+<h1>Chapter 7</h1>
+
+<blockquote><p>No way could that be a coincidence.&rdquo;</p></blockquote>
+<p>When Scott Sanders took on representation of the worst mass murderer in Orange County history, it didn&rsquo;t take long for him to conclude that he had a loser of a case on his hands.</p>
+<p>Despite the years he would ultimately devote to Scott Dekraai, Sanders harbored no illusions on the question of guilt or innocence. Such is the lot of public defenders. Most of their clients are found guilty. Indeed, most of them <em>plead</em> guilty, usually in exchange for some measure of leniency.</p>
+<p>Such dealmaking is the vital lubricant that keeps the justice system from screeching to a halt, as would happen if everyone demanded a full-blown jury trial. In California, only <a href="http://www.courts.ca.gov/documents/2013-Court-Statistics-Report.pdf">3 percent of felony cases</a> end up in front of juries; in Orange County, that figure is 2.4 percent. And still the courts are crowded and backlogged.</p>
+<p>Not that this meant Sanders had little to do in the case against Dekraai. On the contrary: Sanders set out to fight fiercely over the one issue in this case that he could contest: the sentence. Prosecutors count convictions as victories. And while public defenders prize their occasional acquittals, they also celebrate life sentences in capital cases, even those without possibility of parole. Life trumps death in the high-stakes battlefield of a murder case, especially when the D.A. himself has staked his reputation on it.</p>
+<p>There are two ways to stave off a death sentence. The usual method relies on garnering sympathy from jurors by focusing on the killer&rsquo;s redeeming qualities (if there are any), usually coupled with some compelling social or psychological explanation for what he or she did.</p>
+<p>The second way is to put the government on trial.</p>
+<p>While prosecutors and investigators used a jailhouse informant in the hope of countering an anticipated insanity &ldquo;explanation&rdquo; for Dekraai&rsquo;s terrible choice on Oct. 12, 2011, Sanders focused on the story <em>behind</em> the informant.</p>
+<p>For that, he needed the government to turn over the information it had gathered in its investigation. This has been required ever since prosecutors in Maryland hid evidence that a convicted murder by the name of John L. Brady hadn&rsquo;t actually committed the murder. This sufficiently outraged the U.S. Supreme Court in 1964 to instruct all prosecutors everywhere that in future, they were obliged to turn over all helpful evidence to defendants. These disclosures are now universally referred to as &ldquo;Brady materials,&rdquo; and judges have the authority to punish prosecutors and even free defendants when there are major violations. Brady materials are supposed to appear automatically.</p>
+<p>In Dekraai&rsquo;s case, getting hold of them seemed more like pulling teeth. A few at a time.</p>
+<p>The first round of police reports and other Brady materials were tantalizing, revealing that there had been extensive and incriminating recordings of Dekraai made in jail while he talked with another inmate in the days after his arrest. The other prisoner was identified only as &ldquo;Inmate F.&rdquo;</p>
+<p>Then the entire recordings &ndash; 130 hours of them from inside Dekraai&rsquo;s bugged cell &ndash; eventually arrived at Sanders&rsquo; office in April 2012. Inmate F remained anonymous still. The position of the D.A.&rsquo;s Office was that it had no obligation to supply that information &ndash; the informant&rsquo;s safety took precedence. Prosecutors had no plans to call him as a witness, they said. Dekraai&rsquo;s voice on the tapes would speak for itself.</p>
+<p>The breakthrough came in the summer of 2012, when Sanders figured out the identity of Inmate F. According to training materials provided by the D.A.&rsquo;s Office, one of the tapes prosecutors turned over to Sanders &ndash; a recording of their initial interview with Inmate F &ndash; had not been fully purged of identifying information. It contained the informant&rsquo;s booking number and name: <a href="http://www.ocregister.com/articles/perez-603893-motion-dekraai.html">the Mexican Mafia leader Fernando Perez</a>.</p>
+<p>Sanders soon realized Inmate F also was the government&rsquo;s informant against another of his clients: <a href="http://www.ocregister.com/articles/herr-356467-wozniak-grand.html">high-profile murder defendant Daniel Wozniak</a>, a community theater actor accused of killing two people and dismembering one of them, part of an elaborate scheme to steal money to finance his upcoming marriage. Here was yet another case heavily weighted in the prosecution&rsquo;s favor with extensive evidence against Wozniak and, like Dekraai, a confession to police. Yet a jailhouse informant was involved &ndash; the same informant.</p>
+<p>No way could that be a coincidence, the lawyer decided. A professional informant had been at work on both of his cases, something that should have been disclosed right away. Instead, a judge noted, the public defender had received assurances from a senior prosecutor that no deal had been cut with Inmate F in exchange for his snitch work. Now Sanders felt certain that was untrue (and, the evidence would later show, he was right about that). (<a href="http://files.onset.freedom.com/ocregister/home_page/SNITCH/RulingbyGoethals.pdf">Read Judge Goethals&rsquo; ruling</a>)</p>
+<p>Sanders demanded everything prosecutors had on Perez &ndash; his record, his casework, all his snitch notes &ndash; everything. The D.A. refused. But the judge hearing the Dekraai case ordered it turned over.</p>
+<p>And in February 2013, 16 months after Dekraai&rsquo;s arrest, a window was thrown open on the snitch tank that no other defense lawyer had ever looked through. Sanders received the information mother lode: 8,000 pages about Perez&rsquo;s crimes, his casework, his deals, even the 300 pages of notes he had scribbled in jail while cajoling fellow criminals to confess. (<a href="http://files.onset.freedom.com/ocregister/home_page/Perez_page_13.pdf">Read one of Perez&rsquo;s notes</a>)</p>
+<p>&ldquo;He literally wrote down stuff every day,&rdquo; Sanders later marveled. &ldquo;He was working off his life case.&rdquo;</p>
+<p>From the day the mother lode arrived until January 2014, almost a year later, those documents became Sanders&rsquo; life &ndash; &ldquo;pretty much all I did ... for every waking moment,&rdquo; he said.</p>
+
+<div class="chapterNav">
+	<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-6').toJSON().url) %>" class="pull-left">&laquo; Chapter 6</a>
+	<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-8').toJSON().url) %>" class="pull-right">Chapter 8 &raquo;</a>
+</div>

@@ -95,7 +95,7 @@ layout: default
 				<h3>Related Articles</h3>
 			</div>
 			<nav class="linklist">
-				<% for document in @getRelatedDocuments(): %>
+				<% for document in @getRelatedDocuments()[0..4]: %>
 					<div class="media">
 						<a href="<%= @getUrl(document.url) %>">
 							<div class="media-left">

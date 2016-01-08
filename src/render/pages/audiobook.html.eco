@@ -7,7 +7,7 @@ pageOrder: 7
 <div class="audiobook">
 	<div class="row">
 		<div class="col-xs-6 summary">
-			Listen to the audio version of the e-book by Pulitzer Prize-winning journalist, Edward Humes, read by FIRSTNAME LASTNAME.
+			Listen to the audio version of the e-book by Pulitzer Prize-winning journalist, Edward Humes.
 		</div>
 		<div class="col-xs-6">
 			<img class="book-img" src="<%= @getUrl('/images/SNITCH_book_cover.png') %>" alt="thumbnail">

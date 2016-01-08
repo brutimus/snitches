@@ -1,0 +1,28 @@
+---
+title: "'Inside the Snitch Tank': Read the full story of murder, misconduct and justice delayed"
+date: 2016/1/1
+layout: article
+tags: [article, dekraai, ebook]
+authors:
+	-
+		name: Edward Humes
+		email: http://www.edwardhumes.com/
+---
+
+<%- @partial('inline-photo', {src: "/images/prologue.jpg", caption: "JEFF GEORTZEN"}) %>
+
+<h1>Prologue</h1>
+
+<p>On his last day of freedom, Scott Dekraai spoke on the phone with his ex-wife. Let&rsquo;s meet for coffee, he suggested.</p>
+<p>Michelle Fournier was shocked. A day earlier they had squared off at yet another court hearing in their acrimonious battle over custody of their 8-year-old son. Things had not gone Dekraai&rsquo;s way at the hearing, and the argument had continued on the phone, until Dekraai brought his ex-wife up short with his suggestion that they meet in person.</p>
+<p>No way, Fournier responded. She did not want to see him. Definitely not.</p>
+<p>This would prove to be a fateful decision. If he couldn&rsquo;t have a one-on-one, Dekraai decided after hanging up on Fournier, he&rsquo;d just have to confront his ex-wife at her workplace instead &ndash; one last time. Then he walked out to his garage to survey his well-oiled collection of five pistols, four rifles and a 12-gauge shotgun.</p>
+<p>The violence that followed just a few hours later would make national head-lines.</p>
+<p>It would alter the course of lives and families for years to come.</p>
+<p>It would drag a peaceful, tight-knit community into an exclusive club no one wishes to join: the fraternity of towns marred by mass murder.</p>
+<p>And, finally, the official response to Dekraai&rsquo;s rampage would expose and shame Orange County authorities who in their zeal to ensure a win in court had stopped playing by the rules that ensure justice for all.</p>
+<p>Scott Dekraai, without ever knowing it, had exposed the snitch tank.</p>
+
+<div class="chapterNav">
+	<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-1').toJSON().url) %>" class="pull-right">Chapter 1 &raquo;</a>
+</div>

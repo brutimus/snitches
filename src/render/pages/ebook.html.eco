@@ -4,17 +4,44 @@ layout: page
 pageOrder: 6
 ---
 
-<div class="ebook">
+<div class="ebook row">
 	<div class="row">
 		<div class="col-xs-6 summary">
-			Download the e-book by Pulitzer Prize-winning journalist, Edward Humes.
+			Read the e-book by Pulitzer Prize-winning journalist, Edward Humes.
 		</div>
 		<div class="col-xs-6">
 			<img class="book-img" src="<%= @getUrl('/images/Snitch_book_cover.png') %>" alt="thumbnail">
 		</div>
 		<div class="col-xs-12">
-			<a href="http://www.ocregister.com/articles/dekraai-697917-salon-beach.html" class="button primary">Read the E-Book</a>
-			<!-- <a href="<%= @getUrl(@getFileAtPath('pages/audiobook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-headphones"></span> Listen to Audio book</a> -->
+			<div class="chapterLinks">
+				<div class="row">
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-prologue').toJSON().url) %>">Prologue</a>
+				</div>
+				<div class="row">
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-1').toJSON().url) %>">Chapter 1</a>
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-2').toJSON().url) %>">Chapter 2</a>
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-3').toJSON().url) %>">Chapter 3</a>
+				</div>
+				<div class="row">
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-4').toJSON().url) %>">Chapter 4</a>
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-5').toJSON().url) %>">Chapter 5</a>
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-6').toJSON().url) %>">Chapter 6</a>
+				</div>
+				<div class="row">
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-7').toJSON().url) %>">Chapter 7</a>
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-8').toJSON().url) %>">Chapter 8</a>
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-9').toJSON().url) %>">Chapter 9</a>
+				</div>
+				<div class="row">
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-10').toJSON().url) %>">Chapter 10</a>
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-11').toJSON().url) %>">Chapter 11</a>
+				</div>
+				<div class="row">
+					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-epilogue').toJSON().url) %>">Epilogue</a>
+				</div>
+			</div>
+			<a href="http://www.amazon.com/Inside-Snitch-Tank-Misconduct-Justice-ebook/dp/B01A2NT3BG/ref=sr_1_1" class="button primary">Get book on Kindle</a>
+			<a href="<%= @getUrl(@getFileAtPath('pages/audiobook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-headphones"></span> Listen to Audio book</a>
 		</div>
 		<div class="col-xs-12">
 			<!-- Sharing -->

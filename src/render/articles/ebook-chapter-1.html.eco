@@ -1,0 +1,34 @@
+---
+title: "'Inside the Snitch Tank': Read the full story of murder, misconduct and justice delayed"
+date: 2016/1/1
+layout: article
+tags: [article, dekraai, ebook]
+authors:
+	-
+		name: Edward Humes
+		email: http://www.edwardhumes.com/
+---
+
+<%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/ocean2.jpg", caption: "JEFF GEORTZEN"}) %>
+
+<h1>Chapter 1</h1>
+
+<blockquote><p>No town could have been less prepared for Scott Dekraai.&rdquo;</p></blockquote>
+<p>Scott Dekraai was, by most accounts, an angry man.</p>
+<p>He had displayed his rage many times over the years to those closest to him. There was the stepfather he beat up over rent. There was his ex-wife, who told a friend that he put a gun to her head shortly after their wedding. And there was the <a href="http://www.webcitation.org/62TKw3aYz">ex-employer he had raged at </a>and sued (unsuccessfully) for firing him for drug use on the job.</p>
+<p>Neighbors and co-workers who knew him casually over the years thought him a great guy &ndash; even those who crewed with him aboard the close confines of ships and his neighbors in Huntington Beach at the time of the shootings. But those who knew him best agree that his life and behavior, already troubled, went drastically downhill in 2007 <a title="after a boat accident severely injured his legs" href="http://www.ocregister.com/articles/dekraai-321848-accident-ashley.html" target="_blank">after a boat accident severely injured his legs</a>. Despite multiple surgeries, the 41-year-old tugboat crewman had been left disabled, in constant pain, diagnosed with post-traumatic stress syndrome, and possessed of a hair-trigger temper.</p>
+<p>He was never the same after that accident, more than one friend lamented. Sometimes Dekraai wished aloud that his most badly mangled leg had been amputated instead of salvaged. At least then the pain and the rage finally might have eased.</p>
+<p>The <a title="latest custody dispute with his ex" href="http://www.ocregister.com/articles/dekraai-321844-fournier-son.html" target="_blank">latest custody dispute with his ex</a> proved to be the final straw, Dekraai would later say.</p>
+<p>Late on the morning of Oct. 12, 2011, he walked out of his neat single-story house in Huntington Beach. He walked by the lawn he kept freshly trimmed and the gray house paint kept perfect, with a decorative anchor set smartly in the garden and his American flag snapping in the breeze above a concrete driveway.</p>
+<p>As he climbed into his white pickup truck and headed north to the next city up the coast, there was just one jarring element in this fastidious portrait of suburban life: Dekraai left the house in a bulletproof vest.</p>
+<p>&bull; &bull; &bull;</p>
+<p>The center of life in Seal Beach is Old Town, with its old-fashioned Main Street &ndash; where local businesses rule, the curbside parking is unmetered, and the fanciest restaurant&rsquo;s only dress requirement is shirt and shoes. This is Orange County&rsquo;s (and Southern California&rsquo;s) least known, least fashionable, throwback beach town, set against the concrete-lined San Gabriel River that divides Orange County from Los Angeles County. Seal Beach lacks the surf-town hustle of Huntington Beach, the high-end glitz of Newport Beach, the Riviera splendor of Laguna Beach. At the foot of Main Street stands the gray timbers of the Seal Beach Pier, and the stretch of sand on either side of it is so broad, flat and empty that, on weekdays at least, it&rsquo;s possible to walk the strand and feel lonely.</p>
+<p>It was not always this way. Seal Beach started where its sister beach towns to the south have ended up, glamorous and tourist-laden. Seal Beach was the first of the beach towns to be served by the Red Car Line, bringing in the ocean-bound hordes beginning in 1904. The city fathers enticed them by building what was then the longest pleasure pier on the West Coast, with 52 giant &ldquo;scintillators&rdquo; left over from the most recent world&rsquo;s fair erected at the end. These huge light standards, arrayed like a battalion of soldiers staring out to sea, cast brilliant rainbows of light onto the water for night swimming. By 1920, the Jewel Caf&eacute; and the Seal Beach Dance Pavilion and Bathhouse with its 90-foot plunge flanked the pier and were the talk of the coast. Seal Beach was a must-stop for weekend beachgoers with a quarter to burn on the trolley, as well as for the stars of the silent screen arriving in their roadsters and limos. Cecil B. DeMille parted the waters in his first filming of the &ldquo;Ten Commandments&rdquo; here, as sightseers plied the beach walk on miniature wicker cars powered by electric motors. A giant roller coaster two blocks long towered over all, and celebrities popped into town aboard their private planes, which landed at the Seal Beach Airport, famous for its Airport Club 24-hour casino.</p>
+<p>Prohibition and the Great Depression, followed by the demise of the Red Cars, ended all that, grinding Seal Beach&rsquo;s incarnation as Sin City into dust. In its place arose a quiet family town known for its hokey, beloved Main Street Christmas parade, and for being one of the <a href="http://www.city-data.com/crime/crime-Seal-Beach-California.html">safest places to live </a>in Orange County. Name a crime, and it occurs less often here than any other town in the area, and at a rate far below the national average. From 2005 to October 2011, there was exactly one murder in Seal Beach: an 88-year-old man shot his 86-year-old wife as she lay in a nursing home suffering from advanced dementia. The family begged the community for understanding in the wake of this &ldquo;mercy killing.&rdquo;</p>
+<p>No town could have been less prepared for Scott Dekraai as he turned off Pacific Coast Highway a block away from Main Street and pulled into the busy Bay City Center shopping plaza. He drove past the center&rsquo;s collection of shops, restaurants and offices painted in a beachy color scheme of cream and sea-green. Then he parked near a two-story building topped with a distinctive cupola, its second floor dominated by a dermatology clinic and its first floor split between a steak restaurant and a small business called Salon Meritage. Dekraai sat a moment and stared at the hair salon where his ex-wife worked, then stepped out of his truck in his body armor and walked to the door, armed to the teeth.</p>
+
+<div class="chapterNav">
+	<a href="<%= @getUrl(@getFileAtPath('articles/ebook-prologue').toJSON().url) %>" class="pull-left">&laquo; Prologue</a>
+	<a href="<%= @getUrl(@getFileAtPath('articles/ebook-chapter-2').toJSON().url) %>" class="pull-right">Chapter 2 &raquo;</a>
+</div>
+
