@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/topstoryillo5.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <h1>Chapter 5</h1>
 
 <blockquote><p>The authorities did not play by these rules.&rdquo;</p></blockquote>

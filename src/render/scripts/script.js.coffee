@@ -1,3 +1,4 @@
+SocialShareKit.init()
 
 (($) ->
 	$(window).scroll (e) ->

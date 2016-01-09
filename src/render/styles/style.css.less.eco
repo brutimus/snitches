@@ -67,6 +67,13 @@ dl {
 	margin-bottom: 30px;
 }
 
+.ssk-group {
+	width: 82px;
+	.ssk-icon {
+		color: white !important;
+	}
+}
+
 // NAVBAR
 
 .navbar-toggle {
@@ -457,6 +464,9 @@ a.list-group-item {
 				width: 40px;
 				color: #64b4b4;
 			}
+		}
+		.ssk-icon {
+			color: #939598 !important;
 		}
 	}
 	.inline-related {

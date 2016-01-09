@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/judgegoethals.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <h1>Chapter 10</h1>
 
 <blockquote><p>I&rsquo;m confident he sleeps like a rock and his conscience is clear because he&rsquo;s done the right thing.&rdquo;</p></blockquote>

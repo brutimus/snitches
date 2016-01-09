@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 2.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <p>Thomas M. Goethals, a devout man with a keen appreciation for history, wrote to the White House so that his wife, a professional decorator and three-time cancer survivor, could help put up Christmas decorations there last fall.</p>
 <p>Volunteers climbed ladders and strung garlands, and after days of work, when spouses were invited to join a dinner with first lady Michelle Obama, Goethals delighted in roaming the halls and trying out couches where so many great leaders have sat.</p>
 <p>The veteran Orange County Superior Court judge was especially enthralled by the portrait of Abraham Lincoln hanging in the State Dining Room.</p>

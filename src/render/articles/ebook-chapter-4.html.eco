@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/flowers.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <h1>Chapter 4</h1>
 
 <blockquote><p>What kind of sick, twisted fatherly love might that be?&rdquo;</p></blockquote>

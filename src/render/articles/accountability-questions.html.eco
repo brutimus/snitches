@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "/images/leads/Drawing - Prosecution Team.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <p>Tough, street-smart Tony Rackauckas, <a href="http://www.ocregister.com/articles/rackauckas-654482-attorney-case.html" target="_blank" title="who left gang-marred East Los Angeles to jump from the sky as a U.S. Army paratrooper">who left gang-marred East Los Angeles to jump from the sky as a U.S. Army paratrooper</a>, has spent the better part of his legal career in one battle or another.</p>
 <p>He prosecuted murderers. He fought to oust liberal California Supreme Court Justice Rose Bird. During his long run as Orange County district attorney, Rackauckas has endured as one of local government&rsquo;s most powerful and enigmatic figures, surviving public accusations of cronyism and poor management. A grand jury criticized him for an ill-advised friendship with the target of an organized crime probe.</p>
 <p>Now, at 72, embroiled in his latest controversy &ndash; <a href="http://www.ocregister.com/articles/informants-693296-attorney-dekraai.html" target="_blank" title="over the improper use of jailhouse informants">over the improper use of jailhouse informants</a> &ndash; Rackauckas is under fire from far outside his normal sphere. Top legal experts from throughout the country <a href="http://files.onset.freedom.com/ocregister/docs/Request_for_Federal_Investigation_in_Orange_County_11.17.15.pdf" target="_blank" title="penned a Nov. 17 letter to U.S. Attorney General Loretta Lynch">penned a Nov. 17 letter to U.S. Attorney General Loretta Lynch</a>, declaring Orange County&rsquo;s justice system to be in a state of crisis and asking for a federal investigation.</p>

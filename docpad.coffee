@@ -48,6 +48,7 @@ docpadConfig = {
 				"/styles/style.css"
 				"/vendor/photoswipe/photoswipe.css"
 				"/vendor/photoswipe/default-skin/default-skin.css"
+				"/vendor/social-share-kit/css/social-share-kit.css"
 				"//cdn.knightlab.com/libs/soundcite/latest/css/player.css"
 			]
 

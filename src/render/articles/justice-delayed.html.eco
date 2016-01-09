@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 4.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <p>He awaits justice, as he has for five years, six months and 16 days.</p>
 <p>That&rsquo;s how long it&rsquo;s been since Steve Herr&rsquo;s son was slain &ndash; his head cut off and discarded in a public park.</p>
 <p>Police <a href="http://www.ocregister.com/articles/police-250917-wozniak-kibuishi.html" target="_blank" title="quickly arrested a suspect and charged him with murder">quickly arrested a suspect and charged him with murder</a>, but since then?</p>

@@ -7,11 +7,9 @@ title: 'Home'
 	<img src="<%= @getUrl('images/SNITCH_cell_animation.jpg') %>" data-gifSrc="<%= @getUrl('images/SNITCH_cell_animation.gif') %>">
 	<div class="container">
 		<span class="text-muted pull-right caption">JEFF GEORTZEN, STAFF</span>
-		<!-- <div class="row title">
-			<h2 class="text-center text-uppercase">Inside the Snitch Tank</h2>
-		</div> -->
 		<p class="dropcap">Jailhouse snitches are rarely prisoners who happen to overhear confessions. Inmates apply for the job and they become part of a roster of covert operatives whose surveillance on behalf of law enforcement has put the Orange County justice system at the center of a national debate.</p>
 	</div>
+	<%- @partial('sharing') %>
 </div>
 
 <div class="container">

@@ -11,6 +11,8 @@ authors:
 
 <%- @displayGallery('pt2.html') %>
 
+<%- @partial('sharing') %>
+
 <p>Daniel Escalera was on the hunt &ndash; and his weapon was the Bible.</p>
 <p>Locked up in the Orange County Jail, the habitual drug dealer and petty criminal spent time trolling for information. Of particular interest was the man in the adjoining cell, William Charles Payton, who was about to face trial for the rape and bloody stabbing murder of a young woman in Garden Grove.</p>
 <p>Day after day, Escalera ingratiated himself with Payton, often during conversations about Christ. They read the Bible together.</p>

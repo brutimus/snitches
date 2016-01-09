@@ -19,7 +19,7 @@ layout: default
 		<div class="byline">By <% for author in @document.authors: %>
 			<a href="mailto:<%= author.email %>"><%- author.name %></a>
 		<% end %></div>
-		<div class="article-content"><%- @content %></div>
+		<div class="article-content"><%- @content %><%- @partial('sharing') %></div>
 	</article>
 
 	<!-- Root element of PhotoSwipe. Must have class pswp. -->

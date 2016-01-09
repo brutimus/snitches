@@ -12,6 +12,8 @@ scripts: ["//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"]
 
 <%- @partial('inline-photo', {src: "/images/leads/Drawing - prison cell2.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <p>Flowers piled up like a crashing sea wave against the west wall of Salon Meritage, where the shooting rampage occurred. Eight people were dead, another wounded. Loved ones wept and set about the grim task of organizing funerals.</p>
 <p>So in mid-October of 2011, two days after <a href="http://www.ocregister.com/articles/business-321651-medical-beach.html" target="_blank" title="the deadliest mass murder in Orange County history">the deadliest mass murder in Orange County history</a>, the strategic response of law enforcement began to take shape, publicly and behind the scenes. District Attorney Tony Rackauckas drove to Seal Beach and spoke at a news conference, <a href="http://www.ocregister.com/articles/salon-321997-killing-beach.html" target="_blank" title="vowing to seek death for gunman Scott Dekraai">vowing to seek death for gunman Scott Dekraai</a>.</p>
 

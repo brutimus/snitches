@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/fperez.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <h1>Chapter 6</h1>
 
 <blockquote><p>They trusted me ... They just kind of opened up.&rdquo;</p></blockquote>

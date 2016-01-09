@@ -11,6 +11,8 @@ authors:
 
 <%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/victimssketch.jpg", caption: "JEFF GEORTZEN"}) %>
 
+<%- @partial('sharing') %>
+
 <h1>Chapter 3</h1>
 
 <blockquote><p>Hold on a minute, Scott. Please don't do this.&rdquo;</p></blockquote>

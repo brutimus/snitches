@@ -4,6 +4,7 @@ module.exports = function(grunt) {
 			dist: {
 				src: [
 					'out/vendor/twitter-bootstrap/dist/js/bootstrap.js',
+					'out/vendor/social-share-kit/js/social-share-kit.js',
 					'out/scripts/autocrop.js',
 					'out/scripts/script.js',
 					'out/scripts/slideshow.js',
