@@ -14,7 +14,9 @@ pageOrder: 7
 		</div>
 		<div class="col-xs-12">
 			<!-- audio player -->
-			<a href="<%= @getUrl(@getFileAtPath('pages/ebook').toJSON().url) %>" class="button primary">Download the E-Book</a>
+			<a href="" class="button primary"><span class="glyphicon glyphicon-headphones"></span> Coming soon! </a>
+			<!-- <a href="" class="button secondary"><span class="glyphicon glyphicon-save"></span> Download MP3</a> -->
+			<a href="<%= @getUrl(@getFileAtPath('pages/ebook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-book"></span> Read the E-Book</a>
 		</div>
 		<div class="col-xs-12">
 			<!-- Sharing -->

@@ -53,19 +53,20 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"/scripts/built.min.js"
 				"//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"
+				"/scripts/built.min.js" # Minified file produced by Grunt
 			]
 
 			nav: [
 				["/", "Home"]
 				["/pages/characters", "Cast of characters"]
 				["/pages/timeline", "Timeline"]
-				# ["/pages/pipeline", "Snitch Pipeline"]
-				# ["/pages/keycases", "Key Cases"]
+				["/pages/pipeline", "Snitch Pipeline"]
+				["/pages/keycases", "Snitch Fallout: Key Cases"]
+				["/pages/informants-law", "Informants and the Law"]
 				["/pages/archive", "Archive"]
 				["/pages/ebook", "E-Book"]
-				# ["/pages/audiobook", "Audio book"]
+				["/pages/audiobook", "Audio book"]
 				["/pages/video", "Video"]
 				# ["/pages/documents", "Documents"]
 				["/pages/glossary", "Glossary"]

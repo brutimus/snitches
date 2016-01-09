@@ -40,7 +40,7 @@ pageOrder: 6
 					<a href="<%= @getUrl(@getFileAtPath('articles/ebook-epilogue').toJSON().url) %>">Epilogue</a>
 				</div>
 			</div>
-			<a href="http://www.amazon.com/Inside-Snitch-Tank-Misconduct-Justice-ebook/dp/B01A2NT3BG/ref=sr_1_1" class="button primary">Get book on Kindle</a>
+			<a href="http://www.amazon.com/Inside-Snitch-Tank-Misconduct-Justice-ebook/dp/B01A2NT3BG/ref=sr_1_1" class="button primary"><span class="glyphicon glyphicon-book"></span> Get book on Kindle</a>
 			<a href="<%= @getUrl(@getFileAtPath('pages/audiobook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-headphones"></span> Listen to Audio book</a>
 		</div>
 		<div class="col-xs-12">

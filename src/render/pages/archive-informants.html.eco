@@ -1,0 +1,23 @@
+---
+title: Jailhouse informants
+layout: page
+pageOrder: 1
+---
+
+<%- @partial('archive-main', {tag: 'informants'}) %>
+
+<div class="col-lg-6">
+	<div class="section-header">
+		<h3>Story Archive</h3>
+	</div>
+	<div class="list-group">
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive') %>">Full archive</a>
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive-dekraai') %>">Scott Dekraai case</a>
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive-wozniak') %>">Daniel Wozniak case</a>
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive-informants') %>">Jailhouse informants</a>
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive-mafia') %>">Mexican Mafia</a>
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive-rackauckas') %>">Orange County District Attorney Tony Rackauckas</a>
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive-deputies') %>">Orange County Sheriff's deputies</a>
+		<a class="list-group-item" href="<%= @getUrl('/pages/archive-papering') %>">Papering a judge</a>
+	</div>
+</div>
