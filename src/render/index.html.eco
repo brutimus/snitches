@@ -38,6 +38,14 @@ title: 'Home'
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-xs-12">
+			<div class="section-header">
+				<h3>Latest News</h3>
+			</div>
+			<div id="latestNewsBlock"></div>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col-lg-6">
 			<div class="section-header">
 				<h3>Features</h3>
