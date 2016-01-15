@@ -1,5 +1,9 @@
 SocialShareKit.init()
 
+isMobile = window.matchMedia "only screen and (max-width: 760px)"
+if !isMobile.matches
+    location.href = "http://ocregister.com/go/snitches"
+
 (($) ->
 	$(window).scroll (e) ->
 		$(window).off 'scroll'
