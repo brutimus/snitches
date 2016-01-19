@@ -19,7 +19,7 @@ if !isMobile.matches
 			for story in result
 				headline = story.headline
 				url = story.link
-				date = new Date(story.pub_date)
+				date = new Date(story.pub_date.replace(/-/g, "/"))
 				month = monthMap[date.getMonth()]
 				day = date.getDate()
 				year = date.getFullYear()
