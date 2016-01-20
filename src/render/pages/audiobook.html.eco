@@ -10,11 +10,11 @@ pageOrder: 7
 			Listen to the audio version of the e-book by Pulitzer Prize-winning journalist, Edward Humes.
 		</div>
 		<div class="col-xs-6">
-			<img class="book-img" src="<%= @getUrl('/images/SNITCH_book_cover.png') %>" alt="thumbnail">
+			<img class="book-img" src="<%= @getUrl('/images/Snitch_book_cover.png') %>" alt="thumbnail">
 		</div>
 		<div class="col-xs-12">
 			<!-- audio player -->
-			<a href="" class="button primary"><span class="glyphicon glyphicon-headphones"></span> Coming soon! </a>
+			<a href="http://www.audible.com/pd/Nonfiction/Inside-the-Snitch-Tank-Audiobook/B01ATQTBGS/ref=a_search_c4_1_1_srTtl" class="button primary"><span class="glyphicon glyphicon-headphones"></span> Listen on Audible</a>
 			<!-- <a href="" class="button secondary"><span class="glyphicon glyphicon-save"></span> Download MP3</a> -->
 			<a href="<%= @getUrl(@getFileAtPath('pages/ebook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-book"></span> Read the E-Book</a>
 		</div>
