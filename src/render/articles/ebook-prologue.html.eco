@@ -9,7 +9,7 @@ authors:
 		email: http://www.edwardhumes.com/
 ---
 
-<%- @partial('inline-photo', {src: "/images/prologue.jpg", caption: "JEFF GEORTZEN"}) %>
+<%- @partial('inline-photo', {src: "/images/prologue.jpg", caption: "JEFF GOERTZEN"}) %>
 
 <h1>Prologue</h1>
 

@@ -9,7 +9,7 @@ authors:
 		email: http://www.edwardhumes.com/
 ---
 
-<%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/defenseattorneysolo.jpg", caption: "JEFF GEORTZEN"}) %>
+<%- @partial('inline-photo', {src: "http://files.onset.freedom.com/ocregister/news/2015/snitchtank/ebook/defenseattorneysolo.jpg", caption: "JEFF GOERTZEN"}) %>
 
 <h1>Chapter 8</h1>
 

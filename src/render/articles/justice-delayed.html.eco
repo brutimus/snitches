@@ -9,7 +9,7 @@ authors:
 		email: tberg@ocregister.com
 ---
 
-<%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 4.jpg", caption: "JEFF GEORTZEN"}) %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 4.jpg", caption: "JEFF GOERTZEN"}) %>
 
 <%- @partial('sharing') %>
 

@@ -1,6 +1,6 @@
 ```
 title: Money, cable TV, food delivery: How Mexican Mafia snitches lived like kings behind bars
-date: 2015/11/23
+date: 2014/11/23
 layout: article
 tags: [featured, article, mafia, informants]
 authors:
@@ -9,7 +9,7 @@ authors:
 		email: tberg@ocregister.com
 ```
 
-<%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 5.jpg", caption: "JEFF GEORTZEN"}) %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - Top story illo 5.jpg", caption: "JEFF GOERTZEN"}) %>
 
 <%- @partial('sharing') %>
 

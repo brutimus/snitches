@@ -9,7 +9,7 @@ authors:
 		email: tsaavedra@ocregister.com
 ---
 
-<%- @partial('inline-photo', {src: "/images/leads/Drawing - Prosecution Team.jpg", caption: "JEFF GEORTZEN"}) %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - Prosecution Team.jpg", caption: "JEFF GOERTZEN"}) %>
 
 <%- @partial('sharing') %>
 

@@ -10,7 +10,7 @@ authors:
 scripts: ["//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"]
 ```
 
-<%- @partial('inline-photo', {src: "/images/leads/Drawing - prison cell2.jpg", caption: "JEFF GEORTZEN"}) %>
+<%- @partial('inline-photo', {src: "/images/leads/Drawing - prison cell2.jpg", caption: "JEFF GOERTZEN"}) %>
 
 <%- @partial('sharing') %>
 

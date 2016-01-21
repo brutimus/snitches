@@ -1,0 +1,44 @@
+```
+title: Lawmakers impose stricter penalties for prosecutors in response to snitch scandal
+date: 2015/10/7
+layout: article
+tags: [featured, article]
+authors:
+	-
+		name: TONY SAAVEDRA / Staff Writer
+		email: tsaavedra@ocregister.com
+```
+
+<%- @partial('inline-photo', {src: "/images/mugs/rackauckas.jpg", caption: "JEFF GOERTZEN"}) %>
+
+<%- @partial('sharing') %>
+
+<p>Prosecutors who intentionally withhold evidence from defense attorneys or the court could face tougher punishment and greater scrutiny under a new state law prompted by the misuse of jailhouse informants by Orange County prosecutors.</p>
+<p>The legislation, signed by Gov. Jerry Brown, strengthens the ability of judges to remove individual prosecutors and, if warranted, their offices, from cases if prosecutors are found willfully withholding evidence.</p>
+<p>The new law also requires judges to report offending prosecutors to the state bar, which licenses attorneys.</p>
+<p>The bill was not widely supported by Orange County legislators, though District Attorney Tony Rackauckas said Tuesday he supported it.</p>
+<p>The legislation was sponsored by Assemblywoman Shirley Weber, D-San Diego, a professor at San Diego State University whose late husband was a judge.</p>
+<p>She said the legislation is important because it forces judges to hold prosecutors accountable.</p>
+<p>“I’ve always had as a priority this whole issue of social justice,” Weber said. “When it doesn’t work, it has the tendency to do a lot of harm.”</p>
+<p>Weber also said inspiration from the law tracked to events in Orange County.</p>
+<p>In March, a Superior Count judge barred the District Attorney’s Office – all 250 lawyers – from the highest-profile mass murder case in county history.</p>
+<p>Judge Thomas Goethals made the rare move of kicking the Orange County District Attorney’s Office off the case, saying prosecutors couldn’t ensure a fair trial in the penalty phase of the trial of confessed mass murderer Scott Dekraai.</p>
+<p>Goethals sited misleading or false testimony from sheriff’s deputies about jailhouse informants and the unintentional failure of prosecutors to turn over evidence.</p>
+<p>The Dekraai case was handed to the state Attorney General’s Office, which is appealing on the grounds that the judge overstepped.</p>
+<p>An Orange County public defender, representing Dekraai and double-murder defendant Daniel Wozniak, has accused police and prosecutors of illegally using jailhouse informants over the past 30 years to coax confessions from defendants and withholding evidence about those informants.</p>
+<p>Rackauckas has admitted in past interviews that his prosecutors made some mistakes in handing over evidence and using informants, but none intentionally.</p>
+<p>Prosecutors have labeled the accusations as unfounded and reckless.</p>
+<p>Rackauckas said Tuesday he supports the new, stricter sanctions and thinks they should even be stronger for prosecutors who willfully withhold evidence from defense teams.</p>
+<p>“I think it’s a good law. And any prosecutor who acts in the manner proscribed by the law, intentionally, that’s reprehensible conduct,” Rackauckas said.</p>
+<p>“There has not been any intentional bad faith withholding of evidence in the D.A.’s office. If that were to happen and I found out about it, that person would be terminated.”</p>
+<p>The California District Attorneys Association opposed the bill partly out of concern that prosecutors who mistakenly failed to turn over evidence would be punished along with the prosecutors who do so by intent.</p>
+<p>“Let’s make sure the conduct that is proscribed is actually misconduct,” said Sean Hoffman, director of legislation for the prosecutors’ association.</p>
+<p>“We look at prosecutorial error and prosecutorial misconduct as two different things.”</p>
+<p>The bill was sponsored by California Attorneys for Criminal Justice, a 2,000-member group dedicated to preserving defendants’ rights.</p>
+<p>“The public deserves to have confidence that prosecutors are committed to playing by the rules instead of trying to win at all costs,” said Jeff Thoma, association president.</p>
+<p>“I applaud the passage of AB1328 and it being signed into law. I believe this has the positive effect of insuring greater due process by reducing (discovery) violations and holding those accountable that do so in bad faith.”</p>
+<p>Among Orange County representatives in Sacramento, only Assemblyman Tom Daly, D-Anaheim, and Sens. John Moorlach, R-Irvine, and Tony Mendoza, D-Artesia, voted in favor of the law.</p>
+<p>Assembly members Young Kim, R-Fullerton, Don Wagner, R-Tustin, Travis Allen, R-Huntington Beach, Bill Brough, R-Dana Point, Ling Ling Chang, R-Chino Hills, and Matt Harper, R-Costa Mesa, voted against the law.</p>
+<p>Sens. Janet Nguyen, R-Santa Ana and Pat Bates, R-San Juan Capistrano, also voted against it.</p>
+<p>Sen. Bob Huff, R-Brea, did not cast a vote.</p>
+<p><b>Contact the writer:</b> <a href="mailto:tsaavedra@ocregister.com">tsaavedra@ocregister.com</a></p>

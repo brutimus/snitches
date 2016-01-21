@@ -6,7 +6,7 @@ title: 'Home'
 <div class="jumbotron lead-container">
 	<img src="<%= @getUrl('images/SNITCH_cell_animation.jpg') %>" data-gifSrc="<%= @getUrl('images/SNITCH_cell_animation.gif') %>">
 	<div class="container">
-		<span class="text-muted pull-right caption">JEFF GEORTZEN, STAFF</span>
+		<span class="text-muted pull-right caption">JEFF GOERTZEN, STAFF</span>
 		<p class="dropcap">Jailhouse snitches are rarely prisoners who happen to overhear confessions. Inmates apply for the job and they become part of a roster of covert operatives whose surveillance on behalf of law enforcement has put the Orange County justice system at the center of a national debate.</p>
 	</div>
 	<%- @partial('sharing') %>
@@ -109,7 +109,7 @@ title: 'Home'
 							<img src="<%= @getUrl('/images/thumb-characters.jpg') %>" alt="thumbnail">
 							<div class="caption">
 								<h4>Characters</h4>
-								<p>Read about the informants, attorneys, officials and victims involved.</p>
+								<p>Read about the informants, prosecutors, cops and other key players involved in the controversy.</p>
 								<span class="link">&gt;</span>
 							</div>
 						</div>
@@ -122,7 +122,7 @@ title: 'Home'
 							<img src="<%= @getUrl('/images/thumb-timeline.jpg') %>" alt="thumbnail">
 							<div class="caption">
 								<h4>Timeline</h4>
-								<p>See how snitch cases have turned into a county-wide scandal over the years.</p>
+								<p>How events in the snitch controversy prompted a national debate on the O.C. justice system.</p>
 								<span class="link">&gt;</span>
 							</div>
 						</div>
@@ -237,7 +237,7 @@ title: 'Home'
 					<dt>Print designers</dt>
 					<dd>Joey Santos<br>Chris Soprych</dd>
 					<dt>Contributors</dt>
-					<dd>Kelly Puente<br>Tom Berg<br>Jodie Tillman<br>Andre Mouchard</dd>
+					<dd>Kelly Puente<br>Tom Berg<br>Jodie Tillman<br>Andre Mouchard<br>Roxana Kopetman</dd>
 					<dt>Video script</dt>
 					<dd>Keith Sharon</dd>
 					<dt>Aerial footage</dt>
