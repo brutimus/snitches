@@ -64,7 +64,7 @@ pageOrder: 7
 			<div class="thumbnail right">
 				<img src="<%= @getUrl("/images/pipeline/pipeline_3.jpg") %>" alt="thumbnail" data-autocrop="true" data-cropx="300" data-cropy="530">
 				<div class="caption">
-					<p>The informant begins to advise his deputy handlers on how best to use him. He suggests they put him in disciplinary isolation with a targeted defendant, so they can bond.. His theory:  he won’t be viewed as a snitch if he is being punished, too.</p>
+					<p>The informant begins to advise his deputy handlers on how best to use him. He suggests they put him in disciplinary isolation with a targeted defendant, so they can bond. His theory:  he won’t be viewed as a snitch if he is being punished, too.</p>
 				</div>
 			</div>
 			<span class="flow ltr"></span>

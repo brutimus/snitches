@@ -57,7 +57,7 @@ title: 'Home'
 							<img src="<%= @getUrl('/images/thumb-ebook.jpg') %>" alt="thumbnail">
 							<div class="caption">
 								<h4>E-Book</h4>
-								<p>Read the e-Book by Pulitzer Prize-winning journalist, Edward Humes.</p>
+								<p>Read the e-Book by Pulitzer Prize-winning journalist Edward Humes.</p>
 								<span class="link">&gt;</span>
 							</div>
 						</div>

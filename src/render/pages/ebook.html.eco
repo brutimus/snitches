@@ -1,13 +1,16 @@
 ---
-title: E-Book
+title: "'Inside the Snitch Tank': Read the full story of murder, misconduct and justice delayed"
+pageTitle: E-Book
 layout: page
+date: 2015/12/30
+tags: [article, dekraai, ebook]
 pageOrder: 6
 ---
 
 <div class="ebook row">
 	<div class="row">
 		<div class="col-xs-6 summary">
-			Read the e-book by Pulitzer Prize-winning journalist, Edward Humes.
+			Read the e-book by Pulitzer Prize-winning journalist Edward Humes.
 		</div>
 		<div class="col-xs-6">
 			<img class="book-img" src="<%= @getUrl('/images/Snitch_book_cover.png') %>" alt="thumbnail">
