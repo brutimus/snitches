@@ -1,0 +1,26 @@
+jQuery(document).ready(function($) {
+	var viewer = new PTGuiViewer();
+	viewer.setSwfUrl("<%= @getUrl('/scripts/PTGuiViewer.swf') %>");
+	viewer.preferHtmlViewer();
+	viewer.setVars({
+		pano: "<%= @getUrl('/images/panos/pano_modl_tank_17/L17_') %>",
+	  format: "14faces",
+	  pan: -120,
+	  minpan: -180,
+	  maxpan: 180,
+	  tilt:-20,
+	  mintilt: -88.80455407969639,
+	  maxtilt: 88.80455407969639,
+	  fov: 130,
+	  minfov: 10,
+	  maxfov: 160,
+	  autorotatespeed: 0,
+	  autorotatedelay: 0,
+	  maxiosdimension: 567,
+	  showfullscreenbutton_flash: 1,
+	  showfullscreenbutton_html: 1,
+	  enablegyroscope: 1
+	});
+
+	viewer.embed("mypanoviewer");
+});

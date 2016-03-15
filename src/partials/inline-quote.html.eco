@@ -1,3 +1,4 @@
 <div class="thumbnail inline-photo">
 	<img class="img-responsive" src="<%- @getUrl('/images/quotes/quote_' + @name + '.jpg') %>">
 </div>
+<%- @partial('sharing') %>

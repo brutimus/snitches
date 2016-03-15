@@ -13,11 +13,11 @@ pageOrder: 7
 			<img class="book-img" src="<%= @getUrl('/images/Snitch_book_cover.png') %>" alt="thumbnail">
 		</div>
 		<div class="col-xs-12">
-			<!-- audio player -->
 			<a href="http://www.audible.com/pd/Nonfiction/Inside-the-Snitch-Tank-Audiobook/B01ATQTBGS/ref=a_search_c4_1_1_srTtl" class="button primary"><span class="glyphicon glyphicon-headphones"></span> Listen on Audible</a>
 			<a href="http://www.amazon.com/Inside-Snitch-Tank-Misconduct-Justice/dp/B01ATQTGJ0/" class="button primary"><span class="glyphicon glyphicon-headphones"></span> Download on Amazon</a>
 			<!-- <a href="" class="button secondary"><span class="glyphicon glyphicon-save"></span> Download MP3</a> -->
 			<a href="<%= @getUrl(@getFileAtPath('pages/ebook').toJSON().url) %>" class="button secondary"><span class="glyphicon glyphicon-book"></span> Read the E-Book</a>
+			<iframe src="http://files.onset.freedom.com/ocregister/news/2016/01/snitchtank/audiobook-mobile.html" width="100%" height="447px"></iframe>
 		</div>
 		<div class="col-xs-12">
 			<!-- Sharing -->

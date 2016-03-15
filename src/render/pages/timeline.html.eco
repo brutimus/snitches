@@ -9,6 +9,9 @@ pageOrder: 1
 		<div class="col-xs-12">
 			<div class="entryGroup">
 				<span class="entryGroupHead">2016</span>
+				<div class="entry"><span class="entryHead">March 2016:</span> ACLU jumps into the fight over jailhouse informants, asking the District Attorney and Sheriff’s Department to <a href="http://www.ocregister.com/articles/county-706813-attorney-sanderson.html">turn over misconduct records</a>.</div>
+				<div class="entry"><span class="entryHead">February 2016:</span> Prosecutors, sheriff and public defender <a href="http://www.ocregister.com/articles/system-706340-rackauckas-sanders.html">hotly debate use of jailhouse informants</a> at a community forum hosted by the Orange County Register.</div>
+				<div class="entry"><span class="entryHead">February 2016:</span> Judge grants a new trial for Henry Rodriguez for 1998 death of a pregnant woman, ruling that prosecutors failed to turn over records that showed a key witness in Rodriguez’s 2006 trial was a <a href="<%= @getUrl(@getFileAtPath('pages/keycases').toJSON().url) %>">seasoned jailhouse snitch</a>.</div>
 				<div class="entry"><span class="entryHead">January 2016:</span> After about an hour of deliberation, a Superior Court jury recommends the <a href="http://www.ocregister.com/articles/wozniak-699446-herr-jury.html" target="_blank" title="death penalty for Daniel Wozniak">death penalty for Daniel Wozniak</a>.</div>
 				<div class="entry"><span class="entryHead">January 2016:</span> A panel of legal experts hand-picked by District Attorney Tony Rackauckas issues a report that calls his office a "<a href="http://www.ocregister.com/articles/office-698444-jailhouse-prosecutors.html" target="_blank" title="ship without a rudder.">ship without a rudder.</a>"</div>
 			</div>
@@ -48,5 +51,3 @@ pageOrder: 1
 		</div>
 	</div>
 </div>
-
-

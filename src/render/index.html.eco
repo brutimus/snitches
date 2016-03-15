@@ -1,6 +1,6 @@
 ---
 layout: 'default'
-title: 'Home'
+title: 'Inside the Snitch Tank'
 ---
 
 <div class="jumbotron lead-container">
@@ -18,10 +18,10 @@ title: 'Home'
 			<div class="section-header">
 				<h3>Top Stories</h3>
 			</div>
-			
+
 			<% for document in @getCollection('articles').findAll(tags:$has:'featured').toJSON(): %>
 				<div class="media">
-					<a href="<%= @getUrl(document.url) %>">
+					<a href="<%= @getUrl(document) %>">
 						<div class="media-left">
 							<div class="date">
 								<div class="month"><%= @moment(document.date).format('MMM') %>.</div>
@@ -91,12 +91,51 @@ title: 'Home'
 				</div>
 
 				<div class="col-xs-12 col-md-4">
+					<a href="<%= @getUrl(@getFileAtPath('pages/forum').toJSON().extUrl) %>">
+						<div class="thumbnail major">
+							<img src="<%= @getFileAtPath('pages/forum.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
+							<div class="caption">
+								<h3>Public forum</h3>
+								<p><%= @getFileAtPath('pages/forum.html').toJSON().title %></p>
+								<span class="link">&gt;</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
 					<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l').toJSON().url) %>">
 						<div class="thumbnail major">
 							<img src="<%= @getFileAtPath('pages/pano-mod-l.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
 							<div class="caption">
 								<h3>Virtual Tour</h3>
 								<p><%= @getFileAtPath('pages/pano-mod-l.html').toJSON().title %></p>
+								<span class="link">&gt;</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-xs-6 col-md-4">
+					<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l-tank-17').toJSON().url) %>">
+						<div class="thumbnail minor">
+							<img src="<%= @getFileAtPath('pages/pano-mod-l-tank-17.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
+							<div class="caption">
+								<!-- <h3>Sector 17</h3> -->
+								<p><%= @getFileAtPath('pages/pano-mod-l-tank-17.html').toJSON().title %></p>
+								<span class="link">&gt;</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-xs-6 col-md-4">
+					<a href="<%= @getUrl(@getFileAtPath('pages/pano-mod-l-tank-17-cell-3').toJSON().url) %>">
+						<div class="thumbnail minor">
+							<img src="<%= @getFileAtPath('pages/pano-mod-l-tank-17-cell-3.html').toJSON().leadImage %>" alt="thumbnail" data-autocrop="true" data-cropx="600" data-cropy="400">
+							<div class="caption">
+								<!-- <h3>Cell 3</h3> -->
+								<p><%= @getFileAtPath('pages/pano-mod-l-tank-17-cell-3.html').toJSON().title %></p>
 								<span class="link">&gt;</span>
 							</div>
 						</div>

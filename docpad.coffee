@@ -25,12 +25,10 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Jailhouse Snitches | The Orange County Register"
+			title: "OC Register"
 
 			# The website description (for SEO)
-			description: """
-				Jailhouse snitches are rarely prisoners who happen to overhear confessions. Inmates apply for the job and they become part of a roster of covert operatives whose surveillance on behalf of law enforcement has put the Orange County justice system at the center of a national debate.
-				"""
+			description: """"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
@@ -110,6 +108,8 @@ docpadConfig = {
 				return _
 
 			if (typeof _ == "object")
+				if (_.extUrl)
+					return _.extUrl
 				if (_.url)
 					return @getUrl(_.url,site)
 				if (_.map)
@@ -140,7 +140,7 @@ docpadConfig = {
 					imgDims = {'width': img.width, 'height': img.height}
 				else
 					imgDims = @getImageSize(imgUrl)
-				
+
 				jsonData.push({
 					src: img.src,
 					title: img.caption,

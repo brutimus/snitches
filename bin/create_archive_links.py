@@ -258,7 +258,11 @@ links = [
  {'date': '2011/10/12',
   'headline': "Seal Beach shootings: 8 slain in O.C.'s deadliest mass killing",
   'url': 'http://www.ocregister.com/articles/business-321651-medical-beach.html',
-  'tags': ['dekraai']}]
+  'tags': ['dekraai']},
+ {'date': '2006/5/20',
+  'headline': "Shootings recall CSUF ordeal 31 years ago",
+  'url': 'http://www.ocregister.com/articles/-41796--.html',
+  'tags': ['allaway']}]
 
 def main():
     for link in links:

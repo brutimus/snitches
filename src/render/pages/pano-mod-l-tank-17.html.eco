@@ -1,0 +1,6 @@
+---
+title: A 360-degree look inside Sector 17, which would come to serve as a “snitch tank,” where investigators hoped to glean incriminating statements from Dekraai.
+leadImage: 'images/panos/modl_tank_17.jpg'
+layout: pano
+scripts: ['/scripts/PTGuiViewer.js', '/scripts/pano-mod-l-tank-17.js']
+---

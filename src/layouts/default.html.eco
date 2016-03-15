@@ -11,7 +11,6 @@
 
 	<!-- Our site title and description -->
 	<title><%= @getPreparedTitle() %></title>
-	<meta name="description" content="<%= @getPreparedDescription() %>" />
 	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
 	<meta name="author" content="<%= @site.author or '' %>" />
 
@@ -19,14 +18,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- Icons -->
-		<link rel="shortcut icon" href="<%= @getUrl('/images/icons/favicon.ico') %>">
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= @getUrl('images/icons/apple-touch-icon-144-precomposed.png') %>">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= @getUrl('images/icons/apple-touch-icon-114-precomposed.png') %>">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= @getUrl('images/icons/apple-touch-icon-72-precomposed.png') %>">
-		<link rel="apple-touch-icon-precomposed" href="<%= @getUrl('images/icons/apple-touch-icon-57-precomposed.png') %>">
+	<link rel="shortcut icon" href="<%= @getUrl('/images/icons/favicon.ico') %>">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= @getUrl('images/icons/apple-touch-icon-144-precomposed.png') %>">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= @getUrl('images/icons/apple-touch-icon-114-precomposed.png') %>">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= @getUrl('images/icons/apple-touch-icon-72-precomposed.png') %>">
+	<link rel="apple-touch-icon-precomposed" href="<%= @getUrl('images/icons/apple-touch-icon-57-precomposed.png') %>">
 
 	<!-- Fonts -->
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400|Rock+Salt' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400|Rock+Salt' rel='stylesheet' type='text/css'>
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>

@@ -1,5 +1,5 @@
 <div class="media">
-	<a href="<%= if @story.extUrl then @story.extUrl else @getUrl(@story.url) %>">
+	<a href="<%= @getUrl(@story) %>">
 		<div class="media-left">
 			<div class="date">
 				<div class="month"><%= @moment(@story.date).format('MMM') %>.</div>

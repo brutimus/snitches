@@ -2,25 +2,24 @@ jQuery(document).ready(function($) {
 	var viewer = new PTGuiViewer();
 	viewer.setSwfUrl("<%= @getUrl('/scripts/PTGuiViewer.swf') %>");
 	viewer.preferHtmlViewer();
-	// viewer.preferFlashViewer();
 	viewer.setVars({
-	  pano: "<%= @getUrl('/images/panos/pano_modl/Drawing - jail Pano_') %>",
-	  format: "14faces",
-	  pan: -130,
-	  minpan: -180,
-	  maxpan: 180,
-	  tilt:10,
-	  mintilt: -67.42094167252283,
-	  maxtilt: 67.42094167252283,
-	  fov: 110,
-	  minfov: 10,
-	  maxfov: 130,
-	  autorotatespeed: 0,
-	  autorotatedelay: 0,
-	  maxiosdimension: 598,
-	  showfullscreenbutton_flash: 1,
-	  showfullscreenbutton_html: 1,
-	  enablegyroscope: 1
+		pano: "<%= @getUrl('/images/panos/pano_modl_2/L_') %>",
+		format: "14faces",
+		pan: -40,
+		minpan: -180,
+		maxpan: 180,
+		tilt:10,
+		mintilt: -89.19031141868511,
+		maxtilt: 89.19031141868511,
+		fov: 130,
+		minfov: 10,
+		maxfov: 160,
+		autorotatespeed: 0,
+		autorotatedelay: 0,
+		maxiosdimension: 567,
+		showfullscreenbutton_flash: 1,
+		showfullscreenbutton_html: 1,
+		enablegyroscope: 1
 	});
 
 	viewer.embed("mypanoviewer");

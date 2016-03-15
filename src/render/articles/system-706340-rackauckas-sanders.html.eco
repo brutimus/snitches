@@ -1,0 +1,42 @@
+---
+title: "Video: Orange County's justice system, jailhouse informants hotly debated by D.A., public defender"
+date: 2016/3/1
+layout: article
+tags: [featured, article, rackauckas, sanders, hutchens]
+authors:
+	-
+		name: KELLY PUENTE and KEITH SHARON / STAFF WRITERS
+		email: kpuente@ocregister.com
+---
+
+<%- @partial('inline-photo', {src: "/images/thumb-forum.jpg", caption: "JEFF GOERTZEN"}) %>
+
+<p>Orange County’s justice system needs an outside agency to review law enforcement’s use of informants in its jails, a panel of power brokers agreed Monday night during a lively community forum hosted by the Register.</p>
+<p>But four of the principal forum participants – District Attorney Tony Rackauckas, assistant D.A. Ebrahim Baytieh, Sheriff Sandra Hutchens and Assistant Public Defender Scott Sanders – could not agree on what went wrong when law enforcement officials decided to use a jailhouse informant in the case of Scott Dekraai, <a href="http://www.ocregister.com/articles/dekraai-697917-salon-beach.html" target="_blank" title="who gunned down eight people in Seal Beach in 2011">who gunned down eight people in Seal Beach in 2011</a>.</p>
+<p>More than 200 people gathered in the lobby of the newspaper to see the panel, led by Register Managing Editor Donna Wares. Register reporter Tony Saavedra and Pulitzer Prize-winning author Edward Humes also participated in the panel. The forum, entitled “Beyond the Snitch Tank,” focused on solutions and the future of the Orange County justice system.</p>
+<p><a href="http://www.ocregister.com/go/snitches" target="_blank" title="RELATED: 'Inside the Snitch Tank' news, video, e-book and more"><b>RELATED:</b> 'Inside the Snitch Tank' news, video, e-book and more</a></p>
+<p>Sanders alleged that the District Attorney’s Office has for 25 years employed a system of using informants illegally and hiding the information gathered from informants.</p>
+<%- @displayGallery('forum.html') %>
+<p>“We’re not advancing here,” Sanders said emphatically. “We’re not moving forward until you address the past.”</p>
+<p>Rackauckas, who was first elected district attorney in 1998, said his office is now requiring more training for the law enforcement personnel who deal with inmates and informants.</p>
+<p>“There is honesty in the system,” Rackauckas said. “This is not a corrupt system.”</p>
+<p>Hutchens said no conspiracy exists.</p>
+<p>“It’s not a perfect system, but there has been no deliberate misconduct,” the sheriff said.</p>
+<div class="yt-container"><iframe class="yt-video" src="https://www.youtube.com/embed/zVuv0jLxpAs?rel=0" frameborder="0" height="auto" width="100%"></iframe></div>
+<p>In one particularly heated exchange, Sanders accused Rackauckas of claiming his office had been “cleared” when the penalty phase of the Dekraai case was taken away by Superior Court Judge Thomas Goethals and given to the state’s attorney general.</p>
+<p>“That’s not a clearing of anybody,” Sanders said.</p>
+<p>“There was no intentional violation of anything,” Rackauckas said. Goethals’ ruling is under appeal.</p>
+<p>The Register <a href="http://www.ocregister.com/go/snitches" target="_blank" title="began chronicling the controversy over the use">began chronicling the controversy over the use</a> by police and prosecutors of informants in the jail system early in 2014.</p>
+<p>Shortly after his arrest, Dekraai landed in a jail cell <a href="http://www.ocregister.com/articles/perez-603893-motion-dekraai.html" target="_blank" title="next to a prolific snitch named Fernando Perez">next to a prolific snitch named Fernando Perez</a>, who had been working with Orange County authorities in hopes of reducing his own sentence for gun crimes. Jailers recorded more than 130 hours of conversations between Dekraai and Perez.</p>
+<p>At the time, Rackauckas pledged to seek the death penalty against Dekraai.</p>
+<p>Sanders noticed that Perez also had been an informant in the case of another client – <a href="http://www.ocregister.com/articles/wozniak-699446-herr-jury.html" target="_blank" title="accused murderer Daniel Wozniak">accused murderer Daniel Wozniak</a>. Sanders wrote voluminous court briefs <a href="http://www.ocregister.com/articles/sanders-684780-attorney-case.html" target="_blank" title="accusing the D.A. of a decadeslong snitch system">accusing the D.A. of a decadeslong snitch system</a> in which defendants who had been formally charged and were represented by an attorney were illegally questioned by jailhouse informants.</p>
+<p>The jail’s inmate and informant tracking system, called TREDS, came to light during Sanders’ research. He presented his findings to Goethals.</p>
+<p>Hutchens said Monday night that the TREDS system is part of a “classification database” and is not a clandestine operation.</p>
+<p>In March 2015, Goethals <a href="http://www.ocregister.com/articles/goethals-669116-judge-case.html" target="_blank" title="removed the District Attorney’s Office from the Dekraai case">removed the District Attorney’s Office from the Dekraai case</a>, ruling that prosecutors failed to supervise their law enforcement partners. The judge also concluded that two sheriff’s deputies either intentionally lied or willfully withheld material evidence during court hearings.</p>
+<p>On Monday night, Hutchens said Goethals “went a little too far” in his comments about the deputies.</p>
+<p>Former prosecutors and legal scholars from across the United States <a href="http://www.ocregister.com/articles/orange-692665-attorney-county.html">have asked for a federal investigation</a> into Orange County’s justice system. <a href="http://www.ocregister.com/articles/attorney-693017-office-district.html">Rackauckas also has sent a letter to the U.S. attorney general</a> asking for a review.</p>
+<p>Since the Goethals ruling, at least six murder and attempted-murder cases have unraveled. Last week, the <a href="http://www.ocregister.com/articles/rodriguez-705714-garrity-informant.html">murder case against Henry Rodriguez was tossed out</a> when Goethals granted a new trial after determining that prosecutors failed to turn over evidence that showed a key witness in the case was a seasoned jailhouse informant.</p>
+<p>Rackauckas has said that his office has made “missteps” but that the mistakes were unintentional.</p>
+<p>Baytieh said he wanted the community to know Orange County’s criminal justice system is working as it should.</p>
+<p>“They should know it’s not broken,” he said. “It’s the best system on Earth.”</p>
+<p><b>Contact the writer:</b> <a href="mailto:kpuente@ocregister.com">kpuente@ocregister.com</a></p>
